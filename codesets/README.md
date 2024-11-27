@@ -12,7 +12,10 @@ Navigate to a domain:
 
 ## Condition
 
-Notes on usage in PCORnet:
+---
+### Notes on usage
+
+<ins>PCORnet:</ins>
 
 -   Tables: DIAGNOSIS, CONDITION
 
@@ -22,11 +25,12 @@ Notes on usage in PCORnet:
 
 -   Join the `concept_code` column and the `pcornet_vocabulary_id` column in the codeset to the `DX` column and `DX_TYPE` column in the DIAGNOSIS table, respectively
 
-Notes on usage in PEDSnet:
+<ins>PEDSnet</ins>:
 
 -   Tables: condition_occurrence
 
 -   Use distinct `concept_id` and `vocabulary_id` columns
+---
 
 Codeset structure:
 
@@ -488,11 +492,14 @@ Codesets and valuesets:
 
 ## Demographic
 
-Notes on usage in PCORnet:
+---
+### Notes on usage
 
+<ins>PCORnet:</ins>
 -   Tables: DEMOGRAPHIC
 
 -   Select the FIELD_NAME from the TABLE_NAME specified in the valueset
+---
 
 Codeset structure:
 
@@ -510,7 +517,10 @@ Codesets and valuesets:
 
 ## Drug
 
-Notes on usage in PCORnet:
+---
+### Notes on usage
+
+<ins>PCORnet</ins>:
 
 -   **Tables:** MED_ADMIN (administrations), PRESCRIBING
 
@@ -520,11 +530,12 @@ Notes on usage in PCORnet:
 
 -   **For prescriptions:** Join the `concept_code` column in the codeset to the `RXNORM_CUI` column in the PRESCRIBING table
 
-Notes on usage in PEDSnet:
+<ins>PEDSnet</ins>:
 
 -   Tables: drug_exposure
 
 -   Use distinct `concept_id` and `vocabulary_id` columns
+---
 
 Codeset structure:
 
@@ -565,7 +576,10 @@ Codesets and valuesets:
 
 ## Measurement
 
-Notes on usage in PCORnet:
+---
+### Notes on usage
+
+<ins>PCORnet:</ins>
 
 -   **Tables:** LAB_RESULT_CM, OBS_CLIN, VITAL
 
@@ -575,11 +589,12 @@ Notes on usage in PCORnet:
 
 -   **For lab results:** Join the `concept_code` column in the codeset to the `LAB_LOINC` column in the LAB_RESULT_CDM table
 
-Notes on usage in PEDSnet:
+<ins>PEDSnet:</ins>
 
 -   Tables: measurement
 
 -   Use distinct `concept_id` and `vocabulary_id` columns
+---
 
 Codeset structure:
 
@@ -624,7 +639,10 @@ Codesets and valuesets:
 
 ## Procedure
 
-Notes on usage in PCORnet:
+---
+### Notes on usage
+
+<ins>PCORnet:</ins>
 
 -   **Tables:** PROCEDURES
 
@@ -632,11 +650,12 @@ Notes on usage in PCORnet:
 
 -   Join the `concept_code` column and the `pcornet_vocabulary_id` column in the codeset to the `PX` column and `PX_TYPE` column in the PROCEDURES table, respectively
 
-Notes on usage in PEDSnet:
+<ins>PEDSnet:</ins>
 
 -   Tables: procedure_occurrence
 
 -   Use distinct `concept_id` and `vocabulary_id` columns
+---
 
 Codeset structure:
 
@@ -671,11 +690,15 @@ Codesets and valuesets:
 
 ## Visit Related
 
-> **_Notes on usage in PCORnet:_**
+---
+### Notes on usage
+
+<ins>PCORnet:</ins>
 
 -   Tables: ENCOUNTER
 
 -   Join the `VALUESET_ITEM` in the codeset to the field specified in the `FIELD_NAME` column of the codeset in the ENCOUNTER table
+---
 
 Codeset structure:
 
