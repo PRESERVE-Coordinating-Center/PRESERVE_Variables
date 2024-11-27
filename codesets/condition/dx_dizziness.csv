@@ -1,0 +1,4 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,cc_decimal_removal
+35211350,R42,Dizziness and giddiness,ICD10CM,10,FALSE
+44822289,780.4,Dizziness and giddiness,ICD9CM,09,FALSE
+44822289,7804,Dizziness and giddiness,ICD9CM,09,TRUE

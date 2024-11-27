@@ -1,0 +1,55 @@
+set search_path to concept, dcc_pedsnet;
+
+--serum hemoglobin
+select concept_id, concept_code, concept_name, vocabulary_id,
+	case when vocabulary_id = 'LOINC' then 'LC'
+	end pcornet_vocabulary_id
+from concept
+where lower(concept_name) like '%hemoglobin%'
+	and (lower(concept_name) like '%serum%'
+		 or lower(concept_name) like '%plasma%'
+		 or lower(concept_name) like '%blood%')
+	and vocabulary_id in ('LOINC')
+	and lower(concept_name) not like '%fraction%'
+	and lower(concept_name) not like '%presence%'
+	and lower(concept_name) not like '%methemoglobin%'
+	and lower(concept_name) not like '%hemoglobin a%'
+	and lower(concept_name) not like '%hemoglobin b%'
+	and lower(concept_name) not like '%hemoglobin c%'
+	and lower(concept_name) not like '%hemoglobin d%'
+	and lower(concept_name) not like '%hemoglobin e%'
+	and lower(concept_name) not like '%hemoglobin f%'
+	and lower(concept_name) not like '%hemoglobin g%'
+	and lower(concept_name) not like '%hemoglobin k%'
+	and lower(concept_name) not like '%hemoglobin lepore%'
+	and lower(concept_name) not like '%hemoglobin o%'
+	and lower(concept_name) not like '%hemoglobin s%'
+	and lower(concept_name) not like '%hemoglobin h%'
+	and lower(concept_name) not like '%hemoglobin j%'
+	and lower(concept_name) not like '%hemoglobin m%'
+	and lower(concept_name) not like '%hemoglobin n%'
+	and lower(concept_name) not like '%hemoglobin r%'
+	and lower(concept_name) not like '%hemoglobin q%'
+	and lower(concept_name) not like '%hemoglobin y%'
+	and lower(concept_name) not like '%hemoglobin z%'
+	and lower(concept_name) not like '%fetal%'
+	and lower(concept_name) not like '%pattern%'
+	and lower(concept_name) not like '%oxyhem%'
+	and lower(concept_name) not like '%carboxy%'
+	and lower(concept_name) not like '%fetal%'
+	and lower(concept_name) not like '%electro%'
+	and lower(concept_name) not like '%glucose%'
+	and lower(concept_name) not like '%free%'
+	and lower(concept_name) not like '%barts%'
+	and lower(concept_name) not like '%coproporphyrin%'
+	and lower(concept_name) not like '%ratio%'
+	and lower(concept_name) not like '%chole%'
+	and lower(concept_name) not like '%sulf%'
+	and lower(concept_name) not like '%thermo%'
+	and lower(concept_name) not like '%stable%'
+	and lower(concept_name) not like '%mean%'
+	and lower(concept_name) not like '%other%'
+	and lower(concept_name) not like '%panel%'
+	and lower(concept_name) not like '%hematocrit%'
+order by concept_code
+;

@@ -1,0 +1,5 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,cc_decimal_removal
+35210852,Q27.1,Congenital renal artery stenosis,ICD10CM,10,FALSE
+35210852,Q271,Congenital renal artery stenosis,ICD10CM,10,TRUE
+44823397,747.62,Renal vessel anomaly,ICD9CM,09,FALSE
+44823397,74762,Renal vessel anomaly,ICD9CM,09,TRUE

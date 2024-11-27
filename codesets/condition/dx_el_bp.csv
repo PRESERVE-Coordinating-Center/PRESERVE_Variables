@@ -1,0 +1,5 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,cc_decimal_removal
+35211268,R03.0,"Elevated blood-pressure reading, without diagnosis of hypertension",ICD10CM,10,FALSE
+35211268,R030,"Elevated blood-pressure reading, without diagnosis of hypertension",ICD10CM,10,TRUE
+44829313,796.2,Elevated blood pressure reading without diagnosis of hypertension,ICD9CM,09,FALSE
+44829313,7962,Elevated blood pressure reading without diagnosis of hypertension,ICD9CM,09,TRUE

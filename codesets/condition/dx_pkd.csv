@@ -1,0 +1,23 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,cc_decimal_removal
+45544102,Q61.1,"Polycystic kidney, autosomal recessive",ICD10,10,FALSE
+45544102,Q611,"Polycystic kidney, autosomal recessive",ICD10,10,TRUE
+45558415,Q61.2,"Polycystic kidney, autosomal dominant",ICD10,10,FALSE
+45558415,Q612,"Polycystic kidney, autosomal dominant",ICD10,10,TRUE
+1572110,Q61.1,"Polycystic kidney, infantile type",ICD10CM,10,FALSE
+1572110,Q611,"Polycystic kidney, infantile type",ICD10CM,10,TRUE
+45587467,Q61.19,"Other polycystic kidney, infantile type",ICD10CM,10,FALSE
+45587467,Q6119,"Other polycystic kidney, infantile type",ICD10CM,10,TRUE
+35211019,Q61.2,"Polycystic kidney, adult type",ICD10CM,10,FALSE
+35211019,Q612,"Polycystic kidney, adult type",ICD10CM,10,TRUE
+44820018,753.13,"Polycystic kidney, autosomal dominant",ICD9CM,9,FALSE
+44820018,75313,"Polycystic kidney, autosomal dominant",ICD9CM,9,TRUE
+44828106,753.14,"Polycystic kidney, autosomal recessive",ICD9CM,9,FALSE
+44828106,75314,"Polycystic kidney, autosomal recessive",ICD9CM,9,TRUE
+4109637,253878003,Adult type polycystic kidney disease type 1,SNOMED,SM,FALSE
+4109809,253879006,Adult type polycystic kidney disease type 2,SNOMED,SM,FALSE
+4109022,253880009,Autosomal dominant polycystic kidney disease in childhood,SNOMED,SM,FALSE
+436232,28728008,"Polycystic kidney disease, adult type",SNOMED,SM,FALSE
+201675,28770003,"Polycystic kidney disease, infantile type",SNOMED,SM,FALSE
+37109646,723409007,"Multinodular goiter, cystic kidney, polydactyly syndrome",SNOMED,SM,FALSE
+35623051,765330003,Autosomal dominant polycystic kidney disease,SNOMED,SM,FALSE
+35623052,765331004,Autosomal dominant polycystic kidney disease type 1 with tuberous sclerosis,SNOMED,SM,FALSE

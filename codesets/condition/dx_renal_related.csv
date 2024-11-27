@@ -1,0 +1,496 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,ckd_category,cc_decimal_removal
+725432,N00.A,Acute nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725432,N00A,Acute nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725433,N01.A,Rapidly progressive nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725433,N01A,Rapidly progressive nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725434,N02.A,Recurrent and persistent hematuria with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725434,N02A,Recurrent and persistent hematuria with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725435,N03.A,Chronic nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725435,N03A,Chronic nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725436,N04.A,Nephrotic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725436,N04A,Nephrotic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725437,N05.A,Unspecified nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725437,N05A,Unspecified nephritic syndrome with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725438,N06.A,Isolated proteinuria with C3 glomerulonephritis,ICD10CM,10,GN,FALSE
+725438,N06A,Isolated proteinuria with C3 glomerulonephritis,ICD10CM,10,GN,TRUE
+725439,N07.A,"Hereditary nephropathy, not elsewhere classified with C3 glomerulonephritis",ICD10CM,10,GN,FALSE
+725439,N07A,"Hereditary nephropathy, not elsewhere classified with C3 glomerulonephritis",ICD10CM,10,GN,TRUE
+1326494,E85.81,Light chain (AL) amyloidosis,ICD10CM,10,Other kidney disorders,FALSE
+1326494,E8581,Light chain (AL) amyloidosis,ICD10CM,10,Other kidney disorders,TRUE
+1326495,E85.82,Wild-type transthyretin-related (ATTR) amyloidosis,ICD10CM,10,Other kidney disorders,FALSE
+1326495,E8582,Wild-type transthyretin-related (ATTR) amyloidosis,ICD10CM,10,Other kidney disorders,TRUE
+1326496,E85.89,Other amyloidosis,ICD10CM,10,Other kidney disorders,FALSE
+1326496,E8589,Other amyloidosis,ICD10CM,10,Other kidney disorders,TRUE
+35205897,B52.0,Plasmodium malariae malaria with nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+35205897,B520,Plasmodium malariae malaria with nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+35206734,D59.3,Hemolytic-uremic syndrome,ICD10CM,10,GN,FALSE
+35206734,D593,Hemolytic-uremic syndrome,ICD10CM,10,GN,TRUE
+35207090,E85.8,Other amyloidosis,ICD10CM,10,Other kidney disorders,FALSE
+35207090,E858,Other amyloidosis,ICD10CM,10,Other kidney disorders,TRUE
+35207671,I12.0,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,ICD10CM,10,"CKD, not otherwise specified",FALSE
+35207671,I120,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,ICD10CM,10,"CKD, not otherwise specified",TRUE
+35207672,I12.9,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35207672,I129,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35207673,I13.0,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35207673,I130,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35207674,I13.2,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35207674,I132,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35208366,K76.7,Hepatorenal syndrome,ICD10CM,10,Other kidney disorders,FALSE
+35208366,K767,Hepatorenal syndrome,ICD10CM,10,Other kidney disorders,TRUE
+35208816,M31.0,Hypersensitivity angiitis,ICD10CM,10,GN,FALSE
+35208816,M310,Hypersensitivity angiitis,ICD10CM,10,GN,TRUE
+35208822,M31.7,Microscopic polyangiitis,ICD10CM,10,GN,FALSE
+35208822,M317,Microscopic polyangiitis,ICD10CM,10,GN,TRUE
+35209165,N00.0,Acute nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209165,N000,Acute nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209166,N00.1,Acute nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209166,N001,Acute nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209167,N00.2,Acute nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209167,N002,Acute nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209168,N00.3,Acute nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209168,N003,Acute nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209169,N00.4,Acute nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209169,N004,Acute nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209170,N00.5,Acute nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209170,N005,Acute nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209171,N00.6,Acute nephritic syndrome with dense deposit disease,ICD10CM,10,GN,FALSE
+35209171,N006,Acute nephritic syndrome with dense deposit disease,ICD10CM,10,GN,TRUE
+35209172,N00.7,Acute nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209172,N007,Acute nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209173,N00.8,Acute nephritic syndrome with other morphologic changes,ICD10CM,10,GN,FALSE
+35209173,N008,Acute nephritic syndrome with other morphologic changes,ICD10CM,10,GN,TRUE
+35209174,N00.9,Acute nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,FALSE
+35209174,N009,Acute nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,TRUE
+35209175,N01.0,Rapidly progressive nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209175,N010,Rapidly progressive nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209176,N01.1,Rapidly progressive nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209176,N011,Rapidly progressive nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209177,N01.2,Rapidly progressive nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209177,N012,Rapidly progressive nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209178,N01.3,Rapidly progressive nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209178,N013,Rapidly progressive nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209179,N01.4,Rapidly progressive nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209179,N014,Rapidly progressive nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209180,N01.5,Rapidly progressive nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209180,N015,Rapidly progressive nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209181,N01.6,Rapidly progressive nephritic syndrome with dense deposit disease,ICD10CM,10,GN,FALSE
+35209181,N016,Rapidly progressive nephritic syndrome with dense deposit disease,ICD10CM,10,GN,TRUE
+35209182,N01.7,Rapidly progressive nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209182,N017,Rapidly progressive nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209183,N01.8,Rapidly progressive nephritic syndrome with other morphologic changes,ICD10CM,10,GN,FALSE
+35209183,N018,Rapidly progressive nephritic syndrome with other morphologic changes,ICD10CM,10,GN,TRUE
+35209184,N01.9,Rapidly progressive nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,FALSE
+35209184,N019,Rapidly progressive nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,TRUE
+35209185,N02.0,Recurrent and persistent hematuria with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209185,N020,Recurrent and persistent hematuria with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209186,N02.1,Recurrent and persistent hematuria with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209186,N021,Recurrent and persistent hematuria with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209187,N02.2,Recurrent and persistent hematuria with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209187,N022,Recurrent and persistent hematuria with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209188,N02.3,Recurrent and persistent hematuria with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209188,N023,Recurrent and persistent hematuria with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209189,N02.4,Recurrent and persistent hematuria with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209189,N024,Recurrent and persistent hematuria with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209190,N02.5,Recurrent and persistent hematuria with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209190,N025,Recurrent and persistent hematuria with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209191,N02.6,Recurrent and persistent hematuria with dense deposit disease,ICD10CM,10,GN,FALSE
+35209191,N026,Recurrent and persistent hematuria with dense deposit disease,ICD10CM,10,GN,TRUE
+35209192,N02.7,Recurrent and persistent hematuria with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209192,N027,Recurrent and persistent hematuria with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209193,N02.8,Recurrent and persistent hematuria with other morphologic changes,ICD10CM,10,GN,FALSE
+35209193,N028,Recurrent and persistent hematuria with other morphologic changes,ICD10CM,10,GN,TRUE
+35209194,N02.9,Recurrent and persistent hematuria with unspecified morphologic changes,ICD10CM,10,GN,FALSE
+35209194,N029,Recurrent and persistent hematuria with unspecified morphologic changes,ICD10CM,10,GN,TRUE
+35209195,N03.0,Chronic nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209195,N030,Chronic nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209196,N03.1,Chronic nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209196,N031,Chronic nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209197,N03.2,Chronic nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209197,N032,Chronic nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209198,N03.3,Chronic nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209198,N033,Chronic nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209199,N03.4,Chronic nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209199,N034,Chronic nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209200,N03.5,Chronic nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209200,N035,Chronic nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209201,N03.6,Chronic nephritic syndrome with dense deposit disease,ICD10CM,10,GN,FALSE
+35209201,N036,Chronic nephritic syndrome with dense deposit disease,ICD10CM,10,GN,TRUE
+35209202,N03.7,Chronic nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209202,N037,Chronic nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209203,N03.8,Chronic nephritic syndrome with other morphologic changes,ICD10CM,10,GN,FALSE
+35209203,N038,Chronic nephritic syndrome with other morphologic changes,ICD10CM,10,GN,TRUE
+35209204,N03.9,Chronic nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,FALSE
+35209204,N039,Chronic nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,TRUE
+35209205,N04.0,Nephrotic syndrome with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209205,N040,Nephrotic syndrome with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209206,N04.1,Nephrotic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209206,N041,Nephrotic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209207,N04.2,Nephrotic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209207,N042,Nephrotic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209208,N04.3,Nephrotic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209208,N043,Nephrotic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209209,N04.4,Nephrotic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209209,N044,Nephrotic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209210,N04.5,Nephrotic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209210,N045,Nephrotic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209211,N04.6,Nephrotic syndrome with dense deposit disease,ICD10CM,10,GN,FALSE
+35209211,N046,Nephrotic syndrome with dense deposit disease,ICD10CM,10,GN,TRUE
+35209212,N04.7,Nephrotic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209212,N047,Nephrotic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209213,N04.8,Nephrotic syndrome with other morphologic changes,ICD10CM,10,GN,FALSE
+35209213,N048,Nephrotic syndrome with other morphologic changes,ICD10CM,10,GN,TRUE
+35209214,N04.9,Nephrotic syndrome with unspecified morphologic changes,ICD10CM,10,GN,FALSE
+35209214,N049,Nephrotic syndrome with unspecified morphologic changes,ICD10CM,10,GN,TRUE
+35209215,N05.0,Unspecified nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209215,N050,Unspecified nephritic syndrome with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209216,N05.1,Unspecified nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209216,N051,Unspecified nephritic syndrome with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209217,N05.2,Unspecified nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209217,N052,Unspecified nephritic syndrome with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209218,N05.3,Unspecified nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209218,N053,Unspecified nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209219,N05.4,Unspecified nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209219,N054,Unspecified nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209220,N05.5,Unspecified nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209220,N055,Unspecified nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209221,N05.6,Unspecified nephritic syndrome with dense deposit disease,ICD10CM,10,GN,FALSE
+35209221,N056,Unspecified nephritic syndrome with dense deposit disease,ICD10CM,10,GN,TRUE
+35209222,N05.7,Unspecified nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209222,N057,Unspecified nephritic syndrome with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209223,N05.8,Unspecified nephritic syndrome with other morphologic changes,ICD10CM,10,GN,FALSE
+35209223,N058,Unspecified nephritic syndrome with other morphologic changes,ICD10CM,10,GN,TRUE
+35209224,N05.9,Unspecified nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,FALSE
+35209224,N059,Unspecified nephritic syndrome with unspecified morphologic changes,ICD10CM,10,GN,TRUE
+35209225,N06.0,Isolated proteinuria with minor glomerular abnormality,ICD10CM,10,GN,FALSE
+35209225,N060,Isolated proteinuria with minor glomerular abnormality,ICD10CM,10,GN,TRUE
+35209226,N06.1,Isolated proteinuria with focal and segmental glomerular lesions,ICD10CM,10,GN,FALSE
+35209226,N061,Isolated proteinuria with focal and segmental glomerular lesions,ICD10CM,10,GN,TRUE
+35209227,N06.2,Isolated proteinuria with diffuse membranous glomerulonephritis,ICD10CM,10,GN,FALSE
+35209227,N062,Isolated proteinuria with diffuse membranous glomerulonephritis,ICD10CM,10,GN,TRUE
+35209228,N06.3,Isolated proteinuria with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209228,N063,Isolated proteinuria with diffuse mesangial proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209229,N06.4,Isolated proteinuria with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,FALSE
+35209229,N064,Isolated proteinuria with diffuse endocapillary proliferative glomerulonephritis,ICD10CM,10,GN,TRUE
+35209230,N06.5,Isolated proteinuria with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,FALSE
+35209230,N065,Isolated proteinuria with diffuse mesangiocapillary glomerulonephritis,ICD10CM,10,GN,TRUE
+35209231,N06.6,Isolated proteinuria with dense deposit disease,ICD10CM,10,GN,FALSE
+35209231,N066,Isolated proteinuria with dense deposit disease,ICD10CM,10,GN,TRUE
+35209232,N06.7,Isolated proteinuria with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,FALSE
+35209232,N067,Isolated proteinuria with diffuse crescentic glomerulonephritis,ICD10CM,10,GN,TRUE
+35209233,N06.8,Isolated proteinuria with other morphologic lesion,ICD10CM,10,GN,FALSE
+35209233,N068,Isolated proteinuria with other morphologic lesion,ICD10CM,10,GN,TRUE
+35209234,N06.9,Isolated proteinuria with unspecified morphologic lesion,ICD10CM,10,GN,FALSE
+35209234,N069,Isolated proteinuria with unspecified morphologic lesion,ICD10CM,10,GN,TRUE
+35209235,N07.0,"Hereditary nephropathy, not elsewhere classified with minor glomerular abnormality",ICD10CM,10,GN,FALSE
+35209235,N070,"Hereditary nephropathy, not elsewhere classified with minor glomerular abnormality",ICD10CM,10,GN,TRUE
+35209236,N07.1,"Hereditary nephropathy, not elsewhere classified with focal and segmental glomerular lesions",ICD10CM,10,GN,FALSE
+35209236,N071,"Hereditary nephropathy, not elsewhere classified with focal and segmental glomerular lesions",ICD10CM,10,GN,TRUE
+35209237,N07.2,"Hereditary nephropathy, not elsewhere classified with diffuse membranous glomerulonephritis",ICD10CM,10,GN,FALSE
+35209237,N072,"Hereditary nephropathy, not elsewhere classified with diffuse membranous glomerulonephritis",ICD10CM,10,GN,TRUE
+35209238,N07.3,"Hereditary nephropathy, not elsewhere classified with diffuse mesangial proliferative glomerulonephritis",ICD10CM,10,GN,FALSE
+35209238,N073,"Hereditary nephropathy, not elsewhere classified with diffuse mesangial proliferative glomerulonephritis",ICD10CM,10,GN,TRUE
+35209239,N07.4,"Hereditary nephropathy, not elsewhere classified with diffuse endocapillary proliferative glomerulonephritis",ICD10CM,10,GN,FALSE
+35209239,N074,"Hereditary nephropathy, not elsewhere classified with diffuse endocapillary proliferative glomerulonephritis",ICD10CM,10,GN,TRUE
+35209240,N07.5,"Hereditary nephropathy, not elsewhere classified with diffuse mesangiocapillary glomerulonephritis",ICD10CM,10,GN,FALSE
+35209240,N075,"Hereditary nephropathy, not elsewhere classified with diffuse mesangiocapillary glomerulonephritis",ICD10CM,10,GN,TRUE
+35209241,N07.6,"Hereditary nephropathy, not elsewhere classified with dense deposit disease",ICD10CM,10,GN,FALSE
+35209241,N076,"Hereditary nephropathy, not elsewhere classified with dense deposit disease",ICD10CM,10,GN,TRUE
+35209242,N07.7,"Hereditary nephropathy, not elsewhere classified with diffuse crescentic glomerulonephritis",ICD10CM,10,GN,FALSE
+35209242,N077,"Hereditary nephropathy, not elsewhere classified with diffuse crescentic glomerulonephritis",ICD10CM,10,GN,TRUE
+35209243,N07.8,"Hereditary nephropathy, not elsewhere classified with other morphologic lesions",ICD10CM,10,GN,FALSE
+35209243,N078,"Hereditary nephropathy, not elsewhere classified with other morphologic lesions",ICD10CM,10,GN,TRUE
+35209244,N07.9,"Hereditary nephropathy, not elsewhere classified with unspecified morphologic lesions",ICD10CM,10,GN,FALSE
+35209244,N079,"Hereditary nephropathy, not elsewhere classified with unspecified morphologic lesions",ICD10CM,10,GN,TRUE
+35209245,N08,Glomerular disorders in diseases classified elsewhere,ICD10CM,10,GN,FALSE
+35209247,N11.0,Nonobstructive reflux-associated chronic pyelonephritis,ICD10CM,10,Other kidney disorders,FALSE
+35209247,N110,Nonobstructive reflux-associated chronic pyelonephritis,ICD10CM,10,Other kidney disorders,TRUE
+35209248,N11.1,Chronic obstructive pyelonephritis,ICD10CM,10,Structural,FALSE
+35209248,N111,Chronic obstructive pyelonephritis,ICD10CM,10,Structural,TRUE
+35209249,N11.8,Other chronic tubulo-interstitial nephritis,ICD10CM,10,Other kidney disorders,FALSE
+35209249,N118,Other chronic tubulo-interstitial nephritis,ICD10CM,10,Other kidney disorders,TRUE
+35209250,N11.9,"Chronic tubulo-interstitial nephritis, unspecified",ICD10CM,10,Other kidney disorders,FALSE
+35209250,N119,"Chronic tubulo-interstitial nephritis, unspecified",ICD10CM,10,Other kidney disorders,TRUE
+35209252,N13.1,"Hydronephrosis with ureteral stricture, not elsewhere classified",ICD10CM,10,Structural,FALSE
+35209252,N131,"Hydronephrosis with ureteral stricture, not elsewhere classified",ICD10CM,10,Structural,TRUE
+35209253,N13.2,Hydronephrosis with renal and ureteral calculous obstruction,ICD10CM,10,Structural,FALSE
+35209253,N132,Hydronephrosis with renal and ureteral calculous obstruction,ICD10CM,10,Structural,TRUE
+35209256,N13.6,Pyonephrosis,ICD10CM,10,Other kidney disorders,FALSE
+35209256,N136,Pyonephrosis,ICD10CM,10,Other kidney disorders,TRUE
+35209257,N13.8,Other obstructive and reflux uropathy,ICD10CM,10,Structural,FALSE
+35209257,N138,Other obstructive and reflux uropathy,ICD10CM,10,Structural,TRUE
+35209258,N13.9,"Obstructive and reflux uropathy, unspecified",ICD10CM,10,Structural,FALSE
+35209258,N139,"Obstructive and reflux uropathy, unspecified",ICD10CM,10,Structural,TRUE
+35209259,N14.0,Analgesic nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+35209259,N140,Analgesic nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+35209260,N14.1,"Nephropathy induced by other drugs, medicaments and biological substances",ICD10CM,10,Other kidney disorders,FALSE
+35209260,N141,"Nephropathy induced by other drugs, medicaments and biological substances",ICD10CM,10,Other kidney disorders,TRUE
+35209261,N14.2,"Nephropathy induced by unspecified drug, medicament or biological substance",ICD10CM,10,Other kidney disorders,FALSE
+35209261,N142,"Nephropathy induced by unspecified drug, medicament or biological substance",ICD10CM,10,Other kidney disorders,TRUE
+35209262,N14.3,Nephropathy induced by heavy metals,ICD10CM,10,Other kidney disorders,FALSE
+35209262,N143,Nephropathy induced by heavy metals,ICD10CM,10,Other kidney disorders,TRUE
+35209263,N14.4,"Toxic nephropathy, not elsewhere classified",ICD10CM,10,Other kidney disorders,FALSE
+35209263,N144,"Toxic nephropathy, not elsewhere classified",ICD10CM,10,Other kidney disorders,TRUE
+35209264,N15.0,Balkan nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+35209264,N150,Balkan nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+35209266,N15.8,Other specified renal tubulo-interstitial diseases,ICD10CM,10,Other kidney disorders,FALSE
+35209266,N158,Other specified renal tubulo-interstitial diseases,ICD10CM,10,Other kidney disorders,TRUE
+35209267,N15.9,"Renal tubulo-interstitial disease, unspecified",ICD10CM,10,Other kidney disorders,FALSE
+35209267,N159,"Renal tubulo-interstitial disease, unspecified",ICD10CM,10,Other kidney disorders,TRUE
+35209268,N16,Renal tubulo-interstitial disorders in diseases classified elsewhere,ICD10CM,10,Other kidney disorders,FALSE
+35209274,N18.1,"Chronic kidney disease, stage 1",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209274,N181,"Chronic kidney disease, stage 1",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35209275,N18.2,"Chronic kidney disease, stage 2 (mild)",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209275,N182,"Chronic kidney disease, stage 2 (mild)",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35209276,N18.3,"Chronic kidney disease, stage 3 (moderate)",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209276,N183,"Chronic kidney disease, stage 3 (moderate)",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35209277,N18.4,"Chronic kidney disease, stage 4 (severe)",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209277,N184,"Chronic kidney disease, stage 4 (severe)",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35209278,N18.5,"Chronic kidney disease, stage 5",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209278,N185,"Chronic kidney disease, stage 5",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35209279,N18.9,"Chronic kidney disease, unspecified",ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209279,N189,"Chronic kidney disease, unspecified",ICD10CM,10,"CKD, not otherwise specified",TRUE
+35209280,N19,Unspecified kidney failure,ICD10CM,10,"CKD, not otherwise specified",FALSE
+35209291,N25.0,Renal osteodystrophy,ICD10CM,10,Other kidney disorders,FALSE
+35209291,N250,Renal osteodystrophy,ICD10CM,10,Other kidney disorders,TRUE
+35209292,N25.1,Nephrogenic diabetes insipidus,ICD10CM,10,Other kidney disorders,FALSE
+35209292,N251,Nephrogenic diabetes insipidus,ICD10CM,10,Other kidney disorders,TRUE
+35209293,N25.9,"Disorder resulting from impaired renal tubular function, unspecified",ICD10CM,10,Other kidney disorders,FALSE
+35209293,N259,"Disorder resulting from impaired renal tubular function, unspecified",ICD10CM,10,Other kidney disorders,TRUE
+35209294,N27.0,"Small kidney, unilateral",ICD10CM,10,Structural,FALSE
+35209294,N270,"Small kidney, unilateral",ICD10CM,10,Structural,TRUE
+35209295,N27.1,"Small kidney, bilateral",ICD10CM,10,Structural,FALSE
+35209295,N271,"Small kidney, bilateral",ICD10CM,10,Structural,TRUE
+35209296,N27.9,"Small kidney, unspecified",ICD10CM,10,Structural,FALSE
+35209296,N279,"Small kidney, unspecified",ICD10CM,10,Structural,TRUE
+35209297,N28.0,Ischemia and infarction of kidney,ICD10CM,10,Other kidney disorders,FALSE
+35209297,N280,Ischemia and infarction of kidney,ICD10CM,10,Other kidney disorders,TRUE
+35209299,N28.9,"Disorder of kidney and ureter, unspecified",ICD10CM,10,Other kidney disorders,FALSE
+35209299,N289,"Disorder of kidney and ureter, unspecified",ICD10CM,10,Other kidney disorders,TRUE
+35211012,Q60.0,"Renal agenesis, unilateral",ICD10CM,10,Structural,FALSE
+35211012,Q600,"Renal agenesis, unilateral",ICD10CM,10,Structural,TRUE
+35211013,Q60.1,"Renal agenesis, bilateral",ICD10CM,10,Structural,FALSE
+35211013,Q601,"Renal agenesis, bilateral",ICD10CM,10,Structural,TRUE
+35211014,Q60.2,"Renal agenesis, unspecified",ICD10CM,10,Structural,FALSE
+35211014,Q602,"Renal agenesis, unspecified",ICD10CM,10,Structural,TRUE
+35211015,Q60.3,"Renal hypoplasia, unilateral",ICD10CM,10,Structural,FALSE
+35211015,Q603,"Renal hypoplasia, unilateral",ICD10CM,10,Structural,TRUE
+35211016,Q60.4,"Renal hypoplasia, bilateral",ICD10CM,10,Structural,FALSE
+35211016,Q604,"Renal hypoplasia, bilateral",ICD10CM,10,Structural,TRUE
+35211017,Q60.5,"Renal hypoplasia, unspecified",ICD10CM,10,Structural,FALSE
+35211017,Q605,"Renal hypoplasia, unspecified",ICD10CM,10,Structural,TRUE
+35211018,Q60.6,Potter's syndrome,ICD10CM,10,Structural,FALSE
+35211018,Q606,Potter's syndrome,ICD10CM,10,Structural,TRUE
+35211019,Q61.2,"Polycystic kidney, adult type",ICD10CM,10,Cystic,FALSE
+35211019,Q612,"Polycystic kidney, adult type",ICD10CM,10,Cystic,TRUE
+35211020,Q61.3,"Polycystic kidney, unspecified",ICD10CM,10,Cystic,FALSE
+35211020,Q613,"Polycystic kidney, unspecified",ICD10CM,10,Cystic,TRUE
+35211021,Q61.4,Renal dysplasia,ICD10CM,10,Structural,FALSE
+35211021,Q614,Renal dysplasia,ICD10CM,10,Structural,TRUE
+35211022,Q61.5,Medullary cystic kidney,ICD10CM,10,Cystic,FALSE
+35211022,Q615,Medullary cystic kidney,ICD10CM,10,Cystic,TRUE
+35211023,Q61.8,Other cystic kidney diseases,ICD10CM,10,Cystic,FALSE
+35211023,Q618,Other cystic kidney diseases,ICD10CM,10,Cystic,TRUE
+35211024,Q61.9,"Cystic kidney disease, unspecified",ICD10CM,10,Cystic,FALSE
+35211024,Q619,"Cystic kidney disease, unspecified",ICD10CM,10,Cystic,TRUE
+35211027,Q62.4,Agenesis of ureter,ICD10CM,10,Structural,FALSE
+35211027,Q624,Agenesis of ureter,ICD10CM,10,Structural,TRUE
+35211032,Q63.1,"Lobulated, fused and horseshoe kidney",ICD10CM,10,Structural,FALSE
+35211032,Q631,"Lobulated, fused and horseshoe kidney",ICD10CM,10,Structural,TRUE
+35211034,Q63.3,Hyperplastic and giant kidney,ICD10CM,10,Structural,FALSE
+35211034,Q633,Hyperplastic and giant kidney,ICD10CM,10,Structural,TRUE
+35211035,Q63.8,Other specified congenital malformations of kidney,ICD10CM,10,Structural,FALSE
+35211035,Q638,Other specified congenital malformations of kidney,ICD10CM,10,Structural,TRUE
+35211036,Q63.9,"Congenital malformation of kidney, unspecified",ICD10CM,10,Structural,FALSE
+35211036,Q639,"Congenital malformation of kidney, unspecified",ICD10CM,10,Structural,TRUE
+35211038,Q64.2,Congenital posterior urethral valves,ICD10CM,10,Structural,FALSE
+35211038,Q642,Congenital posterior urethral valves,ICD10CM,10,Structural,TRUE
+35211040,Q64.5,Congenital absence of bladder and urethra,ICD10CM,10,Structural,FALSE
+35211040,Q645,Congenital absence of bladder and urethra,ICD10CM,10,Structural,TRUE
+35211141,Q79.4,Prune belly syndrome,ICD10CM,10,Structural,FALSE
+35211141,Q794,Prune belly syndrome,ICD10CM,10,Structural,TRUE
+35211523,R94.4,Abnormal results of kidney function studies,ICD10CM,10,Other kidney disorders,FALSE
+35211523,R944,Abnormal results of kidney function studies,ICD10CM,10,Other kidney disorders,TRUE
+35225378,Z90.5,Acquired absence of kidney,ICD10CM,10,Other kidney disorders,FALSE
+35225378,Z905,Acquired absence of kidney,ICD10CM,10,Other kidney disorders,TRUE
+37200876,N13.0,Hydronephrosis with ureteropelvic junction obstruction,ICD10CM,10,Structural,FALSE
+37200876,N130,Hydronephrosis with ureteropelvic junction obstruction,ICD10CM,10,Structural,TRUE
+45533009,E08.21,Diabetes mellitus due to underlying condition with diabetic nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45533009,E0821,Diabetes mellitus due to underlying condition with diabetic nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45533039,E72.03,Lowe's syndrome,ICD10CM,10,Other kidney disorders,FALSE
+45533039,E7203,Lowe's syndrome,ICD10CM,10,Other kidney disorders,TRUE
+45534171,O10.219,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, unspecified trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45534171,O10219,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, unspecified trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45534172,O10.22,Pre-existing hypertensive chronic kidney disease complicating childbirth,ICD10CM,10,"CKD, not otherwise specified",FALSE
+45534172,O1022,Pre-existing hypertensive chronic kidney disease complicating childbirth,ICD10CM,10,"CKD, not otherwise specified",TRUE
+45538655,M10.322,"Gout due to renal impairment, left elbow",ICD10CM,10,Other kidney disorders,FALSE
+45538655,M10322,"Gout due to renal impairment, left elbow",ICD10CM,10,Other kidney disorders,TRUE
+45538656,M10.341,"Gout due to renal impairment, right hand",ICD10CM,10,Other kidney disorders,FALSE
+45538656,M10341,"Gout due to renal impairment, right hand",ICD10CM,10,Other kidney disorders,TRUE
+45538657,M10.359,"Gout due to renal impairment, unspecified hip",ICD10CM,10,Other kidney disorders,FALSE
+45538657,M10359,"Gout due to renal impairment, unspecified hip",ICD10CM,10,Other kidney disorders,TRUE
+45539032,N13.721,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, unilateral",ICD10CM,10,Structural,FALSE
+45539032,N13721,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, unilateral",ICD10CM,10,Structural,TRUE
+45539086,O10.23,Pre-existing hypertensive chronic kidney disease complicating the puerperium,ICD10CM,10,"CKD, not otherwise specified",FALSE
+45539086,O1023,Pre-existing hypertensive chronic kidney disease complicating the puerperium,ICD10CM,10,"CKD, not otherwise specified",TRUE
+45539087,O10.319,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, unspecified trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45539087,O10319,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, unspecified trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45542728,E08.29,Diabetes mellitus due to underlying condition with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,FALSE
+45542728,E0829,Diabetes mellitus due to underlying condition with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,TRUE
+45542741,E13.21,Other specified diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45542741,E1321,Other specified diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45543164,I13.10,"Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45543164,I1310,"Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45543453,M10.369,"Gout due to renal impairment, unspecified knee",ICD10CM,10,Other kidney disorders,FALSE
+45543453,M10369,"Gout due to renal impairment, unspecified knee",ICD10CM,10,Other kidney disorders,TRUE
+45547402,A36.84,Diphtheritic tubulo-interstitial nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45547402,A3684,Diphtheritic tubulo-interstitial nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45547621,E10.22,Type 1 diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,FALSE
+45547621,E1022,Type 1 diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,TRUE
+45548653,N18.6,End stage renal disease,ICD10CM,10,"CKD, not otherwise specified",FALSE
+45548653,N186,End stage renal disease,ICD10CM,10,"CKD, not otherwise specified",TRUE
+45548697,O10.212,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, second trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45548697,O10212,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, second trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45552372,E08.22,Diabetes mellitus due to underlying condition with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,FALSE
+45552372,E0822,Diabetes mellitus due to underlying condition with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,TRUE
+45552376,E09.21,Drug or chemical induced diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45552376,E0921,Drug or chemical induced diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45552379,E10.21,Type 1 diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45552379,E1021,Type 1 diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45552388,E13.29,Other specified diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,FALSE
+45552388,E1329,Other specified diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,TRUE
+45553071,M10.319,"Gout due to renal impairment, unspecified shoulder",ICD10CM,10,Other kidney disorders,FALSE
+45553071,M10319,"Gout due to renal impairment, unspecified shoulder",ICD10CM,10,Other kidney disorders,TRUE
+45553434,N13.729,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, unspecified",ICD10CM,10,Structural,FALSE
+45553434,N13729,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, unspecified",ICD10CM,10,Structural,TRUE
+45553435,N13.731,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, unilateral",ICD10CM,10,Structural,FALSE
+45553435,N13731,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, unilateral",ICD10CM,10,Structural,TRUE
+45553439,N26.1,Atrophy of kidney (terminal),ICD10CM,10,Structural,FALSE
+45553439,N261,Atrophy of kidney (terminal),ICD10CM,10,Structural,TRUE
+45553686,Q61.02,Congenital multiple renal cysts,ICD10CM,10,Cystic,FALSE
+45553686,Q6102,Congenital multiple renal cysts,ICD10CM,10,Cystic,TRUE
+45557785,M10.30,"Gout due to renal impairment, unspecified site",ICD10CM,10,Other kidney disorders,FALSE
+45557785,M1030,"Gout due to renal impairment, unspecified site",ICD10CM,10,Other kidney disorders,TRUE
+45557786,M10.362,"Gout due to renal impairment, left knee",ICD10CM,10,Other kidney disorders,FALSE
+45557786,M10362,"Gout due to renal impairment, left knee",ICD10CM,10,Other kidney disorders,TRUE
+45557866,M35.04,Sicca syndrome with tubulo-interstitial nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45557866,M3504,Sicca syndrome with tubulo-interstitial nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45558136,N13.732,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, bilateral",ICD10CM,10,Structural,FALSE
+45558136,N13732,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, bilateral",ICD10CM,10,Structural,TRUE
+45558143,N26.9,"Renal sclerosis, unspecified",ICD10CM,10,Other kidney disorders,FALSE
+45558143,N269,"Renal sclerosis, unspecified",ICD10CM,10,Other kidney disorders,TRUE
+45558146,N28.89,Other specified disorders of kidney and ureter,ICD10CM,10,Other kidney disorders,FALSE
+45558146,N2889,Other specified disorders of kidney and ureter,ICD10CM,10,Other kidney disorders,TRUE
+45558201,O10.313,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, third trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45558201,O10313,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, third trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45558202,O10.32,Pre-existing hypertensive heart and chronic kidney disease complicating childbirth,ICD10CM,10,"CKD, not otherwise specified",FALSE
+45558202,O1032,Pre-existing hypertensive heart and chronic kidney disease complicating childbirth,ICD10CM,10,"CKD, not otherwise specified",TRUE
+45561716,A52.75,Syphilis of kidney and ureter,ICD10CM,10,Other kidney disorders,FALSE
+45561716,A5275,Syphilis of kidney and ureter,ICD10CM,10,Other kidney disorders,TRUE
+45561945,E09.22,Drug or chemical induced diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,FALSE
+45561945,E0922,Drug or chemical induced diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,TRUE
+45561955,E13.22,Other specified diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,FALSE
+45561955,E1322,Other specified diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,TRUE
+45561989,E83.31,Familial hypophosphatemia,ICD10CM,10,Other kidney disorders,FALSE
+45561989,E8331,Familial hypophosphatemia,ICD10CM,10,Other kidney disorders,TRUE
+45562615,M10.351,"Gout due to renal impairment, right hip",ICD10CM,10,Other kidney disorders,FALSE
+45562615,M10351,"Gout due to renal impairment, right hip",ICD10CM,10,Other kidney disorders,TRUE
+45562616,M10.372,"Gout due to renal impairment, left ankle and foot",ICD10CM,10,Other kidney disorders,FALSE
+45562616,M10372,"Gout due to renal impairment, left ankle and foot",ICD10CM,10,Other kidney disorders,TRUE
+45562709,M32.14,Glomerular disease in systemic lupus erythematosus,ICD10CM,10,GN,FALSE
+45562709,M3214,Glomerular disease in systemic lupus erythematosus,ICD10CM,10,GN,TRUE
+45563008,N13.739,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, unspecified",ICD10CM,10,Structural,FALSE
+45563008,N13739,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, unspecified",ICD10CM,10,Structural,TRUE
+45566755,E72.53,Primary hyperoxaluria,ICD10CM,10,Other kidney disorders,FALSE
+45566755,E7253,Primary hyperoxaluria,ICD10CM,10,Other kidney disorders,TRUE
+45567886,O10.211,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, first trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45567886,O10211,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, first trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45571671,E26.81,Bartter's syndrome,ICD10CM,10,Other kidney disorders,FALSE
+45571671,E2681,Bartter's syndrome,ICD10CM,10,Other kidney disorders,TRUE
+45572980,Q64.31,Congenital bladder neck obstruction,ICD10CM,10,Structural,FALSE
+45572980,Q6431,Congenital bladder neck obstruction,ICD10CM,10,Structural,TRUE
+45576431,E09.29,Drug or chemical induced diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,FALSE
+45576431,E0929,Drug or chemical induced diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,TRUE
+45577135,M10.331,"Gout due to renal impairment, right wrist",ICD10CM,10,Other kidney disorders,FALSE
+45577135,M10331,"Gout due to renal impairment, right wrist",ICD10CM,10,Other kidney disorders,TRUE
+45577136,M10.342,"Gout due to renal impairment, left hand",ICD10CM,10,Other kidney disorders,FALSE
+45577136,M10342,"Gout due to renal impairment, left hand",ICD10CM,10,Other kidney disorders,TRUE
+45577516,N25.81,Secondary hyperparathyroidism of renal origin,ICD10CM,10,Other kidney disorders,FALSE
+45577516,N2581,Secondary hyperparathyroidism of renal origin,ICD10CM,10,Other kidney disorders,TRUE
+45577557,O10.312,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, second trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45577557,O10312,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, second trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45577738,Q61.11,Cystic dilatation of collecting ducts,ICD10CM,10,Cystic,FALSE
+45577738,Q6111,Cystic dilatation of collecting ducts,ICD10CM,10,Cystic,TRUE
+45577741,Q64.39,Other atresia and stenosis of urethra and bladder neck,ICD10CM,10,Structural,FALSE
+45577741,Q6439,Other atresia and stenosis of urethra and bladder neck,ICD10CM,10,Structural,TRUE
+45581178,B58.83,Toxoplasma tubulo-interstitial nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45581178,B5883,Toxoplasma tubulo-interstitial nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45582026,M10.332,"Gout due to renal impairment, left wrist",ICD10CM,10,Other kidney disorders,FALSE
+45582026,M10332,"Gout due to renal impairment, left wrist",ICD10CM,10,Other kidney disorders,TRUE
+45582027,M10.361,"Gout due to renal impairment, right knee",ICD10CM,10,Other kidney disorders,FALSE
+45582027,M10361,"Gout due to renal impairment, right knee",ICD10CM,10,Other kidney disorders,TRUE
+45582028,M10.39,"Gout due to renal impairment, multiple sites",ICD10CM,10,Other kidney disorders,FALSE
+45582028,M1039,"Gout due to renal impairment, multiple sites",ICD10CM,10,Other kidney disorders,TRUE
+45582390,N13.722,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, bilateral",ICD10CM,10,Structural,FALSE
+45582390,N13722,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, bilateral",ICD10CM,10,Structural,TRUE
+45582444,O10.33,Pre-existing hypertensive heart and chronic kidney disease complicating the puerperium,ICD10CM,10,"CKD, not otherwise specified",FALSE
+45582444,O1033,Pre-existing hypertensive heart and chronic kidney disease complicating the puerperium,ICD10CM,10,"CKD, not otherwise specified",TRUE
+45586863,M10.352,"Gout due to renal impairment, left hip",ICD10CM,10,Other kidney disorders,FALSE
+45586863,M10352,"Gout due to renal impairment, left hip",ICD10CM,10,Other kidney disorders,TRUE
+45586864,M10.371,"Gout due to renal impairment, right ankle and foot",ICD10CM,10,Other kidney disorders,FALSE
+45586864,M10371,"Gout due to renal impairment, right ankle and foot",ICD10CM,10,Other kidney disorders,TRUE
+45587280,O10.213,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, third trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45587280,O10213,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, third trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45587281,O10.311,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, first trimester",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45587281,O10311,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, first trimester",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45587467,Q61.19,"Other polycystic kidney, infantile type",ICD10CM,10,Cystic,FALSE
+45587467,Q6119,"Other polycystic kidney, infantile type",ICD10CM,10,Cystic,TRUE
+45587468,Q64.33,Congenital stricture of urinary meatus,ICD10CM,10,Structural,FALSE
+45587468,Q6433,Congenital stricture of urinary meatus,ICD10CM,10,Structural,TRUE
+45590762,Z85.520,Personal history of malignant carcinoid tumor of kidney,ICD10CM,10,Other kidney disorders,FALSE
+45590762,Z85520,Personal history of malignant carcinoid tumor of kidney,ICD10CM,10,Other kidney disorders,TRUE
+45591027,E11.21,Type 2 diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,FALSE
+45591027,E1121,Type 2 diabetes mellitus with diabetic nephropathy,ICD10CM,10,Other kidney disorders,TRUE
+45591056,E72.01,Cystinuria,ICD10CM,10,Other kidney disorders,FALSE
+45591056,E7201,Cystinuria,ICD10CM,10,Other kidney disorders,TRUE
+45591820,M32.15,Tubulo-interstitial nephropathy in systemic lupus erythematosus,ICD10CM,10,Other kidney disorders,FALSE
+45591820,M3215,Tubulo-interstitial nephropathy in systemic lupus erythematosus,ICD10CM,10,Other kidney disorders,TRUE
+45595550,Z85.528,Personal history of other malignant neoplasm of kidney,ICD10CM,10,Other kidney disorders,FALSE
+45595550,Z85528,Personal history of other malignant neoplasm of kidney,ICD10CM,10,Other kidney disorders,TRUE
+45595553,Z87.441,Personal history of nephrotic syndrome,ICD10CM,10,GN,FALSE
+45595553,Z87441,Personal history of nephrotic syndrome,ICD10CM,10,GN,TRUE
+45595797,E11.22,Type 2 diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,FALSE
+45595797,E1122,Type 2 diabetes mellitus with diabetic chronic kidney disease,ICD10CM,10,Other kidney disorders,TRUE
+45596188,I13.11,"Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease",ICD10CM,10,"CKD, not otherwise specified",FALSE
+45596188,I1311,"Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease",ICD10CM,10,"CKD, not otherwise specified",TRUE
+45596458,M10.312,"Gout due to renal impairment, left shoulder",ICD10CM,10,Other kidney disorders,FALSE
+45596458,M10312,"Gout due to renal impairment, left shoulder",ICD10CM,10,Other kidney disorders,TRUE
+45597138,Q64.32,Congenital stricture of urethra,ICD10CM,10,Structural,FALSE
+45597138,Q6432,Congenital stricture of urethra,ICD10CM,10,Structural,TRUE
+45600400,A18.11,Tuberculosis of kidney and ureter,ICD10CM,10,Other kidney disorders,FALSE
+45600400,A1811,Tuberculosis of kidney and ureter,ICD10CM,10,Other kidney disorders,TRUE
+45600637,E10.29,Type 1 diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,FALSE
+45600637,E1029,Type 1 diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,TRUE
+45600670,E72.04,Cystinosis,ICD10CM,10,Other kidney disorders,FALSE
+45600670,E7204,Cystinosis,ICD10CM,10,Other kidney disorders,TRUE
+45601314,M10.311,"Gout due to renal impairment, right shoulder",ICD10CM,10,Other kidney disorders,FALSE
+45601314,M10311,"Gout due to renal impairment, right shoulder",ICD10CM,10,Other kidney disorders,TRUE
+45601315,M10.339,"Gout due to renal impairment, unspecified wrist",ICD10CM,10,Other kidney disorders,FALSE
+45601315,M10339,"Gout due to renal impairment, unspecified wrist",ICD10CM,10,Other kidney disorders,TRUE
+45601316,M10.349,"Gout due to renal impairment, unspecified hand",ICD10CM,10,Other kidney disorders,FALSE
+45601316,M10349,"Gout due to renal impairment, unspecified hand",ICD10CM,10,Other kidney disorders,TRUE
+45601719,N25.89,Other disorders resulting from impaired renal tubular function,ICD10CM,10,Other kidney disorders,FALSE
+45601719,N2589,Other disorders resulting from impaired renal tubular function,ICD10CM,10,Other kidney disorders,TRUE
+45601721,N26.2,Page kidney,ICD10CM,10,Other kidney disorders,FALSE
+45601721,N262,Page kidney,ICD10CM,10,Other kidney disorders,TRUE
+45605401,E11.29,Type 2 diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,FALSE
+45605401,E1129,Type 2 diabetes mellitus with other diabetic kidney complication,ICD10CM,10,Other kidney disorders,TRUE
+45606089,M10.321,"Gout due to renal impairment, right elbow",ICD10CM,10,Other kidney disorders,FALSE
+45606089,M10321,"Gout due to renal impairment, right elbow",ICD10CM,10,Other kidney disorders,TRUE
+45606090,M10.329,"Gout due to renal impairment, unspecified elbow",ICD10CM,10,Other kidney disorders,FALSE
+45606090,M10329,"Gout due to renal impairment, unspecified elbow",ICD10CM,10,Other kidney disorders,TRUE
+45606091,M10.379,"Gout due to renal impairment, unspecified ankle and foot",ICD10CM,10,Other kidney disorders,FALSE
+45606091,M10379,"Gout due to renal impairment, unspecified ankle and foot",ICD10CM,10,Other kidney disorders,TRUE
+45606092,M10.38,"Gout due to renal impairment, vertebrae",ICD10CM,10,Other kidney disorders,FALSE
+45606092,M1038,"Gout due to renal impairment, vertebrae",ICD10CM,10,Other kidney disorders,TRUE
+45606213,M31.31,Wegener's granulomatosis with renal involvement,ICD10CM,10,GN,FALSE
+45606213,M3131,Wegener's granulomatosis with renal involvement,ICD10CM,10,GN,TRUE
