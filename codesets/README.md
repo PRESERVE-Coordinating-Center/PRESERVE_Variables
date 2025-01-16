@@ -2,7 +2,13 @@
 
 This directory contains codesets for the PRESERVE project. Codesets have been constructed with both the PEDSnet and PCORnet common data models as targets. Please read "notes on usage" for each target CDM. We also include what PCORnet terms valuesets in this codeset repo.
 
-Navigate to a domain: [Conditions](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#condition) [Demographics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#demographic) [Drugs](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#drug) [Measurements](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#measurement) [Procedures](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#procedure) [Visit & Specialty](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#visit-related)
+Navigate to a domain:
+- [Conditions](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#condition)
+- [Demographics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#demographic)
+- [Drugs](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#drug)
+- [Measurements](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#measurement)
+- [Procedures](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#procedure)
+- [Visit & Specialty](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#visit-related)
 
 ## Condition
 
@@ -37,11 +43,8 @@ where `pcornet_vocabulary_id` is an acceptable value according to the supported 
 | FIELD_NAME    | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
 |---------------|---------------------------------------|--------------------------|
 | DX_TYPE       | 09                                    | 09-ICD-9-CM              |
-|---------------|---------------------------------------|--------------------------|
 | DX_TYPE       | 10                                    | 10-ICD-10-CM             |
-|---------------|---------------------------------------|--------------------------|
 | DX_TYPE       | 11                                    | 11-ICD-11-CM             |
-|---------------|---------------------------------------|--------------------------|
 | DX_TYPE       | SM                                    | SM-SNOMED CT             |
 
 Codesets and valuesets:
@@ -557,7 +560,6 @@ where `pcornet_vocabulary_id` is an acceptable value according to the supported 
 | FIELD_NAME    | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
 |---------------|---------------------------------------|--------------------------|
 | MEDADMIN_TYPE | ND                                    | ND-NDC                   |
-|---------------|---------------------------------------|--------------------------|
 | MEDADMIN_TYPE | RX                                    | RX-RXNORM                |
 
 Codesets and valuesets:
@@ -679,17 +681,11 @@ where `pcornet_vocabulary_id` is an acceptable value according to supported voca
 | FIELD_NAME    | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
 |---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | 09                                    | 09 - ICD-9-CM            |
-|---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | 10                                    | 10 - ICD-10-PCS          |
-|---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | 11                                    | 11 - ICD-11-PCS          |
-|---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | CH                                    | CH - CPT or HCPCS        |
-|---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | LC                                    | LC - LOINC               |
-|---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | ND                                    | ND - NDC                 |
-|---------------|---------------------------------------|--------------------------|
 | PX_TYPE       | RE                                    | RE - Revenue             |
 
 Codesets and valuesets:
