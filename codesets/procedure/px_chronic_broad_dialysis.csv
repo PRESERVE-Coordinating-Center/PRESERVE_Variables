@@ -1,0 +1,31 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,type
+2213572,90935,Hemodialysis procedure with single evaluation by a physician or other qualified health care professional,CPT4,CH,broad
+43018323,5A1D70Z,"Performance of Urinary Filtration, Intermittent, Less than 6 Hours Per Day",ICD10PCS,10,broad
+2213584,90957,"End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a physicia",CPT4,CH,chronic
+2213573,90937,Hemodialysis procedure requiring repeated evaluation(s) with or without substantial revision of dialysis prescription,CPT4,CH,broad
+2109463,49421,"Insertion of tunneled intraperitoneal catheter for dialysis, open",CPT4,CH,broad
+2786488,3E1M39Z,"Irrigation of Peritoneal Cavity using Dialysate, Percutaneous Approach",ICD10PCS,10,broad
+2213586,90959,"End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 1 face-to-face visit by a physician or othe",CPT4,CH,chronic
+2788042,5A1D60Z,"Performance of Urinary Filtration, Multiple (Deprecated)",ICD10PCS,10,broad
+2002189,39.27,Arteriovenostomy for renal dialysis,ICD9Proc,09,broad
+2003564,54.98,Peritoneal dialysis,ICD9Proc,09,broad
+2313999,93990,"Duplex scan of hemodialysis access (including arterial inflow, body of access and venous outflow)",CPT4,CH,broad
+2788041,5A1D00Z,"Performance of Urinary Filtration, Single (Deprecated)",ICD10PCS,10,broad
+2720773,Q4081,"Injection, epoetin alfa, 100 units (for esrd on dialysis)",HCPCS,CH,broad
+2213598,90989,"Dialysis training, patient, including helper where applicable, any mode, completed course",CPT4,CH,broad
+2718324,J0882,"Injection, darbepoetin alfa, 1 microgram (for esrd on dialysis)",HCPCS,CH,broad
+2213601,90999,"Unlisted dialysis procedure, inpatient or outpatient",CPT4,CH,broad
+2213597,90970,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 20 years of age and older",CPT4,CH,chronic
+2213590,90963,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,CH,chronic
+2213578,90951,"End-stage renal disease (ESRD) related services monthly, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a",CPT4,CH,chronic
+2213587,90960,"End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 4 or more face-to-face visits by a physician or other qualified health care professional per month",CPT4,CH,chronic
+2213589,90962,"End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 1 face-to-face visit by a physician or other qualified health care professional per month",CPT4,CH,chronic
+2213588,90961,"End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 2-3 face-to-face visits by a physician or other qualified health care professional per month",CPT4,CH,chronic
+2213592,90965,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,CH,chronic
+2213591,90964,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,CH,chronic
+2213595,90968,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 2-11 years of age",CPT4,CH,chronic
+2213585,90958,"End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 2-3 face-to-face visits by a physician or o",CPT4,CH,chronic
+2213596,90969,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 12-19 years of age",CPT4,CH,chronic
+2213581,90954,"End-stage renal disease (ESRD) related services monthly, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a physician",CPT4,CH,chronic
+2213582,90955,"End-stage renal disease (ESRD) related services monthly, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 2-3 face-to-face visits by a physician or ot",CPT4,CH,chronic
+2213583,90956,"End-stage renal disease (ESRD) related services monthly, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 1 face-to-face visit by a physician or other",CPT4,CH,chronic

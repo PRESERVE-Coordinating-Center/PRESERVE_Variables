@@ -1,0 +1,78 @@
+concept_id,concept_code,concept_name,vocabulary_id,pcornet_vocabulary_id,type
+2617342,G0257,Unscheduled or emergency dialysis treatment for an esrd patient in a hospital outpatient department that is not certified as an esrd facility,HCPCS,CH,broad_px
+2617440,G0365,"Vessel mapping of vessels for hemodialysis access (services for preoperative vessel mapping prior to creation of hemodialysis access using an autogenous hemodialysis conduit, including arterial inflow and venous outflow)",HCPCS,CH,broad_px
+2614970,A4671,"Disposable cycler set used with cycler dialysis machine, each",HCPCS,OT,broad_px
+2614987,A4722,"Dialysate solution, any concentration of dextrose, fluid volume greater than 1999 cc but less than or equal to 2999 cc, for peritoneal dialysis",HCPCS,CH,broad_px
+2614990,A4725,"Dialysate solution, any concentration of dextrose, fluid volume greater than 4999 cc but less than or equal to 5999 cc, for peritoneal dialysis",HCPCS,OT,broad_px
+2615761,C1750,"Catheter, hemodialysis/peritoneal, long-term",HCPCS,CH,broad_px
+2615761,C1750,"Catheter, hemodialysis/peritoneal, long-term",HCPCS,OT,broad_px
+2615762,C1751,"Catheter, infusion, inserted peripherally, centrally or midline (other than hemodialysis)",HCPCS,CH,
+2615762,C1751,"Catheter, infusion, inserted peripherally, centrally or midline (other than hemodialysis)",HCPCS,OT,
+2615763,C1752,"Catheter, hemodialysis/peritoneal, short-term",HCPCS,OT,broad_px
+2615763,C1752,"Catheter, hemodialysis/peritoneal, short-term",HCPCS,CH,broad_px
+2615860,C1881,Dialysis access system (implantable),HCPCS,CH,
+2785872,B51W1ZZ,Fluoroscopy of Dialysis Shunt/Fistula using Low Osmolar Contrast,ICD10PCS,10,
+2785874,B51WYZZ,Fluoroscopy of Dialysis Shunt/Fistula using Other Contrast,ICD10PCS,10,
+2785876,B51WZZZ,Fluoroscopy of Dialysis Shunt/Fistula,ICD10PCS,10,
+2003564,54.98,Peritoneal dialysis,ICD9Proc,09,broad_px
+937570,J0604,"Cinacalcet, oral, 1 mg, (for esrd on dialysis)",HCPCS,OT,broad_px
+937570,J0604,"Cinacalcet, oral, 1 mg, (for esrd on dialysis)",HCPCS,CH,broad_px
+2718324,J0882,"Injection, darbepoetin alfa, 1 microgram (for esrd on dialysis)",HCPCS,OT,broad_px
+2718324,J0882,"Injection, darbepoetin alfa, 1 microgram (for esrd on dialysis)",HCPCS,CH,broad_px
+2718326,J0886,"Injection, epoetin alfa, 1000 units (for esrd on dialysis)",HCPCS,CH,broad_px
+2718326,J0886,"Injection, epoetin alfa, 1000 units (for esrd on dialysis)",HCPCS,OT,broad_px
+2720773,Q4081,"Injection, epoetin alfa, 100 units (for esrd on dialysis)",HCPCS,OT,broad_px
+2720773,Q4081,"Injection, epoetin alfa, 100 units (for esrd on dialysis)",HCPCS,CH,broad_px
+953214,Q5105,"Injection, epoetin alfa-epbx, biosimilar, (retacrit) (for esrd on dialysis), 100 units",HCPCS,CH,broad_px
+2788908,B50W1ZZ,Plain Radiography of Dialysis Shunt/Fistula using Low Osmolar Contrast,ICD10PCS,10,
+2788909,B50WYZZ,Plain Radiography of Dialysis Shunt/Fistula using Other Contrast,ICD10PCS,10,
+2002176,38.95,Venous catheterization for renal dialysis,ICD9Proc,09,broad_px
+2002189,39.27,Arteriovenostomy for renal dialysis,ICD9Proc,09,broad_px
+2002208,39.42,Revision of arteriovenous shunt for renal dialysis,ICD9Proc,09,broad_px
+2002209,39.43,Removal of arteriovenous shunt for renal dialysis,ICD9Proc,09,broad_px
+2002282,39.95,Hemodialysis,ICD9Proc,09,broad_px
+2108299,36833,"Revision, open, arteriovenous fistula; with thrombectomy, autogenous or nonautogenous dialysis graft (separate procedure)",CPT4,CH,broad_px
+2108298,36832,"Revision, open, arteriovenous fistula; without thrombectomy, autogenous or nonautogenous dialysis graft (separate procedure)",CPT4,CH,broad_px
+2108297,36831,"Thrombectomy, open, arteriovenous fistula without revision, autogenous or nonautogenous dialysis graft (separate procedure)",CPT4,CH,broad_px
+2108277,36810,"Insertion of cannula for hemodialysis, other purpose (separate procedure); arteriovenous, external (Scribner type)",CPT4,CH,broad_px
+2108276,36800,"Insertion of cannula for hemodialysis, other purpose (separate procedure); vein to vein",CPT4,CH,
+2108278,36815,"Insertion of cannula for hemodialysis, other purpose (separate procedure); arteriovenous, external revision, or closure",CPT4,CH,broad_px
+42627979,36902,"Introduction of needle(s) and/or catheter(s), dialysis circuit, with diagnostic angiography of the dialysis circuit, including all direct puncture(s) and catheter placement(s), injection(s) of contrast, all necessary imaging from the arterial anastomosis ",CPT4,CH,
+42627928,36909,"Dialysis circuit permanent vascular embolization or occlusion (including main circuit or any accessory veins), endovascular, including all imaging and radiological supervision and interpretation necessary to complete the intervention (List separately in a",CPT4,CH,broad_px
+40756855,75791,"Angiography, arteriovenous shunt (eg, dialysis patient fistula/graft), complete evaluation of dialysis access, including fluoroscopy, image documentation and report (includes injections of contrast and all necessary imaging from the arterial anastomosis a",CPT4,CH,
+2313999,93990,"Duplex scan of hemodialysis access (including arterial inflow, body of access and venous outflow)",CPT4,CH,broad_px
+2213596,90969,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 12-19 years of age",CPT4,CH,chronic_px
+2213597,90970,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 20 years of age and older",CPT4,CH,chronic_px
+2213598,90989,"Dialysis training, patient, including helper where applicable, any mode, completed course",CPT4,CH,broad_px
+2213599,90993,"Dialysis training, patient, including helper where applicable, any mode, course not completed, per training session",CPT4,CH,
+2213592,90965,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,CH,chronic_px
+2213593,90966,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 20 years of age and older",CPT4,CH,chronic_px
+2213594,90967,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients younger than 2 years of age",CPT4,CH,chronic_px
+710018,93986,Duplex scan of arterial inflow and venous outflow for preoperative vessel assessment prior to creation of hemodialysis access; complete unilateral study,CPT4,CH,broad_px
+710017,93985,Duplex scan of arterial inflow and venous outflow for preoperative vessel assessment prior to creation of hemodialysis access; complete bilateral study,CPT4,CH,
+42737977,75790,"Angiography, arteriovenous shunt (eg, dialysis patient), radiological supervision and interpretation",CPT4,CH,
+42627889,37247,"Transluminal balloon angioplasty (except lower extremity artery(ies) for occlusive disease, intracranial, coronary, pulmonary, or dialysis circuit), open or percutaneous, including all imaging and radiological supervision and interpretation necessary to p",CPT4,CH,
+2101765,01844,"Anesthesia for vascular shunt, or shunt revision, any type (eg, dialysis)",CPT4,CH,
+40757115,36148,"Introduction of needle and/or catheter, arteriovenous shunt created for dialysis (graft/fistula); additional access for therapeutic intervention (List separately in addition to code for primary procedure)",CPT4,CH,broad_px
+40756844,49418,"Insertion of tunneled intraperitoneal catheter (eg, dialysis, intraperitoneal chemotherapy instillation, management of ascites), complete procedure, including imaging guidance, catheter placement, contrast injection when performed, and radiological superv",CPT4,CH,
+42628058,36907,"Transluminal balloon angioplasty, central dialysis segment, performed through dialysis circuit, including all imaging and radiological supervision and interpretation required to perform the angioplasty (List separately in addition to code for primary proc",CPT4,CH,broad_px
+42628020,37249,"Transluminal balloon angioplasty (except dialysis circuit), open or percutaneous, including all imaging and radiological supervision and interpretation necessary to perform the angioplasty within the same vein; each additional vein (List separately in add",CPT4,CH,
+42628019,36905,"Percutaneous transluminal mechanical thrombectomy and/or infusion for thrombolysis, dialysis circuit, any method, including all imaging and radiological supervision and interpretation, diagnostic angiography, fluoroscopic guidance, catheter placement(s), ",CPT4,CH,
+40756908,36147,"Introduction of needle and/or catheter, arteriovenous shunt created for dialysis (graft/fistula); initial access with complete radiological evaluation of dialysis access, including fluoroscopy, image documentation and report (includes access of shunt, inj",CPT4,CH,
+42628646,37248,"Transluminal balloon angioplasty (except dialysis circuit), open or percutaneous, including all imaging and radiological supervision and interpretation necessary to perform the angioplasty within the same vein; initial vein",CPT4,CH,
+42628576,36904,"Percutaneous transluminal mechanical thrombectomy and/or infusion for thrombolysis, dialysis circuit, any method, including all imaging and radiological supervision and interpretation, diagnostic angiography, fluoroscopic guidance, catheter placement(s), ",CPT4,CH,
+2109463,49421,"Insertion of tunneled intraperitoneal catheter for dialysis, open",CPT4,CH,broad_px
+42627980,37246,"Transluminal balloon angioplasty (except lower extremity artery(ies) for occlusive disease, intracranial, coronary, pulmonary, or dialysis circuit), open or percutaneous, including all imaging and radiological supervision and interpretation necessary to p",CPT4,CH,
+2213601,90999,"Unlisted dialysis procedure, inpatient or outpatient",CPT4,CH,broad_px
+42737052,49420,Insertion of intraperitoneal cannula or catheter for drainage or dialysis; temporary,CPT4,CH,
+2213576,90945,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies), with single evaluation by a physician or other qualified health care professional",CPT4,CH,broad_px
+2213577,90947,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies) requiring repeated evaluations by a physician or other qualified health care professional, with or without substantial re",CPT4,CH,broad_px
+2213572,90935,Hemodialysis procedure with single evaluation by a physician or other qualified health care professional,CPT4,CH,broad_px
+2213573,90937,Hemodialysis procedure requiring repeated evaluation(s) with or without substantial revision of dialysis prescription,CPT4,CH,broad_px
+2213595,90968,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 2-11 years of age",CPT4,CH,chronic_px
+2213590,90963,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,CH,chronic_px
+2213591,90964,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,CH,chronic_px
+2213591,90964,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4,OT,chronic_px
+42628580,36908,"Transcatheter placement of intravascular stent(s), central dialysis segment, performed through dialysis circuit, including all imaging and radiological supervision and interpretation required to perform the stenting, and all angioplasty in the central dia",CPT4,CH,broad_px
+42628575,36901,"Introduction of needle(s) and/or catheter(s), dialysis circuit, with diagnostic angiography of the dialysis circuit, including all direct puncture(s) and catheter placement(s), injection(s) of contrast, all necessary imaging from the arterial anastomosis ",CPT4,CH,
+42628575,36901,"Introduction of needle(s) and/or catheter(s), dialysis circuit, with diagnostic angiography of the dialysis circuit, including all direct puncture(s) and catheter placement(s), injection(s) of contrast, all necessary imaging from the arterial anastomosis ",CPT4,OT,

@@ -1,0 +1,5 @@
+"concept_id","concept_code","concept_name","vocabulary_id"
+3012888,"8462-4","Diastolic blood pressure","LOINC"
+3013940,"8455-8","Diastolic blood pressure--supine","LOINC"
+3019962,"8454-1","Diastolic blood pressure--standing","LOINC"
+3034703,"8453-3","Diastolic blood pressure--sitting","LOINC"

@@ -1,0 +1,250 @@
+concept_id,ckd_code_group,changes_for_2024_adr,type_of_ckd_for_peds_for_2024_adr,concept_class_id,concept_code,concept_name,domain_id,invalid_reason,standard_concept,valid_end_date,valid_start_date,vocabulary_id,glomerular_code
+35208366,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,K76.7,Hepatorenal syndrome,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45557785,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,M10.30,"Gout due to renal impairment, unspecified site",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45601314,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.311,"Gout due to renal impairment, right shoulder",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45596458,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.312,"Gout due to renal impairment, left shoulder",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45553071,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.319,"Gout due to renal impairment, unspecified shoulder",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45606089,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.321,"Gout due to renal impairment, right elbow",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45538655,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.322,"Gout due to renal impairment, left elbow",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45606090,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.329,"Gout due to renal impairment, unspecified elbow",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45577135,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.331,"Gout due to renal impairment, right wrist",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45582026,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.332,"Gout due to renal impairment, left wrist",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45601315,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.339,"Gout due to renal impairment, unspecified wrist",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45538656,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.341,"Gout due to renal impairment, right hand",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45577136,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.342,"Gout due to renal impairment, left hand",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45601316,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.349,"Gout due to renal impairment, unspecified hand",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45562615,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.351,"Gout due to renal impairment, right hip",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45586863,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.352,"Gout due to renal impairment, left hip",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45538657,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.359,"Gout due to renal impairment, unspecified hip",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45582027,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.361,"Gout due to renal impairment, right knee",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45557786,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.362,"Gout due to renal impairment, left knee",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45543453,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.369,"Gout due to renal impairment, unspecified knee",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45586864,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.371,"Gout due to renal impairment, right ankle and foot",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45562616,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.372,"Gout due to renal impairment, left ankle and foot",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45606091,Y,"Keep, standard algorithm",Other kidney disorders,6-char billing code,M10.379,"Gout due to renal impairment, unspecified ankle and foot",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45606092,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,M10.38,"Gout due to renal impairment, vertebrae",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45582028,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,M10.39,"Gout due to renal impairment, multiple sites",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45590762,Y,"Add, standard algorithm",Other kidney disorders,6-char billing code,Z85.520,Personal history of malignant carcinoid tumor of kidney,Observation,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45595550,Y,"Add, standard algorithm",Other kidney disorders,6-char billing code,Z85.528,Personal history of other malignant neoplasm of kidney,Observation,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45595553,Y,"Keep, standard algorithm",GN,6-char billing code,Z87.441,Personal history of nephrotic syndrome,Observation,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35225378,Y,"Add, standard algorithm",Other kidney disorders,4-char billing code,Z90.5,Acquired absence of kidney,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45542741,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E13.21,Other specified diabetes mellitus with diabetic nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45561955,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E13.22,Other specified diabetes mellitus with diabetic chronic kidney disease,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45552388,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E13.29,Other specified diabetes mellitus with other diabetic kidney complication,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45571671,Y,"Add, standard algorithm",Other kidney disorders,5-char billing code,E26.81,Bartter's syndrome,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45591056,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E72.01,Cystinuria,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45533039,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E72.03,Lowe's syndrome,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45600670,Y,"Add, standard algorithm",Other kidney disorders,5-char billing code,E72.04,Cystinosis,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45566755,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E72.53,Primary hyperoxaluria,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45561989,Y,"Add, standard algorithm",Other kidney disorders,5-char billing code,E83.31,Familial hypophosphatemia,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35207090,A,"Add, but require additional code from the Y group",Other kidney disorders,4-char nonbill code,E85.8,Other amyloidosis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+1326494,A,"Add, but require additional code from the Y group",Other kidney disorders,5-char billing code,E85.81,Light chain (AL) amyloidosis,Condition,NA,NA,2099-12-31,2018-01-01,ICD10CM,0
+1326495,A,"Add, but require additional code from the Y group",Other kidney disorders,5-char billing code,E85.82,Wild-type transthyretin-related (ATTR) amyloidosis,Condition,NA,NA,2099-12-31,2018-01-01,ICD10CM,0
+1326496,A,"Add, but require additional code from the Y group",Other kidney disorders,5-char billing code,E85.89,Other amyloidosis,Condition,NA,NA,2099-12-31,2018-01-01,ICD10CM,0
+35207671,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,I12.0,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35207672,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,I12.9,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35207673,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,I13.0,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45543164,Y,"Keep, standard algorithm","CKD, not otherwise specified",5-char billing code,I13.10,"Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45596188,Y,"Keep, standard algorithm","CKD, not otherwise specified",5-char billing code,I13.11,"Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35207674,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,I13.2,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211012,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.0,"Renal agenesis, unilateral",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211013,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.1,"Renal agenesis, bilateral",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211014,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.2,"Renal agenesis, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211015,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.3,"Renal hypoplasia, unilateral",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211016,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.4,"Renal hypoplasia, bilateral",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211017,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.5,"Renal hypoplasia, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211018,Y,"Keep, standard algorithm",Structural,4-char billing code,Q60.6,Potter's syndrome,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45553686,Y,"Keep, standard algorithm",Cystic,5-char billing code,Q61.02,Congenital multiple renal cysts,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45577738,Y,"Keep, standard algorithm",Cystic,5-char billing code,Q61.11,Cystic dilatation of collecting ducts,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45587467,Y,"Keep, standard algorithm",Cystic,5-char billing code,Q61.19,"Other polycystic kidney, infantile type",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35211019,Y,"Keep, standard algorithm",Cystic,4-char billing code,Q61.2,"Polycystic kidney, adult type",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211020,Y,"Keep, standard algorithm",Cystic,4-char billing code,Q61.3,"Polycystic kidney, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211021,Y,"Keep, standard algorithm",Structural,4-char billing code,Q61.4,Renal dysplasia,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211022,Y,"Keep, standard algorithm",Cystic,4-char billing code,Q61.5,Medullary cystic kidney,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211023,Y,"Keep, standard algorithm",Cystic,4-char billing code,Q61.8,Other cystic kidney diseases,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211024,Y,"Keep, standard algorithm",Cystic,4-char billing code,Q61.9,"Cystic kidney disease, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211027,Y,"Keep, standard algorithm",Structural,4-char billing code,Q62.4,Agenesis of ureter,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211032,Y,"Keep, standard algorithm",Structural,4-char billing code,Q63.1,"Lobulated, fused and horseshoe kidney",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211034,Y,"Keep, standard algorithm",Structural,4-char billing code,Q63.3,Hyperplastic and giant kidney,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211035,Y,"Keep, standard algorithm",Structural,4-char billing code,Q63.8,Other specified congenital malformations of kidney,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211036,Y,"Keep, standard algorithm",Structural,4-char billing code,Q63.9,"Congenital malformation of kidney, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211038,Y,"Keep, standard algorithm",Structural,4-char billing code,Q64.2,Congenital posterior urethral valves,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45572980,Y,"Keep, standard algorithm",Structural,5-char billing code,Q64.31,Congenital bladder neck obstruction,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45597138,Y,"Add, standard algorithm",Structural,5-char billing code,Q64.32,Congenital stricture of urethra,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45587468,Y,"Add, standard algorithm",Structural,5-char billing code,Q64.33,Congenital stricture of urinary meatus,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45577741,Y,"Keep, standard algorithm",Structural,5-char billing code,Q64.39,Other atresia and stenosis of urethra and bladder neck,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35211040,Y,"Keep, standard algorithm",Structural,4-char billing code,Q64.5,Congenital absence of bladder and urethra,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211141,Y,"Keep, standard algorithm",Structural,4-char billing code,Q79.4,Prune belly syndrome,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35211523,A,"Keep, but require additional code from the Y group",Other kidney disorders,4-char billing code,R94.4,Abnormal results of kidney function studies,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45600400,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,A18.11,Tuberculosis of kidney and ureter,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45547402,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,A36.84,Diphtheritic tubulo-interstitial nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45561716,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,A52.75,Syphilis of kidney and ureter,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35205897,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,B52.0,Plasmodium malariae malaria with nephropathy,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45581178,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,B58.83,Toxoplasma tubulo-interstitial nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35206734,Y,"Keep, standard algorithm",GN,4-char billing code,D59.3,Hemolytic-uremic syndrome,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45533009,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E08.21,Diabetes mellitus due to underlying condition with diabetic nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45552372,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E08.22,Diabetes mellitus due to underlying condition with diabetic chronic kidney disease,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45542728,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E08.29,Diabetes mellitus due to underlying condition with other diabetic kidney complication,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45552376,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E09.21,Drug or chemical induced diabetes mellitus with diabetic nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45561945,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E09.22,Drug or chemical induced diabetes mellitus with diabetic chronic kidney disease,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45576431,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E09.29,Drug or chemical induced diabetes mellitus with other diabetic kidney complication,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45552379,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E10.21,Type 1 diabetes mellitus with diabetic nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45547621,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E10.22,Type 1 diabetes mellitus with diabetic chronic kidney disease,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45600637,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E10.29,Type 1 diabetes mellitus with other diabetic kidney complication,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45591027,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E11.21,Type 2 diabetes mellitus with diabetic nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45595797,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E11.22,Type 2 diabetes mellitus with diabetic chronic kidney disease,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45605401,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,E11.29,Type 2 diabetes mellitus with other diabetic kidney complication,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35208816,A,"Add, but require additional code from the Y group",GN,4-char billing code,M31.0,Hypersensitivity angiitis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45606213,Y,"Keep, standard algorithm",GN,5-char billing code,M31.31,Wegener's granulomatosis with renal involvement,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35208822,Y,"Add, standard algorithm",GN,4-char billing code,M31.7,Microscopic polyangiitis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45562709,Y,"Keep, standard algorithm",GN,5-char billing code,M32.14,Glomerular disease in systemic lupus erythematosus,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,1
+45591820,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,M32.15,Tubulo-interstitial nephropathy in systemic lupus erythematosus,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45557866,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,M35.04,Sicca syndrome with tubulo-interstitial nephropathy,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45553439,Y,"Keep, standard algorithm",Structural,4-char billing code,N26.1,Atrophy of kidney (terminal),Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45601721,Y,"Add, standard algorithm",Other kidney disorders,4-char billing code,N26.2,Page kidney,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35209165,Y,"Keep, standard algorithm",GN,4-char billing code,N00.0,Acute nephritic syndrome with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209166,Y,"Keep, standard algorithm",GN,4-char billing code,N00.1,Acute nephritic syndrome with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209167,Y,"Keep, standard algorithm",GN,4-char billing code,N00.2,Acute nephritic syndrome with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209168,Y,"Keep, standard algorithm",GN,4-char billing code,N00.3,Acute nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209169,Y,"Keep, standard algorithm",GN,4-char billing code,N00.4,Acute nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209170,Y,"Keep, standard algorithm",GN,4-char billing code,N00.5,Acute nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209171,Y,"Keep, standard algorithm",GN,4-char billing code,N00.6,Acute nephritic syndrome with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209172,Y,"Keep, standard algorithm",GN,4-char billing code,N00.7,Acute nephritic syndrome with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209173,Y,"Keep, standard algorithm",GN,4-char billing code,N00.8,Acute nephritic syndrome with other morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209174,Y,"Keep, standard algorithm",GN,4-char billing code,N00.9,Acute nephritic syndrome with unspecified morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725432,Y,"Add, standard algorithm",GN,4-char billing code,N00.A,Acute nephritic syndrome with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209175,Y,"Keep, standard algorithm",GN,4-char billing code,N01.0,Rapidly progressive nephritic syndrome with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209176,Y,"Keep, standard algorithm",GN,4-char billing code,N01.1,Rapidly progressive nephritic syndrome with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209177,Y,"Keep, standard algorithm",GN,4-char billing code,N01.2,Rapidly progressive nephritic syndrome with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209178,Y,"Keep, standard algorithm",GN,4-char billing code,N01.3,Rapidly progressive nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209179,Y,"Keep, standard algorithm",GN,4-char billing code,N01.4,Rapidly progressive nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209180,Y,"Keep, standard algorithm",GN,4-char billing code,N01.5,Rapidly progressive nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209181,Y,"Keep, standard algorithm",GN,4-char billing code,N01.6,Rapidly progressive nephritic syndrome with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209182,Y,"Keep, standard algorithm",GN,4-char billing code,N01.7,Rapidly progressive nephritic syndrome with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209183,Y,"Keep, standard algorithm",GN,4-char billing code,N01.8,Rapidly progressive nephritic syndrome with other morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209184,Y,"Keep, standard algorithm",GN,4-char billing code,N01.9,Rapidly progressive nephritic syndrome with unspecified morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725433,Y,"Add, standard algorithm",GN,4-char billing code,N01.A,Rapidly progressive nephritic syndrome with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209185,Y,"Keep, standard algorithm",GN,4-char billing code,N02.0,Recurrent and persistent hematuria with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209186,Y,"Keep, standard algorithm",GN,4-char billing code,N02.1,Recurrent and persistent hematuria with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209187,Y,"Keep, standard algorithm",GN,4-char billing code,N02.2,Recurrent and persistent hematuria with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209188,Y,"Keep, standard algorithm",GN,4-char billing code,N02.3,Recurrent and persistent hematuria with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209189,Y,"Keep, standard algorithm",GN,4-char billing code,N02.4,Recurrent and persistent hematuria with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209190,Y,"Keep, standard algorithm",GN,4-char billing code,N02.5,Recurrent and persistent hematuria with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209191,Y,"Keep, standard algorithm",GN,4-char billing code,N02.6,Recurrent and persistent hematuria with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209192,Y,"Keep, standard algorithm",GN,4-char billing code,N02.7,Recurrent and persistent hematuria with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209193,Y,"Keep, standard algorithm",GN,4-char billing code,N02.8,Recurrent and persistent hematuria with other morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209194,Y,"Keep, standard algorithm",GN,4-char billing code,N02.9,Recurrent and persistent hematuria with unspecified morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725434,Y,"Add, standard algorithm",GN,4-char billing code,N02.A,Recurrent and persistent hematuria with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209195,Y,"Keep, standard algorithm",GN,4-char billing code,N03.0,Chronic nephritic syndrome with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209196,Y,"Keep, standard algorithm",GN,4-char billing code,N03.1,Chronic nephritic syndrome with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209197,Y,"Keep, standard algorithm",GN,4-char billing code,N03.2,Chronic nephritic syndrome with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209198,Y,"Keep, standard algorithm",GN,4-char billing code,N03.3,Chronic nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209199,Y,"Keep, standard algorithm",GN,4-char billing code,N03.4,Chronic nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209200,Y,"Keep, standard algorithm",GN,4-char billing code,N03.5,Chronic nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209201,Y,"Keep, standard algorithm",GN,4-char billing code,N03.6,Chronic nephritic syndrome with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209202,Y,"Keep, standard algorithm",GN,4-char billing code,N03.7,Chronic nephritic syndrome with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209203,Y,"Keep, standard algorithm",GN,4-char billing code,N03.8,Chronic nephritic syndrome with other morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209204,Y,"Keep, standard algorithm",GN,4-char billing code,N03.9,Chronic nephritic syndrome with unspecified morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725435,Y,"Add, standard algorithm",GN,4-char billing code,N03.A,Chronic nephritic syndrome with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209205,Y,"Keep, standard algorithm",GN,4-char billing code,N04.0,Nephrotic syndrome with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209206,Y,"Keep, standard algorithm",GN,4-char billing code,N04.1,Nephrotic syndrome with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209207,Y,"Keep, standard algorithm",GN,4-char billing code,N04.2,Nephrotic syndrome with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209208,Y,"Keep, standard algorithm",GN,4-char billing code,N04.3,Nephrotic syndrome with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209209,Y,"Keep, standard algorithm",GN,4-char billing code,N04.4,Nephrotic syndrome with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209210,Y,"Keep, standard algorithm",GN,4-char billing code,N04.5,Nephrotic syndrome with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209211,Y,"Keep, standard algorithm",GN,4-char billing code,N04.6,Nephrotic syndrome with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209212,Y,"Keep, standard algorithm",GN,4-char billing code,N04.7,Nephrotic syndrome with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209213,Y,"Keep, standard algorithm",GN,4-char billing code,N04.8,Nephrotic syndrome with other morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209214,Y,"Keep, standard algorithm",GN,4-char billing code,N04.9,Nephrotic syndrome with unspecified morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725436,Y,"Add, standard algorithm",GN,4-char billing code,N04.A,Nephrotic syndrome with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209215,Y,"Keep, standard algorithm",GN,4-char billing code,N05.0,Unspecified nephritic syndrome with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209216,Y,"Keep, standard algorithm",GN,4-char billing code,N05.1,Unspecified nephritic syndrome with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209217,Y,"Keep, standard algorithm",GN,4-char billing code,N05.2,Unspecified nephritic syndrome with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209218,Y,"Keep, standard algorithm",GN,4-char billing code,N05.3,Unspecified nephritic syndrome with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209219,Y,"Keep, standard algorithm",GN,4-char billing code,N05.4,Unspecified nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209220,Y,"Keep, standard algorithm",GN,4-char billing code,N05.5,Unspecified nephritic syndrome with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209221,Y,"Keep, standard algorithm",GN,4-char billing code,N05.6,Unspecified nephritic syndrome with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209222,Y,"Keep, standard algorithm",GN,4-char billing code,N05.7,Unspecified nephritic syndrome with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209223,Y,"Keep, standard algorithm",GN,4-char billing code,N05.8,Unspecified nephritic syndrome with other morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209224,Y,"Keep, standard algorithm",GN,4-char billing code,N05.9,Unspecified nephritic syndrome with unspecified morphologic changes,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725437,Y,"Add, standard algorithm",GN,4-char billing code,N05.A,Unspecified nephritic syndrome with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209225,Y,"Keep, standard algorithm",GN,4-char billing code,N06.0,Isolated proteinuria with minor glomerular abnormality,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209226,Y,"Keep, standard algorithm",GN,4-char billing code,N06.1,Isolated proteinuria with focal and segmental glomerular lesions,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209227,Y,"Keep, standard algorithm",GN,4-char billing code,N06.2,Isolated proteinuria with diffuse membranous glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209228,Y,"Keep, standard algorithm",GN,4-char billing code,N06.3,Isolated proteinuria with diffuse mesangial proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209229,Y,"Keep, standard algorithm",GN,4-char billing code,N06.4,Isolated proteinuria with diffuse endocapillary proliferative glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209230,Y,"Keep, standard algorithm",GN,4-char billing code,N06.5,Isolated proteinuria with diffuse mesangiocapillary glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209231,Y,"Keep, standard algorithm",GN,4-char billing code,N06.6,Isolated proteinuria with dense deposit disease,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209232,Y,"Keep, standard algorithm",GN,4-char billing code,N06.7,Isolated proteinuria with diffuse crescentic glomerulonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209233,Y,"Keep, standard algorithm",GN,4-char billing code,N06.8,Isolated proteinuria with other morphologic lesion,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209234,Y,"Keep, standard algorithm",GN,4-char billing code,N06.9,Isolated proteinuria with unspecified morphologic lesion,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725438,Y,"Add, standard algorithm",GN,4-char billing code,N06.A,Isolated proteinuria with C3 glomerulonephritis,Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209235,Y,"Keep, standard algorithm",GN,4-char billing code,N07.0,"Hereditary nephropathy, not elsewhere classified with minor glomerular abnormality",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209236,Y,"Keep, standard algorithm",GN,4-char billing code,N07.1,"Hereditary nephropathy, not elsewhere classified with focal and segmental glomerular lesions",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209237,Y,"Keep, standard algorithm",GN,4-char billing code,N07.2,"Hereditary nephropathy, not elsewhere classified with diffuse membranous glomerulonephritis",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209238,Y,"Keep, standard algorithm",GN,4-char billing code,N07.3,"Hereditary nephropathy, not elsewhere classified with diffuse mesangial proliferative glomerulonephritis",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209239,Y,"Keep, standard algorithm",GN,4-char billing code,N07.4,"Hereditary nephropathy, not elsewhere classified with diffuse endocapillary proliferative glomerulonephritis",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209240,Y,"Keep, standard algorithm",GN,4-char billing code,N07.5,"Hereditary nephropathy, not elsewhere classified with diffuse mesangiocapillary glomerulonephritis",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209241,Y,"Keep, standard algorithm",GN,4-char billing code,N07.6,"Hereditary nephropathy, not elsewhere classified with dense deposit disease",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209242,Y,"Keep, standard algorithm",GN,4-char billing code,N07.7,"Hereditary nephropathy, not elsewhere classified with diffuse crescentic glomerulonephritis",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209243,Y,"Keep, standard algorithm",GN,4-char billing code,N07.8,"Hereditary nephropathy, not elsewhere classified with other morphologic lesions",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209244,Y,"Keep, standard algorithm",GN,4-char billing code,N07.9,"Hereditary nephropathy, not elsewhere classified with unspecified morphologic lesions",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+725439,Y,"Add, standard algorithm",GN,4-char billing code,N07.A,"Hereditary nephropathy, not elsewhere classified with C3 glomerulonephritis",Condition,NA,NA,2099-12-31,2021-01-01,ICD10CM,1
+35209245,Y,"Keep, standard algorithm",GN,3-char billing code,N08,Glomerular disorders in diseases classified elsewhere,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,1
+35209247,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N11.0,Nonobstructive reflux-associated chronic pyelonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209248,Y,"Keep, standard algorithm",Structural,4-char billing code,N11.1,Chronic obstructive pyelonephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209249,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N11.8,Other chronic tubulo-interstitial nephritis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209250,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N11.9,"Chronic tubulo-interstitial nephritis, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+37200876,Y,"Keep, standard algorithm",Structural,4-char billing code,N13.0,Hydronephrosis with ureteropelvic junction obstruction,Condition,NA,NA,2099-12-31,2017-01-01,ICD10CM,0
+35209252,Y,"Keep, standard algorithm",Structural,4-char billing code,N13.1,"Hydronephrosis with ureteral stricture, not elsewhere classified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209253,Y,"Keep, standard algorithm",Structural,4-char billing code,N13.2,Hydronephrosis with renal and ureteral calculous obstruction,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209256,Y,"Add, standard algorithm",Other kidney disorders,4-char billing code,N13.6,Pyonephrosis,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45539032,Y,"Keep, standard algorithm",Structural,6-char billing code,N13.721,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, unilateral",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45582390,Y,"Keep, standard algorithm",Structural,6-char billing code,N13.722,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, bilateral",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45553434,Y,"Keep, standard algorithm",Structural,6-char billing code,N13.729,"Vesicoureteral-reflux with reflux nephropathy without hydroureter, unspecified",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45553435,Y,"Keep, standard algorithm",Structural,6-char billing code,N13.731,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, unilateral",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45558136,Y,"Keep, standard algorithm",Structural,6-char billing code,N13.732,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, bilateral",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45563008,Y,"Keep, standard algorithm",Structural,6-char billing code,N13.739,"Vesicoureteral-reflux with reflux nephropathy with hydroureter, unspecified",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35209257,Y,"Keep, standard algorithm",Structural,4-char billing code,N13.8,Other obstructive and reflux uropathy,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209258,Y,"Keep, standard algorithm",Structural,4-char billing code,N13.9,"Obstructive and reflux uropathy, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209259,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N14.0,Analgesic nephropathy,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209260,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N14.1,"Nephropathy induced by other drugs, medicaments and biological substances",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209261,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N14.2,"Nephropathy induced by unspecified drug, medicament or biological substance",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209262,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N14.3,Nephropathy induced by heavy metals,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209263,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N14.4,"Toxic nephropathy, not elsewhere classified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209264,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N15.0,Balkan nephropathy,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209266,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N15.8,Other specified renal tubulo-interstitial diseases,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209267,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N15.9,"Renal tubulo-interstitial disease, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209268,Y,"Keep, standard algorithm",Other kidney disorders,3-char billing code,N16,Renal tubulo-interstitial disorders in diseases classified elsewhere,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209274,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,N18.1,"Chronic kidney disease, stage 1",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209275,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,N18.2,"Chronic kidney disease, stage 2 (mild)",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209276,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char nonbill code,N18.3,"Chronic kidney disease, stage 3 (moderate)",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209277,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,N18.4,"Chronic kidney disease, stage 4 (severe)",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209278,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,N18.5,"Chronic kidney disease, stage 5",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45548653,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,N18.6,End stage renal disease,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35209279,Y,"Keep, standard algorithm","CKD, not otherwise specified",4-char billing code,N18.9,"Chronic kidney disease, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209280,Y,"Keep, standard algorithm","CKD, not otherwise specified",3-char billing code,N19,Unspecified kidney failure,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209291,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N25.0,Renal osteodystrophy,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209292,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N25.1,Nephrogenic diabetes insipidus,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45577516,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,N25.81,Secondary hyperparathyroidism of renal origin,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45601719,Y,"Keep, standard algorithm",Other kidney disorders,5-char billing code,N25.89,Other disorders resulting from impaired renal tubular function,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35209293,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N25.9,"Disorder resulting from impaired renal tubular function, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45558143,Y,"Keep, standard algorithm",Other kidney disorders,4-char billing code,N26.9,"Renal sclerosis, unspecified",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35209294,Y,"Keep, standard algorithm",Structural,4-char billing code,N27.0,"Small kidney, unilateral",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209295,Y,"Keep, standard algorithm",Structural,4-char billing code,N27.1,"Small kidney, bilateral",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209296,Y,"Keep, standard algorithm",Structural,4-char billing code,N27.9,"Small kidney, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+35209297,Y,"Add, standard algorithm",Other kidney disorders,4-char billing code,N28.0,Ischemia and infarction of kidney,Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45558146,A,"Keep, but require additional code from the Y group",Other kidney disorders,5-char billing code,N28.89,Other specified disorders of kidney and ureter,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+35209299,A,"Add, but require additional code from the Y group",Other kidney disorders,4-char billing code,N28.9,"Disorder of kidney and ureter, unspecified",Condition,NA,NA,2099-12-31,2007-01-01,ICD10CM,0
+45567886,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.211,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, first trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45548697,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.212,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, second trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45587280,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.213,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, third trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45534171,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.219,"Pre-existing hypertensive chronic kidney disease complicating pregnancy, unspecified trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45534172,Y,"Keep, standard algorithm","CKD, not otherwise specified",5-char billing code,O10.22,Pre-existing hypertensive chronic kidney disease complicating childbirth,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45539086,Y,"Keep, standard algorithm","CKD, not otherwise specified",5-char billing code,O10.23,Pre-existing hypertensive chronic kidney disease complicating the puerperium,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45587281,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.311,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, first trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45577557,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.312,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, second trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45558201,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.313,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, third trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45539087,Y,"Keep, standard algorithm","CKD, not otherwise specified",6-char billing code,O10.319,"Pre-existing hypertensive heart and chronic kidney disease complicating pregnancy, unspecified trimester",Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45558202,Y,"Keep, standard algorithm","CKD, not otherwise specified",5-char billing code,O10.32,Pre-existing hypertensive heart and chronic kidney disease complicating childbirth,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0
+45582444,Y,"Keep, standard algorithm","CKD, not otherwise specified",5-char billing code,O10.33,Pre-existing hypertensive heart and chronic kidney disease complicating the puerperium,Condition,NA,NA,2099-12-31,1970-01-01,ICD10CM,0

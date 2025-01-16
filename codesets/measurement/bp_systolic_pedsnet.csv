@@ -1,0 +1,5 @@
+"concept_id","concept_code","concept_name","vocabulary_id"
+3004249,"8480-6","Systolic blood pressure","LOINC"
+3009395,"8461-6","Systolic blood pressure--supine","LOINC"
+3018586,"8459-0","Systolic blood pressure--sitting","LOINC"
+3035856,"8460-8","Systolic blood pressure--standing","LOINC"
