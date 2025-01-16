@@ -2,7 +2,19 @@
 
 This directory contains codesets for the PRESERVE project. Codesets have been constructed with both the PEDSnet and PCORnet common data models as targets. Please read "notes on usage" for each target CDM. We also include what PCORnet terms valuesets in this codeset repo.
 
-Navigate to a domain: - [Conditions](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#condition) - [Demographics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#demographic) - [Drugs](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#drug) - [Measurements](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#measurement) - [Procedures](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#procedure) - [Visit & Specialty](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#visit-related)
+Navigate to a domain:
+
+-   [Conditions](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#condition)
+
+-   [Demographics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#demographic)
+
+-   [Drugs](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#drug)
+
+-   [Measurements](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#measurement)
+
+-   [Procedures](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#procedure)
+
+-   [Visit & Specialty](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#visit-related)
 
 ## Condition
 
