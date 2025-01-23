@@ -196,7 +196,7 @@ derive_egfr <- function(full_tbl,
 
 #' Clean height and weight data with Daymont algorithm
 #' 
-#' Note that this function requires the growthcleanr package
+#' This function requires the growthcleanr package
 #' https://carriedaymont.github.io/growthcleanr/index.html
 #'
 #' @param cohort A table with at least a patid column identifying cohort members
