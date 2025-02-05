@@ -2,13 +2,7 @@
 
 This directory contains codesets for the PRESERVE project. Codesets have been constructed with both the PEDSnet and PCORnet common data models as targets. Please read "notes on usage" for each target CDM. We also include what PCORnet terms valuesets in this codeset repo.
 
-Navigate to a domain:
-- [Conditions](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#condition)
-- [Demographics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#demographic)
-- [Drugs](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#drug)
-- [Measurements](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#measurement)
-- [Procedures](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#procedure)
-- [Visit & Specialty](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#visit-related)
+Navigate to a domain: - [Conditions](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#condition) - [Demographics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#demographic) - [Drugs](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#drug) - [Measurements](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#measurement) - [Procedures](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#procedure) - [Visit & Specialty](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets#visit-related)
 
 ## Condition
 
@@ -34,24 +28,31 @@ Navigate to a domain:
 
 Codeset structure:
 
++------------+--------------+--------------+---------------+-----------------------+---------------------------------------------------------------+
 | concept_id | concept_code | concept_name | vocabulary_id | pcornet_vocabulary_id | cc_decimal_removal                                            |
-|------------|--------------|--------------|---------------|-----------------------|---------------------------------------------------------------|
++============+==============+==============+===============+=======================+===============================================================+
 |            |              |              |               |                       | flag for whether decimal has been removed from `concept_code` |
++------------+--------------+--------------+---------------+-----------------------+---------------------------------------------------------------+
 
 where `pcornet_vocabulary_id` is an acceptable value according to the supported values in the `VALUESET_ITEM` column below (please note leading zero for "09"):
 
++---------------+---------------------------------------+--------------------------+
 | FIELD_NAME    | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
-|---------------|---------------------------------------|--------------------------|
++===============+=======================================+==========================+
 | DX_TYPE       | 09                                    | 09-ICD-9-CM              |
++---------------+---------------------------------------+--------------------------+
 | DX_TYPE       | 10                                    | 10-ICD-10-CM             |
++---------------+---------------------------------------+--------------------------+
 | DX_TYPE       | 11                                    | 11-ICD-11-CM             |
++---------------+---------------------------------------+--------------------------+
 | DX_TYPE       | SM                                    | SM-SNOMED CT             |
++---------------+---------------------------------------+--------------------------+
 
 Codesets and valuesets:
 
 <table>
 <thead>
-<tr class-"header">
+<tr class="header">
 <th><p>Name</p></th>
 <th><p>Codeset link</p></th>
 <th><p>Description</p></th>
@@ -65,7 +66,7 @@ Codesets and valuesets:
 </tr>
 </thead>
 <tbody>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_ckd_stage23</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_ckd_stage23.csv">dx_ckd_stage23</a></p></td>
 <td><p>Diagnoses for chronic kidney disease stages 2 and 3</p></td>
@@ -89,7 +90,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_kidney_dialysis</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_kidney_dialysis.csv">dx_kidney_dialysis</a></p></td>
 <td><p>Kidney dialysis diagnosis codes</p></td>
@@ -113,7 +114,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_asthma</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_asthma.csv">dx_asthma</a></p></td>
 <td><p>Asthma diagnosis codes</p></td>
@@ -137,7 +138,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_ckd_allstages</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_ckd_allstages.csv">dx_ckd_allstages</a></p></td>
 <td><p>Diagnoses for all chronic kidney disease stages</p></td>
@@ -161,7 +162,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_stomatitis</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_stomatitis.csv">dx_stomatitis</a></p></td>
 <td><p>Diagnoses for stomatitis</p></td>
@@ -185,7 +186,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code>. This codeset requires further review.</p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_glomerular_snomed</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_snomed.csv">dx_glomerular_snomed</a></p></td>
 <td><p>SNOMED-only diagnoses for glomerular disease, developed for the FSGS project</p></td>
@@ -209,7 +210,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_hypertension_no_pregnancy</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension_no_pregnancy.csv">dx_hypertension_no_pregnancy</a></p></td>
 <td><p>Diagnoses for hypertension, excluding those related to pregnancy</p></td>
@@ -233,7 +234,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_cough</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cough.csv">dx_cough</a></p></td>
 <td><p>Diagnoses for cough</p></td>
@@ -257,7 +258,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_pyelonephritis</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pyelonephritis.csv">dx_pyelonephritis</a></p></td>
 <td><p>Diagnoses for pyelonephritis</p></td>
@@ -281,7 +282,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_uti</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_uti.csv">dx_uti</a></p></td>
 <td><p>Diagnoses for urinary tract infection uti</p></td>
@@ -305,7 +306,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_fatigue</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_fatigue.csv">dx_fatigue</a></p></td>
 <td><p>Diagnoses for fatigue</p></td>
@@ -329,7 +330,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_hair_loss</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hair_loss.csv">dx_hair_loss</a></p></td>
 <td><p>Diagnoses for hair loss</p></td>
@@ -353,7 +354,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_respiratory_infections</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_respiratory_infections.csv">dx_respiratory_infections</a></p></td>
 <td><p>Diagnoses for respiratory_infections</p></td>
@@ -377,7 +378,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_pregnancy_icd_w_decimal</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_icd_w_decimal.csv">dx_pregnancy_icd_w_decimal</a></p></td>
 <td><p>Diagnoses for pregnancy, restricted to ICD9CM/ICD10CM/ICD10 and without decimal removal</p></td>
@@ -401,7 +402,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_glomerular_icd</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_icd.csv">dx_glomerular_icd</a></p></td>
 <td><p>ICD-only diagnoses for glomerular disease, derived from <a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_disease.csv">dx_glomerular_disease</a> codeset</p></td>
@@ -426,7 +427,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_pkd</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pkd.csv">dx_pkd</a></p></td>
 <td><p>Diagnoses for Polycystic Kidney Disease PKD</p></td>
@@ -439,8 +440,8 @@ Codesets and valuesets:
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
 <tr class="even">
-<td><p>dx_pregnancy_forrest</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_forrest.csv">dx_pregnancy_forrest</a></p></td>
+<td><p>dx_pregnancy_cer</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_cer.csv">dx_pregnancy_cer</a></p></td>
 <td><p>Diagnoses indicating pregnancy, developed within the CER work</p></td>
 <td><p>ICD9CM, ICD10, ICD10CM</p></td>
 <td></td>
@@ -450,7 +451,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_renal_artery_stenosis</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_artery_stenosis.csv">dx_renal_artery_stenosis</a></p></td>
 <td><p>Diagnoses indicating renal artery stenosis, developed within the CER work</p></td>
@@ -474,7 +475,7 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_renal_related</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_related.csv">dx_renal_related</a></p></td>
 <td><p>Renal-related diagnoses</p></td>
@@ -517,15 +518,17 @@ Codeset structure:
 
 For fields, use the following fields from the PCORNET CDM specifications:
 
++------------+------------+-----------------+---------------+-------------+------------------+-----------------+----------+------------------+
 | TABLE_NAME | FIELD_NAME | RDBMS_DATA_TYPE | SAS_DATA_TYPE | DATA_FORMAT | REPLICATED_FIELD | UNIT_OF_MEASURE | VALUESET | FIELD_DEFINITION |
-|------------|------------|-----------------|---------------|-------------|------------------|-----------------|----------|------------------|
++============+============+=================+===============+=============+==================+=================+==========+==================+
 |            |            |                 |               |             |                  |                 |          |                  |
++------------+------------+-----------------+---------------+-------------+------------------+-----------------+----------+------------------+
 
 Codesets and valuesets:
 
 | Name | Codeset link | Description | Vocabularies | SQL link | Date developed | Developer | Status | Date finalized | Other |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|  |  |  |  |  |  |  |  |  |  |
+|      |              |             |              |          |                |           |        |                |       |
 
 ## Drug
 
@@ -551,38 +554,43 @@ Codesets and valuesets:
 
 Codeset structure:
 
++------------+--------------+--------------+---------------+-----------------------+
 | concept_id | concept_code | concept_name | vocabulary_id | pcornet_vocabulary_id |
-|------------|--------------|--------------|---------------|-----------------------|
++============+==============+==============+===============+=======================+
 |            |              |              |               |                       |
++------------+--------------+--------------+---------------+-----------------------+
 
 where `pcornet_vocabulary_id` is an acceptable value according to the supported values in the `VALUESET_ITEM` column below:
 
++---------------+---------------------------------------+--------------------------+
 | FIELD_NAME    | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
-|---------------|---------------------------------------|--------------------------|
++===============+=======================================+==========================+
 | MEDADMIN_TYPE | ND                                    | ND-NDC                   |
++---------------+---------------------------------------+--------------------------+
 | MEDADMIN_TYPE | RX                                    | RX-RXNORM                |
++---------------+---------------------------------------+--------------------------+
 
 Codesets and valuesets:
 
-| Name | Codeset link | Description | Vocabularies | SQL link | Date developed | Developer | Status | Date finalized | Other |
+| Name                   | Codeset link                                                                                                                                    | Description                                                                                                                                                                                                                                                | Vocabularies                  | SQL link                                                                                                                                               | Date developed | Developer           | Status      | Date finalized | Other           |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| rx_ace_inhibitor | [rx_ace_inhibitor](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ace_inhibitor.csv) | Medication codeset for the following ingredients: Benazepril, Captopril, Enalapril, Fosinopril, Lisinopril, Moexipril, Periondopril, Quinapril,Ramipril, Trandolapril | NDC, RxNorm, RxNorm Extension | [rx_ace_inhibitor.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_ace_inhibitor.sql) | 2021-11 | Levon Utidjian | vocab-based |  | combos included |
-| rx_arb | [rx_arb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_arb.csv) | Medication codeset for the following ingredients: Azilsartan, Candesartan,Eprosartan,Irbesartan,Losartan,Olmesartan,Telmisartan, Valsartan | NDC, RxNorm, RxNorm Extension | [rx_arb.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_arb.sql) | 2021-11 | Levon Utidjian | vocab-based |  | combos included |
-| rx_bb | [rx_bb](drug/https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/rx_bb.csv) | Medication codeset for the following ingredients:, Acebutolol, Atenolol, Betaxolol,Bisoprolol, Carteolol, Carvediol, Labetalol, Metoprolol, Nadolol, Nebivolol, Penbutolol, Pindolol, Propanolol, Sotalol, Timolol | NDC, RxNorm, RxNorm Extension | [rx_bb.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_bb.sql) | 2021-11 | Levon Utidjian | vocab-based |  | combos included |
-| rx_ccb | [rx_ccb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ccb.csv) | Medication codeset for the following ingredients: Amlodipine, Diltiazem, Felodipine, Isradipine, Nicardipine, Nifedipine, Nisoldipine ,Verapamil | NDC, RxNorm, RxNorm Extension | [rx_ccb.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_ccb.sql) | 2021-11 | Levon Utidjian | vocab-based |  | combos included |
-| rx_loop_diuretic | [rx_loop_diuretic](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_loop_diuretic.csv) | Medication codeset for the following ingredients: Furosemide, Bumetanide, Ethacrynic acid, Torsemide | NDC, RxNorm, RxNorm Extension | [rx_loop_diuretic.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_loop_diuretic.sql) | 2021-11 | Levon Utidjian | vocab-based |  | combos included |
-| rx_thiazide | [rx_thiazide](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_thiazide.csv) | Medication codeset for the following ingredients: Chlorothiazide, Chlorthalidone, Hydrochlorothiazide, Indapamide, Metolazone | NDC, RxNorm, RxNorm Extension | [rx_thiazide.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_thiazide.sql) | 2021-11 | Levon Utidjian | vocab-based |  | combos included |
-| rx_anesthesia | [rx_anesthesia](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_anesthesia.csv) | General anesthesia: Propofol (intravenous), Etomidate (intravenous), Ketamine (intravenous), Midazolam (intravenous), Fentanyl (intravenous), Nitrous oxide (inhaled), Sevoflurane (inhaled), Desflurane (inhaled), Isoflurane (inhaled) | RxNorm, RxNorm Extension | [rx_anesthesia.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_anesthesia.sql) | 2022-02 | Kimberley Dickinson | vocab-based |  |  |
-| rx_fludrocortisone | [rx_fludrocortisone](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_fludrocortisone.csv) | Oral fludrocortisone | RxNorm, RxNorm Extension |  | 2022-02 | Kimberley Dickinson | vocab-based |  |  |
-| rx_deflazacort | [rx_deflazacort](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_deflazacort.csv) | Oral deflazacort | RxNorm, RxNorm Extension |  | 2022-02 | Kimberley Dickinson | vocab-based |  |  |
-| rx_nephrotoxic_chemo | [rx_nephrotoxic_chemo](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_nephrotoxic_chemo.csv) | All RxNorm and NDC descendants of ATC classes for nephrotoxic chemotherapies listed in [Nicolaysen 2020](https://doi.org/10.1053/j.ackd.2019.08.005) and in addition cabroplatin, melphalan, carmustine, lomustine, and azacitidine per Charles Bailey, MD | NDC, RxNorm, RxNorm Extension | [rx_nephrotoxic_chemo.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_nephrotoxic_chemo.sql) | 2022-11 | Amy Goodwin Davies | vocab-based |  |  |
-| rx_antineoplastics | [rx_antineoplastics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_antineoplastics.csv) | All RxNorm and NDC descendants of ATC classes for antineoplastics | NDC, RxNorm, RxNorm Extension | [rx_antineoplastics.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_antineoplastics.sql) | 2022-12 | Kaleigh Wieand | vocab-based |  |  |
-| rx_chemo | [rx_chemo](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_chemo.csv) | Chemotherapy drugs | NDC, RxNorm, RxNorm Extension | [rx_chemo.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_chemo.sql) | 2023-01 | Levon Utidjian | vocab-based |  |  |
-| rx_ace_inhibitor_no_iv | [rx_ace_inhibitor_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ace_inhibitor_no_iv.csv) | A subset of [rx_ace_inhibitor](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ace_inhibitor.csv) with all IV and injectable drugs removed | NDC, RxNorm, RxNorm Extension |  | 2024-05 | Kaleigh Wieand | vocab-based |  |  |
-| rx_arb_no_iv | [rx_arb_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_arb_no_iv.csv) | A subset of [rx_arb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_arb.csv) with all IV and injectable drugs removed | NDC, RxNorm, RxNorm Extension |  | 2024-05 | Kaleigh Wieand | vocab-based |  |  |
-| rx_bb_no_iv | [rx_bb_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_bb_no_iv.csv) | A subset of [rx_bb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_bb.csv) with all IV and injectable drugs removed | NDC, RxNorm, RxNorm Extension |  | 2024-05 | Kaleigh Wieand | vocab-based |  |  |
-| rx_ccb_no_iv | [rx_ccb_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ccb_no_iv.csv) | A subset of [rx_ccb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ccb.csv) with all IV and injectable drugs removed | NDC, RxNorm, RxNorm Extension |  | 2024-05 | Kaleigh Wieand | vocab-based |  |  |
-| rx_thiazide_no_iv | [rx_thiazide_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_thiazide_no_iv.csv) | A subset of [rx_thiazide](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_thiazide.csv) with all IV and injectable drugs removed | NDC, RxNorm, RxNorm Extension |  | 2024-05 | Kaleigh Wieand | vocab-based |  |  |
+| rx_ace_inhibitor       | [rx_ace_inhibitor](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ace_inhibitor.csv)             | Medication codeset for the following ingredients: Benazepril, Captopril, Enalapril, Fosinopril, Lisinopril, Moexipril, Periondopril, Quinapril,Ramipril, Trandolapril                                                                                      | NDC, RxNorm, RxNorm Extension | [rx_ace_inhibitor.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_ace_inhibitor.sql)         | 2021-11        | Levon Utidjian      | vocab-based |                | combos included |
+| rx_arb                 | [rx_arb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_arb.csv)                                 | Medication codeset for the following ingredients: Azilsartan, Candesartan,Eprosartan,Irbesartan,Losartan,Olmesartan,Telmisartan, Valsartan                                                                                                                 | NDC, RxNorm, RxNorm Extension | [rx_arb.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_arb.sql)                             | 2021-11        | Levon Utidjian      | vocab-based |                | combos included |
+| rx_bb                  | [rx_bb](drug/https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/rx_bb.csv)                                   | Medication codeset for the following ingredients:, Acebutolol, Atenolol, Betaxolol,Bisoprolol, Carteolol, Carvediol, Labetalol, Metoprolol, Nadolol, Nebivolol, Penbutolol, Pindolol, Propanolol, Sotalol, Timolol                                         | NDC, RxNorm, RxNorm Extension | [rx_bb.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_bb.sql)                               | 2021-11        | Levon Utidjian      | vocab-based |                | combos included |
+| rx_ccb                 | [rx_ccb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ccb.csv)                                 | Medication codeset for the following ingredients: Amlodipine, Diltiazem, Felodipine, Isradipine, Nicardipine, Nifedipine, Nisoldipine ,Verapamil                                                                                                           | NDC, RxNorm, RxNorm Extension | [rx_ccb.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_ccb.sql)                             | 2021-11        | Levon Utidjian      | vocab-based |                | combos included |
+| rx_loop_diuretic       | [rx_loop_diuretic](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_loop_diuretic.csv)             | Medication codeset for the following ingredients: Furosemide, Bumetanide, Ethacrynic acid, Torsemide                                                                                                                                                       | NDC, RxNorm, RxNorm Extension | [rx_loop_diuretic.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_loop_diuretic.sql)         | 2021-11        | Levon Utidjian      | vocab-based |                | combos included |
+| rx_thiazide            | [rx_thiazide](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_thiazide.csv)                       | Medication codeset for the following ingredients: Chlorothiazide, Chlorthalidone, Hydrochlorothiazide, Indapamide, Metolazone                                                                                                                              | NDC, RxNorm, RxNorm Extension | [rx_thiazide.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_thiazide.sql)                   | 2021-11        | Levon Utidjian      | vocab-based |                | combos included |
+| rx_anesthesia          | [rx_anesthesia](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_anesthesia.csv)                   | General anesthesia: Propofol (intravenous), Etomidate (intravenous), Ketamine (intravenous), Midazolam (intravenous), Fentanyl (intravenous), Nitrous oxide (inhaled), Sevoflurane (inhaled), Desflurane (inhaled), Isoflurane (inhaled)                   | RxNorm, RxNorm Extension      | [rx_anesthesia.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_anesthesia.sql)               | 2022-02        | Kimberley Dickinson | vocab-based |                |                 |
+| rx_fludrocortisone     | [rx_fludrocortisone](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_fludrocortisone.csv)         | Oral fludrocortisone                                                                                                                                                                                                                                       | RxNorm, RxNorm Extension      |                                                                                                                                                        | 2022-02        | Kimberley Dickinson | vocab-based |                |                 |
+| rx_deflazacort         | [rx_deflazacort](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_deflazacort.csv)                 | Oral deflazacort                                                                                                                                                                                                                                           | RxNorm, RxNorm Extension      |                                                                                                                                                        | 2022-02        | Kimberley Dickinson | vocab-based |                |                 |
+| rx_nephrotoxic_chemo   | [rx_nephrotoxic_chemo](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_nephrotoxic_chemo.csv)     | All RxNorm and NDC descendants of ATC classes for nephrotoxic chemotherapies listed in [Nicolaysen 2020](https://doi.org/10.1053/j.ackd.2019.08.005) and in addition cabroplatin, melphalan, carmustine, lomustine, and azacitidine per Charles Bailey, MD | NDC, RxNorm, RxNorm Extension | [rx_nephrotoxic_chemo.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_nephrotoxic_chemo.sql) | 2022-11        | Amy Goodwin Davies  | vocab-based |                |                 |
+| rx_antineoplastics     | [rx_antineoplastics](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_antineoplastics.csv)         | All RxNorm and NDC descendants of ATC classes for antineoplastics                                                                                                                                                                                          | NDC, RxNorm, RxNorm Extension | [rx_antineoplastics.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_antineoplastics.sql)     | 2022-12        | Kaleigh Wieand      | vocab-based |                |                 |
+| rx_chemo               | [rx_chemo](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_chemo.csv)                             | Chemotherapy drugs                                                                                                                                                                                                                                         | NDC, RxNorm, RxNorm Extension | [rx_chemo.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/rx_chemo.sql)                         | 2023-01        | Levon Utidjian      | vocab-based |                |                 |
+| rx_ace_inhibitor_no_iv | [rx_ace_inhibitor_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ace_inhibitor_no_iv.csv) | A subset of [rx_ace_inhibitor](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ace_inhibitor.csv) with all IV and injectable drugs removed                                                                   | NDC, RxNorm, RxNorm Extension |                                                                                                                                                        | 2024-05        | Kaleigh Wieand      | vocab-based |                |                 |
+| rx_arb_no_iv           | [rx_arb_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_arb_no_iv.csv)                     | A subset of [rx_arb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_arb.csv) with all IV and injectable drugs removed                                                                                       | NDC, RxNorm, RxNorm Extension |                                                                                                                                                        | 2024-05        | Kaleigh Wieand      | vocab-based |                |                 |
+| rx_bb_no_iv            | [rx_bb_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_bb_no_iv.csv)                       | A subset of [rx_bb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_bb.csv) with all IV and injectable drugs removed                                                                                         | NDC, RxNorm, RxNorm Extension |                                                                                                                                                        | 2024-05        | Kaleigh Wieand      | vocab-based |                |                 |
+| rx_ccb_no_iv           | [rx_ccb_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ccb_no_iv.csv)                     | A subset of [rx_ccb](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_ccb.csv) with all IV and injectable drugs removed                                                                                       | NDC, RxNorm, RxNorm Extension |                                                                                                                                                        | 2024-05        | Kaleigh Wieand      | vocab-based |                |                 |
+| rx_thiazide_no_iv      | [rx_thiazide_no_iv](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_thiazide_no_iv.csv)           | A subset of [rx_thiazide](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/drug/rx_thiazide.csv) with all IV and injectable drugs removed                                                                             | NDC, RxNorm, RxNorm Extension |                                                                                                                                                        | 2024-05        | Kaleigh Wieand      | vocab-based |                |                 |
 
 ## Measurement
 
@@ -608,47 +616,51 @@ Codesets and valuesets:
 
 Codeset structure:
 
++------------+--------------+--------------+---------------+-----------------------+
 | concept_id | concept_code | concept_name | vocabulary_id | pcornet_vocabulary_id |
-|------------|--------------|--------------|---------------|-----------------------|
++============+==============+==============+===============+=======================+
 |            |              |              |               |                       |
++------------+--------------+--------------+---------------+-----------------------+
 
 where `pcornet_vocabulary_id` should always be LC for LOINC
 
 For fields, use the following fields from the PCORNET CDM specifications:
 
++------------+------------+-----------------+---------------+-------------+------------------+-----------------+----------+------------------+
 | TABLE_NAME | FIELD_NAME | RDBMS_DATA_TYPE | SAS_DATA_TYPE | DATA_FORMAT | REPLICATED_FIELD | UNIT_OF_MEASURE | VALUESET | FIELD_DEFINITION |
-|------------|------------|-----------------|---------------|-------------|------------------|-----------------|----------|------------------|
++============+============+=================+===============+=============+==================+=================+==========+==================+
 |            |            |                 |               |             |                  |                 |          |                  |
++------------+------------+-----------------+---------------+-------------+------------------+-----------------+----------+------------------+
 
 Codesets and valuesets:
 
-| Name | Codeset link | Description | Vocabularies | SQL link | Date developed | Developer | Status | Date finalized | Other |
+| Name                             | Codeset link                                                                                                                                                 | Description                                                         | Vocabularies        | SQL link                                                                                                                                                       | Date developed | Developer          | Status      | Date finalized | Other                                                                                                 |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Height (field) | [anthro_ht_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/anthro_ht_field.csv) | Field of VITAL table | NA | NA | NA | NA | vocab-based |  |  |
-| Weight (field) | [anthro_wt_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/anthro_wt_field.csv) | Field of VITAL table | NA | NA | NA | NA | vocab-based |  |  |
-| Original BMI (field) | [anthro_original_bmi_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/anthro_original_bmi_field.csv) | Field of VITAL table | NA | NA | NA | NA | vocab-based |  |  |
-| Systolic Blood Pressure (field) | [vital_systolic_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/vital_systolic_field.csv) | Field of VITAL table | NA | NA | NA | NA | vocab-based |  |  |
-| Diastolic Blood Pressure (field) | [vital_diastolic_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/vital_diastolic_field.csv) | Field of VITAL table | NA | NA | NA | NA | vocab-based |  |  |
-| Serum creatinine | [lab_serum_creatinine](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_creatinine.csv) | Serum creatinine measurements | LOINC | [lab_serum_creatinine.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_creatinine.sql) | 2021-10 | Levon Utidjian | vocab-based |  |  |
-| Serum cystatin | [lab_serum_cystatin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_cystatin.csv) | Serum cystatin measurements | LOINC | [lab_serum_cystatin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_cystatin.sql) | 2021-11 | Levon Utidjian | vocab-based |  |  |
-| Urine creatinine | [lab_urine_creatinine](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_creatinine.csv) | Urine creatinine measurements | LOINC | [lab_urine_creatinine.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_creatinine.sql) | 2021-11 | Levon Utidjian | vocab-based |  |  |
-| Urine protein (qualitative) | [lab_urine_protein_qual](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_protein_qual.csv) | Urine protein qualitative | LOINC | [lab_urine_protein_qual.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_protein_qual.sql) | 2021-11 | Levon Utidjian | vocab-based |  |  |
-| Urine protein (quantitative) | [lab_urine_protein_quant](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_protein_quant.csv) | Urine protein quantitative | LOINC | [lab_urine_protein_quant.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_protein_quant.sql) | 2021-11 | Levon Utidjian | vocab-based |  |  |
-| lab_serum_hemoglobin | [lab_serum_hemoglobin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_hemoglobin.csv) | Serum hemoglobin measurements | LOINC | [lab_serum_hemoglobin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_hemoglobin.sql) | 2022-03 | Levon Utidjian | vocab-based |  |  |
-| lab_serum_potassium | [lab_serum_potassium](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_potassium.csv) | Serum potassium measurements | LOINC | [serum_potassium.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/serum_potassium.sql) | 2022-03 | Levon Utidjian | vocab-based |  |  |
-| lab_serum_wbc | [lab_serum_wbc](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_wbc.csv) | Serum white blood cell count measurments | LOINC | [lab_serum_wbc.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_wbc.sql) | 2022-03 | Levon Utidjian | vocab-based |  |  |
-| lab_alanine_transaminase | [lab_alanine_transaminase](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_alanine_transaminase.csv) | Alanine transaminase measurments | LOINC | [lab_alanine_transaminase.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_alanine_transaminase.sql) | 2022-03 | Levon Utidjian | vocab-based |  |  |
-| lab_serum_bicarbonate | [lab_serum_bicarbonate](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_bicarbonate.csv) | Serum bicarbonate measurments | LOINC | [lab_serum_bicarbonate.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_bicarbonate.sql) | 2022-04 | Levon Utidjian | vocab-based |  |  |
-| bp_method | [bp_method](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_method.csv) | Blood pressure methods | LOINC, CPT4, SNOMED | [bp_method.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/bp_method.sql) | 2023-01 | Levon Utidjian | vocab-based |  | Further exploration is required to determine whether and where in the PCORnet CDM this codes are used |
-| meas_birth_weight | [meas_birth_weight](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/meas_birth_weight.csv) | Blood pressure methods | LOINC | [meas_birth_weight.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/meas_birth_weight.sql) | 2023-08 | Amy Goodwin Davies | vocab-based |  | Requested LOINC code for ETL for project |
-| meas_gestational_age | [meas_gestational_age](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/meas_gestational_age.csv) | Blood pressure methods | LOINC | [meas_gestational_age.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/meas_gestational_age.sql) | 2023-08 | Amy Goodwin Davies | vocab-based |  | Requested LOINC code for ETL for project |
-| lab_urine_albumin | [lab_urine_albumin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_albumin.csv) | Urine albumin measurements (preliminary) | LOINC | [lab_urine_albumin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_albumin.sql) | 2024-01 | Amy Goodwin Davies | vocab-based |  | Preliminary urine albumin codeset |
-| lab_uacr | [lab_uacr](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_uacr.csv) | Urine-albumin-to-creatinine ratio (UACR) measurements (preliminary) | LOINC | [lab_urine_albumin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_albumin.sql) | 2024-01 | Amy Goodwin Davies | vocab-based |  | Preliminary Urine-albumin-to-creatinine ratio (UACR) codeset |
-| bp_diastolic_pedsnet | [bp_diastolic_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_diastolic_pedsnet.csv) | Diastolic blood pressure concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
-| bp_systolic_pedsnet | [bp_systolic_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_systolic_pedsnet.csv) | Systolic blood pressure concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
-| height_pedsnet | [height_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/height_pedsnet.csv) | Height concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
-| weight_pedsnet | [weight_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/weight_pedsnet.csv) | Weight concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
-| original_bmi_pedsnet | [original_bmi_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/original_bmi_pedsnet.csv) | BMI concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
+| Height (field)                   | [anthro_ht_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/anthro_ht_field.csv)                     | Field of VITAL table                                                | NA                  | NA                                                                                                                                                             | NA             | NA                 | vocab-based |                |                                                                                                       |
+| Weight (field)                   | [anthro_wt_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/anthro_wt_field.csv)                     | Field of VITAL table                                                | NA                  | NA                                                                                                                                                             | NA             | NA                 | vocab-based |                |                                                                                                       |
+| Original BMI (field)             | [anthro_original_bmi_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/anthro_original_bmi_field.csv) | Field of VITAL table                                                | NA                  | NA                                                                                                                                                             | NA             | NA                 | vocab-based |                |                                                                                                       |
+| Systolic Blood Pressure (field)  | [vital_systolic_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/vital_systolic_field.csv)           | Field of VITAL table                                                | NA                  | NA                                                                                                                                                             | NA             | NA                 | vocab-based |                |                                                                                                       |
+| Diastolic Blood Pressure (field) | [vital_diastolic_field](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/vital_diastolic_field.csv)         | Field of VITAL table                                                | NA                  | NA                                                                                                                                                             | NA             | NA                 | vocab-based |                |                                                                                                       |
+| Serum creatinine                 | [lab_serum_creatinine](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_creatinine.csv)           | Serum creatinine measurements                                       | LOINC               | [lab_serum_creatinine.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_creatinine.sql)         | 2021-10        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| Serum cystatin                   | [lab_serum_cystatin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_cystatin.csv)               | Serum cystatin measurements                                         | LOINC               | [lab_serum_cystatin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_cystatin.sql)             | 2021-11        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| Urine creatinine                 | [lab_urine_creatinine](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_creatinine.csv)           | Urine creatinine measurements                                       | LOINC               | [lab_urine_creatinine.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_creatinine.sql)         | 2021-11        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| Urine protein (qualitative)      | [lab_urine_protein_qual](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_protein_qual.csv)       | Urine protein qualitative                                           | LOINC               | [lab_urine_protein_qual.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_protein_qual.sql)     | 2021-11        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| Urine protein (quantitative)     | [lab_urine_protein_quant](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_protein_quant.csv)     | Urine protein quantitative                                          | LOINC               | [lab_urine_protein_quant.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_protein_quant.sql)   | 2021-11        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| lab_serum_hemoglobin             | [lab_serum_hemoglobin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_hemoglobin.csv)           | Serum hemoglobin measurements                                       | LOINC               | [lab_serum_hemoglobin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_hemoglobin.sql)         | 2022-03        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| lab_serum_potassium              | [lab_serum_potassium](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_potassium.csv)             | Serum potassium measurements                                        | LOINC               | [serum_potassium.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/serum_potassium.sql)                   | 2022-03        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| lab_serum_wbc                    | [lab_serum_wbc](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_wbc.csv)                         | Serum white blood cell count measurments                            | LOINC               | [lab_serum_wbc.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_wbc.sql)                       | 2022-03        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| lab_alanine_transaminase         | [lab_alanine_transaminase](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_alanine_transaminase.csv)   | Alanine transaminase measurments                                    | LOINC               | [lab_alanine_transaminase.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_alanine_transaminase.sql) | 2022-03        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| lab_serum_bicarbonate            | [lab_serum_bicarbonate](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_serum_bicarbonate.csv)         | Serum bicarbonate measurments                                       | LOINC               | [lab_serum_bicarbonate.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_serum_bicarbonate.sql)       | 2022-04        | Levon Utidjian     | vocab-based |                |                                                                                                       |
+| bp_method                        | [bp_method](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_method.csv)                                 | Blood pressure methods                                              | LOINC, CPT4, SNOMED | [bp_method.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/bp_method.sql)                               | 2023-01        | Levon Utidjian     | vocab-based |                | Further exploration is required to determine whether and where in the PCORnet CDM this codes are used |
+| meas_birth_weight                | [meas_birth_weight](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/meas_birth_weight.csv)                 | Blood pressure methods                                              | LOINC               | [meas_birth_weight.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/meas_birth_weight.sql)               | 2023-08        | Amy Goodwin Davies | vocab-based |                | Requested LOINC code for ETL for project                                                              |
+| meas_gestational_age             | [meas_gestational_age](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/meas_gestational_age.csv)           | Blood pressure methods                                              | LOINC               | [meas_gestational_age.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/meas_gestational_age.sql)         | 2023-08        | Amy Goodwin Davies | vocab-based |                | Requested LOINC code for ETL for project                                                              |
+| lab_urine_albumin                | [lab_urine_albumin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_albumin.csv)                 | Urine albumin measurements (preliminary)                            | LOINC               | [lab_urine_albumin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_albumin.sql)               | 2024-01        | Amy Goodwin Davies | vocab-based |                | Preliminary urine albumin codeset                                                                     |
+| lab_uacr                         | [lab_uacr](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_uacr.csv)                                   | Urine-albumin-to-creatinine ratio (UACR) measurements (preliminary) | LOINC               | [lab_urine_albumin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_albumin.sql)               | 2024-01        | Amy Goodwin Davies | vocab-based |                | Preliminary Urine-albumin-to-creatinine ratio (UACR) codeset                                          |
+| bp_diastolic_pedsnet             | [bp_diastolic_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_diastolic_pedsnet.csv)           | Diastolic blood pressure concepts from PEDSnet CDM                  | LOINC               |                                                                                                                                                                | 2024-10        | Amy Goodwin Davies | vocab-based |                |                                                                                                       |
+| bp_systolic_pedsnet              | [bp_systolic_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_systolic_pedsnet.csv)             | Systolic blood pressure concepts from PEDSnet CDM                   | LOINC               |                                                                                                                                                                | 2024-10        | Amy Goodwin Davies | vocab-based |                |                                                                                                       |
+| height_pedsnet                   | [height_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/height_pedsnet.csv)                       | Height concepts from PEDSnet CDM                                    | LOINC               |                                                                                                                                                                | 2024-10        | Amy Goodwin Davies | vocab-based |                |                                                                                                       |
+| weight_pedsnet                   | [weight_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/weight_pedsnet.csv)                       | Weight concepts from PEDSnet CDM                                    | LOINC               |                                                                                                                                                                | 2024-10        | Amy Goodwin Davies | vocab-based |                |                                                                                                       |
+| original_bmi_pedsnet             | [original_bmi_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/original_bmi_pedsnet.csv)           | BMI concepts from PEDSnet CDM                                       | LOINC               |                                                                                                                                                                | 2024-10        | Amy Goodwin Davies | vocab-based |                |                                                                                                       |
 
 ## Procedure
 
@@ -672,34 +684,44 @@ Codesets and valuesets:
 
 Codeset structure:
 
++------------+--------------+--------------+---------------+-----------------------+---------------------------------------------------------------+
 | concept_id | concept_code | concept_name | vocabulary_id | pcornet_vocabulary_id | cc_decimal_removal                                            |
-|------------|--------------|--------------|---------------|-----------------------|---------------------------------------------------------------|
++============+==============+==============+===============+=======================+===============================================================+
 |            |              |              |               |                       | flag for whether decimal has been removed from `concept_code` |
++------------+--------------+--------------+---------------+-----------------------+---------------------------------------------------------------+
 
 where `pcornet_vocabulary_id` is an acceptable value according to supported vocabularies in the `VALUESET_ITEM` column below (please note leading zero for "09"):
 
++---------------+---------------------------------------+--------------------------+
 | FIELD_NAME    | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
-|---------------|---------------------------------------|--------------------------|
++===============+=======================================+==========================+
 | PX_TYPE       | 09                                    | 09 - ICD-9-CM            |
++---------------+---------------------------------------+--------------------------+
 | PX_TYPE       | 10                                    | 10 - ICD-10-PCS          |
++---------------+---------------------------------------+--------------------------+
 | PX_TYPE       | 11                                    | 11 - ICD-11-PCS          |
++---------------+---------------------------------------+--------------------------+
 | PX_TYPE       | CH                                    | CH - CPT or HCPCS        |
++---------------+---------------------------------------+--------------------------+
 | PX_TYPE       | LC                                    | LC - LOINC               |
++---------------+---------------------------------------+--------------------------+
 | PX_TYPE       | ND                                    | ND - NDC                 |
++---------------+---------------------------------------+--------------------------+
 | PX_TYPE       | RE                                    | RE - Revenue             |
++---------------+---------------------------------------+--------------------------+
 
 Codesets and valuesets:
 
-| Name | Codeset link | Description | Vocabularies | SQL link | Date developed | Developer | Status | Date finalized | Other |
+| Name                            | Codeset link                                                                                                                                                           | Description                                                                                                                                                 | Vocabularies                                        | SQL link                                                                                                                                               | Date developed | Developer                                                    | Status                     | Date finalized | Other                                                                                                                                                                                                                                                                                                                                                                                |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| px_kidney_transplant | [px_kidney_transplant](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_transplant.csv) | Kidney transplant procedure codes | CPT4, HCPCS, ICD10PCS, ICD9Proc, SNOMED | [px_kidney_transplant.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_kidney_transplant.sql) | 2021-11 | Levon Utidjian | vocab-based |  | ICD codes are included with and without decimal points, indicated by `cc_decimal_removal`, indicated by `cc_decimal_removal` |
-| px_kidney_dialysis | [px_kidney_dialysis](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_dialysis.csv) | Kidney dialysis procedure codes.Broader, more sensitive codeset (compared to px_chronic_dialysis) | CPT4, HCPCS, ICD10PCS, ICD9Proc, SNOMED | [px_kidney_dialysis.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_kidney_dialysis.sql) | 2021-11 | Levon Utidjian | vocab-based |  | ICD codes are included with and without decimal points, indicated by `cc_decimal_removal`, indicated by `cc_decimal_removal` |
-| px_chronic_dialysis | [px_chronic_dialysis](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_chronic_dialysis.csv) | ESRD kidney dialysis CPT procedure codes identified by CRO WG. Narrower, more specific codeset (compared to px_kidney_dialysis) | CPT4 |  | 2022-06 | CRO WG | clinician-reviewed |  |  |
-| px_abpm | [px_abpm](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_abpm.csv) | CPT4 Procedures codes for "ambulatory blood pressure monitoring, utilizing report-generating software, automated, worn continuously for 24 hours or longer" | CPT4 | [px_abpm.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_abpm.sql) | 2022-06 | Amy Goodwin Davies / Levon Utidjian | Provided by ABPM workgroup |  |  |
-| px_kidney_biopsy | [px_kidney_biopsy](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_biopsy.csv) | Kidney biopsy procedure codes | CPT4, HCPCS, ICD9Proc, ICD10PCS, SNOMED | [px_kidney_biopsy.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_kidney_biopsy.sql) | 2023-04 | Levon Utidjian | vocab-based |  | Limited excision/drainage/extraction to 'diagnostic' qualifiers since those are most appropriate for biopsy per CMS guidance. ICD codes are included with and without decimal points, indicated by `cc_decimal_removal`, indicated by `cc_decimal_removal` |
-| px_broad_chronic_dialysis_USRDS | [px_broad_chronic_dialysis_USRDS](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_broad_chronic_dialysis_USRDS.csv) | Optimized codeset for chronic &broad dialysis procedures used to validate USRDS data | CPT4, HCPCS, ICD9Proc, ICD10PCS, SNOMED |  | 2024 | Computable phenotype WG led by Zubin Modi & Michelle Denburg | clinician-reviewed |  | This codeset is neither more specific nor more sensitive in picking up chronic dialysis patients compared to px_kidney_dialysis codeset. However it has the most optimal performance in term of overall accuracy. Some codes might seem reduntdant with the same concept_id; however, they have different pcornet_vocabulary_id which is required to query all relevant data |
-| px_kidney_transplant_USRDS | [px_kidney_transplant_USRDS](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_transplant_USRDS.csv) | Optimized codeset for kidney transplant procedures used to validate USRDS data | CPT4, HCPCS, ICD9Proc, ICD9ProcCN, ICD10PCS, SNOMED |  | 2024 | Computable phenotype WG led by Zubin Modi & Michelle Denburg | clinician-reviewed |  | This codeset is neither more specific nor more sensitive in picking up kidney transplant patients compared to the px_kidney_transplant codeset. However it has the most optimal performance in term of overall accuracy. Some codes might seem reduntdant with the same concept_id; however, they have different pcornet_vocabulary_id which is required to query all relevant data. |
-| px_chronic_broad_dialysis | [px_chronic_broad_dialysis](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_chronic_broad_dialysis.csv) |  |  |  |  |  |  |  |  |
+| px_kidney_transplant            | [px_kidney_transplant](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_transplant.csv)                       | Kidney transplant procedure codes                                                                                                                           | CPT4, HCPCS, ICD10PCS, ICD9Proc, SNOMED             | [px_kidney_transplant.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_kidney_transplant.sql) | 2021-11        | Levon Utidjian                                               | vocab-based                |                | ICD codes are included with and without decimal points, indicated by `cc_decimal_removal`, indicated by `cc_decimal_removal`                                                                                                                                                                                                                                                         |
+| px_kidney_dialysis              | [px_kidney_dialysis](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_dialysis.csv)                           | Kidney dialysis procedure codes.Broader, more sensitive codeset (compared to px_chronic_dialysis)                                                           | CPT4, HCPCS, ICD10PCS, ICD9Proc, SNOMED             | [px_kidney_dialysis.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_kidney_dialysis.sql)     | 2021-11        | Levon Utidjian                                               | vocab-based                |                | ICD codes are included with and without decimal points, indicated by `cc_decimal_removal`, indicated by `cc_decimal_removal`                                                                                                                                                                                                                                                         |
+| px_chronic_dialysis             | [px_chronic_dialysis](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_chronic_dialysis.csv)                         | ESRD kidney dialysis CPT procedure codes identified by CRO WG. Narrower, more specific codeset (compared to px_kidney_dialysis)                             | CPT4                                                |                                                                                                                                                        | 2022-06        | CRO WG                                                       | clinician-reviewed         |                |                                                                                                                                                                                                                                                                                                                                                                                      |
+| px_abpm                         | [px_abpm](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_abpm.csv)                                                 | CPT4 Procedures codes for "ambulatory blood pressure monitoring, utilizing report-generating software, automated, worn continuously for 24 hours or longer" | CPT4                                                | [px_abpm.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_abpm.sql)                           | 2022-06        | Amy Goodwin Davies / Levon Utidjian                          | Provided by ABPM workgroup |                |                                                                                                                                                                                                                                                                                                                                                                                      |
+| px_kidney_biopsy                | [px_kidney_biopsy](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_biopsy.csv)                               | Kidney biopsy procedure codes                                                                                                                               | CPT4, HCPCS, ICD9Proc, ICD10PCS, SNOMED             | [px_kidney_biopsy.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/px_kidney_biopsy.sql)         | 2023-04        | Levon Utidjian                                               | vocab-based                |                | Limited excision/drainage/extraction to 'diagnostic' qualifiers since those are most appropriate for biopsy per CMS guidance. ICD codes are included with and without decimal points, indicated by `cc_decimal_removal`, indicated by `cc_decimal_removal`                                                                                                                           |
+| px_broad_chronic_dialysis_USRDS | [px_broad_chronic_dialysis_USRDS](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_broad_chronic_dialysis_USRDS.csv) | Optimized codeset for chronic &broad dialysis procedures used to validate USRDS data                                                                        | CPT4, HCPCS, ICD9Proc, ICD10PCS, SNOMED             |                                                                                                                                                        | 2024           | Computable phenotype WG led by Zubin Modi & Michelle Denburg | clinician-reviewed         |                | This codeset is neither more specific nor more sensitive in picking up chronic dialysis patients compared to px_kidney_dialysis codeset. However it has the most optimal performance in term of overall accuracy. Some codes might seem reduntdant with the same concept_id; however, they have different pcornet_vocabulary_id which is required to query all relevant data         |
+| px_kidney_transplant_USRDS      | [px_kidney_transplant_USRDS](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_kidney_transplant_USRDS.csv)           | Optimized codeset for kidney transplant procedures used to validate USRDS data                                                                              | CPT4, HCPCS, ICD9Proc, ICD9ProcCN, ICD10PCS, SNOMED |                                                                                                                                                        | 2024           | Computable phenotype WG led by Zubin Modi & Michelle Denburg | clinician-reviewed         |                | This codeset is neither more specific nor more sensitive in picking up kidney transplant patients compared to the px_kidney_transplant codeset. However it has the most optimal performance in term of overall accuracy. Some codes might seem reduntdant with the same concept_id; however, they have different pcornet_vocabulary_id which is required to query all relevant data. |
+| px_chronic_broad_dialysis       | [px_chronic_broad_dialysis](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/procedure/px_chronic_broad_dialysis.csv)             |                                                                                                                                                             |                                                     |                                                                                                                                                        |                |                                                              |                            |                |                                                                                                                                                                                                                                                                                                                                                                                      |
 
 ## Visit Related
 
@@ -717,27 +739,29 @@ Codeset structure:
 
 For valuesets, use the following fields from the PCORNET CDM
 
++-------------+-------------+---------------------------------------+--------------------------+
 | TABLE_NAME  | FIELD_NAME  | VALUESET_ITEM (pcornet_vocabulary_id) | VALUESET_ITEM_DESCRIPTOR |
-|-------------|-------------|---------------------------------------|--------------------------|
++=============+=============+=======================================+==========================+
 |             |             |                                       |                          |
++-------------+-------------+---------------------------------------+--------------------------+
 
 Codesets and valuesets:
 
-| Name | Codeset link | Description | Vocabularies | SQL link | Date developed | Developer | Status | Date finalized | Other |
+| Name                    | Codeset link                                                                                                                                             | Description                                      | Vocabularies      | SQL link | Date developed | Developer           | Status      | Date finalized                    | Other |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Nephrology provider | [nephrology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/nephrology_spec_prov.csv) | Nephrology provider | PCORNET Value Set |  | 2021-09 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Nephrology facility | [nephrology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/nephrology_spec_fac.csv) | Nephrology facility | PCORNET Value Set |  | 2022-11 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-11 |  |
-| Cardiology facility | [cardiology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/cardiology_spec_fac.csv) | Cardiology facility | PCORNET Value Set |  | 2021-09 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Cardiology provider | [cardiology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/cardiology_spec_prov.csv) | Cardiology provider | PCORNET Value Set |  | 2021-10 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Oncology facility | [oncology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/oncology_spec_fac.csv) | Oncology facility | PCORNET Value Set |  | 2021-10 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Oncology provider | [oncology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/oncology_spec_prov.csv) | Oncology provider | PCORNET Value Set |  | 2021-10 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Primary care facility | [primary_care_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/primary_care_spec_fac.csv) | Oncology facility | PCORNET Value Set |  | 2021-10 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Primary care provider | [primary_care_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/primary_care_spec_prov.csv) | Primary care provider | PCORNET Value Set |  | 2021-10 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Urology facility | [urology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/urology_spec_fac.csv) | Urology facility | PCORNET Value Set |  | 2021-10 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Urology provider | [urology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/urology_spec_prov.csv) | Urology provider | PCORNET Value Set |  | 2021-09 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Emergency Visits | [emergency_visits](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/emergency_visits.csv) | Emergency and Emergency-\>Inpatient Visits | PCORnet Value Set |  | 2021-09 | Kimberley Dickinson | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Outpatient Visits | [outpatient_visits](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/outpatient_visits.csv) | Outpatient Visits | PCORnet Value Set |  | 2021-09 | Kimberley Dickinson | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Inpatient Visits | [inpatient_visits](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/inpatient_visits.csv) | Inpatient and Emergency-\>Inpatient Visits | PCORnet Value Set |  | 2021-09 | Kimberley Dickinson | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Hematology facility | [hematology_spec_fac](visit/hematology_spec_fac.csv) | Hematology facility | PCORNET Value Set |  | 2023-08 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Hematology provider | [hematology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/hematology_spec_prov.csv) | Hematology provider | PCORNET Value Set |  | 2023-08 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.0 2021-04 |  |
-| Face-to-face encounters | [prs_face_to_face_enc_types](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/prs_face_to_face_enc_types.csv) | PRESERVE definition of "face to face" encounters | PCORNET Value Set |  | 2023-12 | Amy Goodwin Davies | vocab-based | based on PCORnet CDM v6.1 2023-04 |  |
+| Nephrology provider     | [nephrology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/nephrology_spec_prov.csv)             | Nephrology provider                              | PCORNET Value Set |          | 2021-09        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Nephrology facility     | [nephrology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/nephrology_spec_fac.csv)               | Nephrology facility                              | PCORNET Value Set |          | 2022-11        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-11 |       |
+| Cardiology facility     | [cardiology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/cardiology_spec_fac.csv)               | Cardiology facility                              | PCORNET Value Set |          | 2021-09        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Cardiology provider     | [cardiology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/cardiology_spec_prov.csv)             | Cardiology provider                              | PCORNET Value Set |          | 2021-10        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Oncology facility       | [oncology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/oncology_spec_fac.csv)                   | Oncology facility                                | PCORNET Value Set |          | 2021-10        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Oncology provider       | [oncology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/oncology_spec_prov.csv)                 | Oncology provider                                | PCORNET Value Set |          | 2021-10        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Primary care facility   | [primary_care_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/primary_care_spec_fac.csv)           | Oncology facility                                | PCORNET Value Set |          | 2021-10        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Primary care provider   | [primary_care_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/primary_care_spec_prov.csv)         | Primary care provider                            | PCORNET Value Set |          | 2021-10        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Urology facility        | [urology_spec_fac](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/urology_spec_fac.csv)                     | Urology facility                                 | PCORNET Value Set |          | 2021-10        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Urology provider        | [urology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/urology_spec_prov.csv)                   | Urology provider                                 | PCORNET Value Set |          | 2021-09        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Emergency Visits        | [emergency_visits](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/emergency_visits.csv)                     | Emergency and Emergency-\>Inpatient Visits       | PCORnet Value Set |          | 2021-09        | Kimberley Dickinson | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Outpatient Visits       | [outpatient_visits](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/outpatient_visits.csv)                   | Outpatient Visits                                | PCORnet Value Set |          | 2021-09        | Kimberley Dickinson | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Inpatient Visits        | [inpatient_visits](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/inpatient_visits.csv)                     | Inpatient and Emergency-\>Inpatient Visits       | PCORnet Value Set |          | 2021-09        | Kimberley Dickinson | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Hematology facility     | [hematology_spec_fac](visit/hematology_spec_fac.csv)                                                                                                     | Hematology facility                              | PCORNET Value Set |          | 2023-08        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Hematology provider     | [hematology_spec_prov](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/hematology_spec_prov.csv)             | Hematology provider                              | PCORNET Value Set |          | 2023-08        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.0 2021-04 |       |
+| Face-to-face encounters | [prs_face_to_face_enc_types](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/visit/prs_face_to_face_enc_types.csv) | PRESERVE definition of "face to face" encounters | PCORNET Value Set |          | 2023-12        | Amy Goodwin Davies  | vocab-based | based on PCORnet CDM v6.1 2023-04 |       |
