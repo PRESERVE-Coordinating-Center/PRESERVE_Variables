@@ -474,19 +474,6 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class="odd">
-<td><p>dx_renal_related</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_related.csv">dx_renal_related</a></p></td>
-<td><p>Renal-related diagnoses</p></td>
-<td><p>ICD10CM</p></td>
-<td></td>
-<td><p>2024</p></td>
-<td><p>Pediatric nephrologist team including Zubin Modi &amp; Michelle Denburg collaborating with USRDS/NIH</p></td>
-<td><p>clinician-reviewed</p></td>
-<td></td>
-<td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p>
-<p>This codeset was shared with the PRESERVE study team in <a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_related_original.xlsx">xlsx format</a> by Zubin Modi 2024-04-25</p></td>
-</tr>
 <tr class-"even">
 <td><p>ckd_dx_usrds</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/ckd_dx_usrds.csv">ckd_dx_usrds</a></p></td>
