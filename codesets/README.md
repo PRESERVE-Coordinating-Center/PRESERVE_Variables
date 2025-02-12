@@ -366,30 +366,6 @@ Codesets and valuesets:
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
 <tr class-"even">
-<td><p>dx_pregnancy</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy.csv">dx_pregnancy</a></p></td>
-<td><p>Diagnoses for pregnancy</p></td>
-<td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pregnancy.sql">dx_pregnancy.sql</a></p></td>
-<td><p>2023-10</p></td>
-<td><p>Levon Utidjian</p></td>
-<td><p>vocab-based</p></td>
-<td></td>
-<td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
-</tr>
-<tr class="odd">
-<td><p>dx_pregnancy_icd_w_decimal</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_icd_w_decimal.csv">dx_pregnancy_icd_w_decimal</a></p></td>
-<td><p>Diagnoses for pregnancy, restricted to ICD9CM/ICD10CM/ICD10 and without decimal removal</p></td>
-<td><p>ICD10CM, ICD10, ICD9CM</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/r_scripts/dx_pregnancy_icd_w_decimal.R">dx_pregnancy_icd_w_decimal.R</a></p></td>
-<td><p>2024-02</p></td>
-<td><p>Levon Utidjian / Amy Goodwin Davies</p></td>
-<td><p>vocab-based</p></td>
-<td></td>
-<td></td>
-</tr>
-<tr class-"even">
 <td><p>dx_dizziness</p></td>
 <td><p><a href="condition/dx_dizziness.csv">dx_dizziness</a></p></td>
 <td><p>Diagnoses for dizziness</p></td>
@@ -439,8 +415,8 @@ Codesets and valuesets:
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
 <tr class-"even">
-<td><p>dx_pregnancy_cer</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_cer.csv">dx_pregnancy_cer</a></p></td>
+<td><p>dx_pregnancy</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy.csv">dx_pregnancy_cer</a></p></td>
 <td><p>Diagnoses indicating pregnancy, developed within the CER work</p></td>
 <td><p>ICD9CM, ICD10, ICD10CM</p></td>
 <td></td>
