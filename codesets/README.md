@@ -416,7 +416,7 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_pregnancy</p></td>
-<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy.csv">dx_pregnancy_cer</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy.csv">dx_pregnancy</a></p></td>
 <td><p>Diagnoses indicating pregnancy, developed within the CER work</p></td>
 <td><p>ICD9CM, ICD10, ICD10CM</p></td>
 <td></td>
