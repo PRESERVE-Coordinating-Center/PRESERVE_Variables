@@ -65,12 +65,12 @@ Codesets and valuesets:
 </tr>
 </thead>
 <tbody>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_ckd_stage23</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_ckd_stage23.csv">dx_ckd_stage23</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_ckd_stage23.csv">dx_ckd_stage23</a></p></td>
 <td><p>Diagnoses for chronic kidney disease stages 2 and 3</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_ckd_stage23.sql">dx_ckd_stage23.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_ckd_stage23.sql">dx_ckd_stage23.sql</a></p></td>
 <td><p>2021-11</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -79,22 +79,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_kidney_transplant</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_kidney_transplant.csv">dx_kidney_transplant</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_kidney_transplant.csv">dx_kidney_transplant</a></p></td>
 <td><p>Kidney transplant diagnosis codes</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_kidney_transplant.sql">dx_kidney_transplant.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_kidney_transplant.sql">dx_kidney_transplant.sql</a></p></td>
 <td><p>2021-11</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_kidney_dialysis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_kidney_dialysis.csv">dx_kidney_dialysis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_kidney_dialysis.csv">dx_kidney_dialysis</a></p></td>
 <td><p>Kidney dialysis diagnosis codes</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_kidney_dialysis.sql">dx_kidney_dialysis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_kidney_dialysis.sql">dx_kidney_dialysis.sql</a></p></td>
 <td><p>2021-11</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -103,7 +103,7 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_hypertension</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension.csv">dx_hypertension</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension.csv">dx_hypertension</a></p></td>
 <td><p>Hypertension diagnosis codes</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
 <td></td>
@@ -113,12 +113,12 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_asthma</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_asthma.csv">dx_asthma</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_asthma.csv">dx_asthma</a></p></td>
 <td><p>Asthma diagnosis codes</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_asthma.sql">dx_asthma.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_asthma.sql">dx_asthma.sql</a></p></td>
 <td><p>2022-03</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -127,22 +127,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_pericarditis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pericarditis.csv">dx_pericarditis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pericarditis.csv">dx_pericarditis</a></p></td>
 <td><p>Pericarditis diagnosis codes</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pericarditis.sql">dx_pericarditis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pericarditis.sql">dx_pericarditis.sql</a></p></td>
 <td><p>2022-03</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_ckd_allstages</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_ckd_allstages.csv">dx_ckd_allstages</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_ckd_allstages.csv">dx_ckd_allstages</a></p></td>
 <td><p>Diagnoses for all chronic kidney disease stages</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_ckd_allstages.sql">dx_ckd_allstages.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_ckd_allstages.sql">dx_ckd_allstages.sql</a></p></td>
 <td><p>2022-03</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -151,22 +151,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_nocturnal_enuresis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_nocturnal_enuresis.csv">dx_nocturnal_enuresis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_nocturnal_enuresis.csv">dx_nocturnal_enuresis</a></p></td>
 <td><p>Diagnoses for nocturnal enuresis</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_nocturnal_enuresis.sql">dx_nocturnal_enuresis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_nocturnal_enuresis.sql">dx_nocturnal_enuresis.sql</a></p></td>
 <td><p>2022-03</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_stomatitis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_stomatitis.csv">dx_stomatitis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_stomatitis.csv">dx_stomatitis</a></p></td>
 <td><p>Diagnoses for stomatitis</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_stomatitis.sql">dx_stomatitis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_stomatitis.sql">dx_stomatitis.sql</a></p></td>
 <td><p>2022-03</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -175,19 +175,19 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_glomerular_disease</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_disease.csv">dx_glomerular_disease</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_disease.csv">dx_glomerular_disease</a></p></td>
 <td><p>Diagnoses for glomerular disease</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_glomerular_disease.sql">dx_glomerular_disease.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_glomerular_disease.sql">dx_glomerular_disease.sql</a></p></td>
 <td><p>2022-06</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code>. This codeset requires further review.</p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_glomerular_snomed</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_snomed.csv">dx_glomerular_snomed</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_snomed.csv">dx_glomerular_snomed</a></p></td>
 <td><p>SNOMED-only diagnoses for glomerular disease, developed for the FSGS project</p></td>
 <td><p>SNOMED</p></td>
 <td><p>NA</p></td>
@@ -199,19 +199,19 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_cancer</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cancer.csv">dx_cancer</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cancer.csv">dx_cancer</a></p></td>
 <td><p>Diagnoses for cancer malignancy</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cancer.sql">dx_cancer.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cancer.sql">dx_cancer.sql</a></p></td>
 <td><p>2022-12</p></td>
 <td><p>Amy Goodwin Davies</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_hypertension_no_pregnancy</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension_no_pregnancy.csv">dx_hypertension_no_pregnancy</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension_no_pregnancy.csv">dx_hypertension_no_pregnancy</a></p></td>
 <td><p>Diagnoses for hypertension, excluding those related to pregnancy</p></td>
 <td><p>SNOMED</p></td>
 <td><p>NA</p></td>
@@ -219,26 +219,26 @@ Codesets and valuesets:
 <td><p>Hanieh Razzaghi</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
-<td><p>This codeset is a subset of <a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension.csv">dx_hypertension</a></p></td>
+<td><p>This codeset is a subset of <a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypertension.csv">dx_hypertension</a></p></td>
 </tr>
 <tr class-"even">
 <td><p>dx_cakut</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cakut.csv">dx_cakut</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cakut.csv">dx_cakut</a></p></td>
 <td><p>Diagnoses for congenital anomalies of the kidneys and urinary tracts CAKUT</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cakut.sql">dx_cakut.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cakut.sql">dx_cakut.sql</a></p></td>
 <td><p>2023-07</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_cough</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cough.csv">dx_cough</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cough.csv">dx_cough</a></p></td>
 <td><p>Diagnoses for cough</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cough.sql">dx_cough.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cough.sql">dx_cough.sql</a></p></td>
 <td><p>2023-08</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -247,22 +247,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_hypotension</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypotension.csv">dx_hypotension</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypotension.csv">dx_hypotension</a></p></td>
 <td><p>Diagnoses for hypotension</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_hypotension.sql">dx_hypotension.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_hypotension.sql">dx_hypotension.sql</a></p></td>
 <td><p>2022-04</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_pyelonephritis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pyelonephritis.csv">dx_pyelonephritis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pyelonephritis.csv">dx_pyelonephritis</a></p></td>
 <td><p>Diagnoses for pyelonephritis</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pyelonephritis.sql">dx_pyelonephritis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pyelonephritis.sql">dx_pyelonephritis.sql</a></p></td>
 <td><p>2022-04</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -271,22 +271,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_tonsillitis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_tonsillitis.csv">dx_tonsillitis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_tonsillitis.csv">dx_tonsillitis</a></p></td>
 <td><p>Diagnoses for tonsillitis</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_tonsillitis.sql">dx_tonsillitis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_tonsillitis.sql">dx_tonsillitis.sql</a></p></td>
 <td><p>2022-04</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_uti</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_uti.csv">dx_uti</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_uti.csv">dx_uti</a></p></td>
 <td><p>Diagnoses for urinary tract infection uti</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_uti.sql">dx_uti.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_uti.sql">dx_uti.sql</a></p></td>
 <td><p>2022-04</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -295,22 +295,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_edema</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_edema.csv">dx_edema</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_edema.csv">dx_edema</a></p></td>
 <td><p>Diagnoses for edema</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_edema.sql">dx_edema.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_edema.sql">dx_edema.sql</a></p></td>
 <td><p>2023-10</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_fatigue</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_fatigue.csv">dx_fatigue</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_fatigue.csv">dx_fatigue</a></p></td>
 <td><p>Diagnoses for fatigue</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_fatigue.sql">dx_fatigue.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_fatigue.sql">dx_fatigue.sql</a></p></td>
 <td><p>2023-10</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -319,22 +319,22 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_gi_symptoms</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_gi_symptoms.csv">dx_gi_symptoms</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_gi_symptoms.csv">dx_gi_symptoms</a></p></td>
 <td><p>Diagnoses for gastrointestinal gi symptoms</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_gi_symptoms.sql">dx_gi_symptoms.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_gi_symptoms.sql">dx_gi_symptoms.sql</a></p></td>
 <td><p>2023-10</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_hair_loss</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hair_loss.csv">dx_hair_loss</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hair_loss.csv">dx_hair_loss</a></p></td>
 <td><p>Diagnoses for hair loss</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_hair_loss.sql">dx_hair_loss.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_hair_loss.sql">dx_hair_loss.sql</a></p></td>
 <td><p>2023-10</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -343,68 +343,44 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_headache</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_headache.csv">dx_headache</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_headache.csv">dx_headache</a></p></td>
 <td><p>Diagnoses for headache</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_headache.sql">dx_headache.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_headache.sql">dx_headache.sql</a></p></td>
 <td><p>2023-10</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_respiratory_infections</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_respiratory_infections.csv">dx_respiratory_infections</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_respiratory_infections.csv">dx_respiratory_infections</a></p></td>
 <td><p>Diagnoses for respiratory_infections</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_respiratory_infections.sql">dx_respiratory_infections.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_respiratory_infections.sql">dx_respiratory_infections.sql</a></p></td>
 <td><p>2023-10</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
-</tr>
-<tr class-"even">
-<td><p>dx_pregnancy</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy.csv">dx_pregnancy</a></p></td>
-<td><p>Diagnoses for pregnancy</p></td>
-<td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pregnancy.sql">dx_pregnancy.sql</a></p></td>
-<td><p>2023-10</p></td>
-<td><p>Levon Utidjian</p></td>
-<td><p>vocab-based</p></td>
-<td></td>
-<td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
-</tr>
-<tr class-"odd">
-<td><p>dx_pregnancy_icd_w_decimal</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_icd_w_decimal.csv">dx_pregnancy_icd_w_decimal</a></p></td>
-<td><p>Diagnoses for pregnancy, restricted to ICD9CM/ICD10CM/ICD10 and without decimal removal</p></td>
-<td><p>ICD10CM, ICD10, ICD9CM</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/r_scripts/dx_pregnancy_icd_w_decimal.R">dx_pregnancy_icd_w_decimal.R</a></p></td>
-<td><p>2024-02</p></td>
-<td><p>Levon Utidjian / Amy Goodwin Davies</p></td>
-<td><p>vocab-based</p></td>
-<td></td>
-<td></td>
 </tr>
 <tr class-"even">
 <td><p>dx_dizziness</p></td>
-<td><p><a href-"condition/dx_dizziness.csv">dx_dizziness</a></p></td>
+<td><p><a href="condition/dx_dizziness.csv">dx_dizziness</a></p></td>
 <td><p>Diagnoses for dizziness</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_dizziness.sql">dx_dizziness.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_dizziness.sql">dx_dizziness.sql</a></p></td>
 <td><p>2024-04</p></td>
 <td><p>Hanieh Razzaghi, Amy Goodwin Davies</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_glomerular_icd</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_icd.csv">dx_glomerular_icd</a></p></td>
-<td><p>ICD-only diagnoses for glomerular disease, derived from <a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_disease.csv">dx_glomerular_disease</a> codeset</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_icd.csv">dx_glomerular_icd</a></p></td>
+<td><p>ICD-only diagnoses for glomerular disease, derived from <a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_disease.csv">dx_glomerular_disease</a> codeset</p></td>
 <td><p>ICD9CM, ICD10, ICD10CM</p></td>
 <td></td>
 <td><p>2024-01</p></td>
@@ -412,26 +388,26 @@ Codesets and valuesets:
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p>
-<p>Codeset category labels were determined either by mapping to the <a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_snomed.csv">dx_glomerular_snomed</a> codeset or by a manual review by Chris and Michelle to recommend an appropriate label.</p></td>
+<p>Codeset category labels were determined either by mapping to the <a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_glomerular_snomed.csv">dx_glomerular_snomed</a> codeset or by a manual review by Chris and Michelle to recommend an appropriate label.</p></td>
 </tr>
 <tr class-"even">
 <td><p>dx_cakut_only</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cakut_only.csv">dx_cakut_only</a></p></td>
-<td><p>Diagnoses for CAKUT. Differs from <a href-"dx_cakut.csv">dx_cakut</a>, which also includes diagnoses for polycystic kidney disease PKD</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_cakut_only.csv">dx_cakut_only</a></p></td>
+<td><p>Diagnoses for CAKUT. Differs from <a href="dx_cakut.csv">dx_cakut</a>, which also includes diagnoses for polycystic kidney disease PKD</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cakut_v2.sql">dx_cakut_v2.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_cakut_v2.sql">dx_cakut_v2.sql</a></p></td>
 <td><p>2024-01</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_pkd</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pkd.csv">dx_pkd</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pkd.csv">dx_pkd</a></p></td>
 <td><p>Diagnoses for Polycystic Kidney Disease PKD</p></td>
 <td><p>ICD10, ICD10CM, ICD9CM, SNOMED</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pkd.sql">dx_pkd.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_pkd.sql">dx_pkd.sql</a></p></td>
 <td><p>2024-01</p></td>
 <td><p>Levon Utidjian</p></td>
 <td><p>vocab-based</p></td>
@@ -439,8 +415,8 @@ Codesets and valuesets:
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
 <tr class-"even">
-<td><p>dx_pregnancy_forrest</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy_forrest.csv">dx_pregnancy_forrest</a></p></td>
+<td><p>dx_pregnancy</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pregnancy.csv">dx_pregnancy</a></p></td>
 <td><p>Diagnoses indicating pregnancy, developed within the CER work</p></td>
 <td><p>ICD9CM, ICD10, ICD10CM</p></td>
 <td></td>
@@ -450,12 +426,12 @@ Codesets and valuesets:
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
+<tr class="odd">
 <td><p>dx_renal_artery_stenosis</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_artery_stenosis.csv">dx_renal_artery_stenosis</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_artery_stenosis.csv">dx_renal_artery_stenosis</a></p></td>
 <td><p>Diagnoses indicating renal artery stenosis, developed within the CER work</p></td>
 <td><p>ICD9CM, ICD10CM</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_renal_artery_stenosis.sql">dx_renal_artery_stenosis.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_renal_artery_stenosis.sql">dx_renal_artery_stenosis.sql</a></p></td>
 <td><p>2024-04</p></td>
 <td><p>Chris Forrest</p></td>
 <td><p>clinician-reviewed</p></td>
@@ -464,32 +440,19 @@ Codesets and valuesets:
 </tr>
 <tr class-"even">
 <td><p>dx_el_bp</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_el_bp.csv">dx_el_bp</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_el_bp.csv">dx_el_bp</a></p></td>
 <td><p>Diagnoses for elevated blood pressure distinct from hypertension</p></td>
 <td><p>ICD9CM, ICD10CM</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_el_bp.sql">dx_el_bp.sql</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/dx_el_bp.sql">dx_el_bp.sql</a></p></td>
 <td><p>2024-04</p></td>
 <td><p>Amy Goodwin Davies</p></td>
 <td><p>vocab-based</p></td>
 <td></td>
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
-<tr class-"odd">
-<td><p>dx_renal_related</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_related.csv">dx_renal_related</a></p></td>
-<td><p>Renal-related diagnoses</p></td>
-<td><p>ICD10CM</p></td>
-<td></td>
-<td><p>2024</p></td>
-<td><p>Pediatric nephrologist team including Zubin Modi &amp; Michelle Denburg collaborating with USRDS/NIH</p></td>
-<td><p>clinician-reviewed</p></td>
-<td></td>
-<td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p>
-<p>This codeset was shared with the PRESERVE study team in <a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_renal_related_original.xlsx">xlsx format</a> by Zubin Modi 2024-04-25</p></td>
-</tr>
 <tr class-"even">
 <td><p>ckd_dx_usrds</p></td>
-<td><p><a href-"https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/ckd_dx_usrds.csv">ckd_dx_usrds</a></p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/ckd_dx_usrds.csv">ckd_dx_usrds</a></p></td>
 <td><p>CKD condition codes published by USRDS</p></td>
 <td><p>ICD10CM</p></td>
 <td></td>
@@ -497,7 +460,7 @@ Codesets and valuesets:
 <td><p>Computable phenotype WG led by Zubin Modi &amp; Michelle Denburg</p></td>
 <td><p>clinician-reviewed</p></td>
 <td></td>
-<td><p>Urologic and other conditions that were not accompanied or likely to be accompanied by kidney disease or dysfunction were removed from this list of CKD codes. Additionally, codes for cystic diseases, which have traditionally been part of CAKUT congenital anomalies of the kidney and urologic tract, were grouped into a dedicated disease category, thereby allowing us to show five, rather than four, causes of kidney disease in children. More information could be found <a href-"https://usrds-adr.niddk.nih.gov/2024/chronic-kidney-disease/5-kidney-disease-among-children-and-adolescents">here</a></p></td>
+<td><p>Urologic and other conditions that were not accompanied or likely to be accompanied by kidney disease or dysfunction were removed from this list of CKD codes. Additionally, codes for cystic diseases, which have traditionally been part of CAKUT congenital anomalies of the kidney and urologic tract, were grouped into a dedicated disease category, thereby allowing us to show five, rather than four, causes of kidney disease in children. More information could be found <a href="https://usrds-adr.niddk.nih.gov/2024/chronic-kidney-disease/5-kidney-disease-among-children-and-adolescents">here</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -642,8 +605,6 @@ Codesets and valuesets:
 | bp_method | [bp_method](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_method.csv) | Blood pressure methods | LOINC, CPT4, SNOMED | [bp_method.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/bp_method.sql) | 2023-01 | Levon Utidjian | vocab-based |  | Further exploration is required to determine whether and where in the PCORnet CDM this codes are used |
 | meas_birth_weight | [meas_birth_weight](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/meas_birth_weight.csv) | Blood pressure methods | LOINC | [meas_birth_weight.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/meas_birth_weight.sql) | 2023-08 | Amy Goodwin Davies | vocab-based |  | Requested LOINC code for ETL for project |
 | meas_gestational_age | [meas_gestational_age](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/meas_gestational_age.csv) | Blood pressure methods | LOINC | [meas_gestational_age.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/meas_gestational_age.sql) | 2023-08 | Amy Goodwin Davies | vocab-based |  | Requested LOINC code for ETL for project |
-| lab_urine_albumin | [lab_urine_albumin](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_urine_albumin.csv) | Urine albumin measurements (preliminary) | LOINC | [lab_urine_albumin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_albumin.sql) | 2024-01 | Amy Goodwin Davies | vocab-based |  | Preliminary urine albumin codeset |
-| lab_uacr | [lab_uacr](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/lab_uacr.csv) | Urine-albumin-to-creatinine ratio (UACR) measurements (preliminary) | LOINC | [lab_urine_albumin.sql](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/sql_queries/lab_urine_albumin.sql) | 2024-01 | Amy Goodwin Davies | vocab-based |  | Preliminary Urine-albumin-to-creatinine ratio (UACR) codeset |
 | bp_diastolic_pedsnet | [bp_diastolic_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_diastolic_pedsnet.csv) | Diastolic blood pressure concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
 | bp_systolic_pedsnet | [bp_systolic_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/bp_systolic_pedsnet.csv) | Systolic blood pressure concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
 | height_pedsnet | [height_pedsnet](https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/measurement/height_pedsnet.csv) | Height concepts from PEDSnet CDM | LOINC |  | 2024-10 | Amy Goodwin Davies | vocab-based |  |  |
