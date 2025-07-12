@@ -1,0 +1,402 @@
+concept_id,concept_code,pcornet_vocabulary_id,concept_name
+,E10,10,Type 1 diabetes mellitus
+,E10.0,10,"Type 1 diabetes mellitus, With coma"
+,E10.1,10,"Type 1 diabetes mellitus, With ketoacidosis"
+,E10.2,10,"Type 1 diabetes mellitus, With renal complications"
+,E10.3,10,"Type 1 diabetes mellitus, With ophthalmic complications"
+,E10.4,10,"Type 1 diabetes mellitus, With neurological complications"
+,E10.5,10,"Type 1 diabetes mellitus, With peripheral circulatory complications"
+,E10.6,10,"Type 1 diabetes mellitus, With other specified complications"
+,E10.7,10,"Type 1 diabetes mellitus, With multiple complications"
+,E10.8,10,"Type 1 diabetes mellitus, With unspecified complications"
+,E10.9,10,"Type 1 diabetes mellitus, Without complications"
+,E10-E14,10,Diabetes mellitus
+,E11,10,Type 2 diabetes mellitus
+,E11.0,10,"Type 2 diabetes mellitus, with coma"
+,E11.1,10,"Type 2 diabetes mellitus, with ketoacidosis"
+,E11.2,10,"Type 2 diabetes mellitus, with renal complications"
+,E11.3,10,"Type 2 diabetes mellitus, with ophthalmic complications"
+,E11.4,10,"Type 2 diabetes mellitus, with neurological complications"
+,E11.5,10,"Type 2 diabetes mellitus, with peripheral circulatory complications"
+,E11.6,10,"Type 2 diabetes mellitus, with other specified complications"
+,E11.7,10,"Type 2 diabetes mellitus, with multiple complications"
+,E11.8,10,"Type 2 diabetes mellitus, with unspecified complications"
+,E11.9,10,"Type 2 diabetes mellitus, without complications"
+,E10,10,Type 1 diabetes mellitus
+,E10.1,10,Type 1 diabetes mellitus with ketoacidosis
+,E10.10,10,Type 1 diabetes mellitus with ketoacidosis without coma
+,E10.11,10,Type 1 diabetes mellitus with ketoacidosis with coma
+,E10.2,10,Type 1 diabetes mellitus with kidney complications
+,E10.21,10,Type 1 diabetes mellitus with diabetic nephropathy
+,E10.22,10,Type 1 diabetes mellitus with diabetic chronic kidney disease
+,E10.29,10,Type 1 diabetes mellitus with other diabetic kidney complication
+,E10.3,10,Type 1 diabetes mellitus with ophthalmic complications
+,E10.31,10,Type 1 diabetes mellitus with unspecified diabetic retinopathy
+,E10.311,10,Type 1 diabetes mellitus with unspecified diabetic retinopathy with macular edema
+,E10.319,10,Type 1 diabetes mellitus with unspecified diabetic retinopathy without macular edema
+,E10.32,10,Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy
+,E10.321,10,Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema
+,E10.3211,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye"
+,E10.3212,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye"
+,E10.3213,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral"
+,E10.3219,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye"
+,E10.329,10,Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema
+,E10.3291,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye"
+,E10.3292,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye"
+,E10.3293,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral"
+,E10.3299,10,"Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye"
+,E10.33,10,Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy
+,E10.331,10,Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema
+,E10.3311,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye"
+,E10.3312,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye"
+,E10.3313,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral"
+,E10.3319,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye"
+,E10.339,10,Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema
+,E10.3391,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye"
+,E10.3392,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye"
+,E10.3393,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral"
+,E10.3399,10,"Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye"
+,E10.34,10,Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy
+,E10.341,10,Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema
+,E10.3411,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye"
+,E10.3412,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye"
+,E10.3413,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral"
+,E10.3419,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye"
+,E10.349,10,Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema
+,E10.3491,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye"
+,E10.3492,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye"
+,E10.3493,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral"
+,E10.3499,10,"Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye"
+,E10.35,10,Type 1 diabetes mellitus with proliferative diabetic retinopathy
+,E10.351,10,Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema
+,E10.3511,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye"
+,E10.3512,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye"
+,E10.3513,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral"
+,E10.3519,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye"
+,E10.352,10,Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+,E10.3521,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye"
+,E10.3522,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye"
+,E10.3523,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral"
+,E10.3529,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye"
+,E10.353,10,Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+,E10.3531,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye"
+,E10.3532,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye"
+,E10.3533,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral"
+,E10.3539,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye"
+,E10.354,10,Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+,E10.3541,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye"
+,E10.3542,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye"
+,E10.3543,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral"
+,E10.3549,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye"
+,E10.355,10,Type 1 diabetes mellitus with stable proliferative diabetic retinopathy
+,E10.3551,10,"Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, right eye"
+,E10.3552,10,"Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, left eye"
+,E10.3553,10,"Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, bilateral"
+,E10.3559,10,"Type 1 diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye"
+,E10.359,10,Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema
+,E10.3591,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye"
+,E10.3592,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye"
+,E10.3593,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+,E10.3599,10,"Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye"
+,E10.36,10,Type 1 diabetes mellitus with diabetic cataract
+,E10.37,10,"Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment"
+,E10.37X1,10,"Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, right eye"
+,E10.37X2,10,"Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, left eye"
+,E10.37X3,10,"Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral"
+,E10.37X9,10,"Type 1 diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye"
+,E10.39,10,Type 1 diabetes mellitus with other diabetic ophthalmic complication
+,E10.4,10,Type 1 diabetes mellitus with neurological complications
+,E10.40,10,"Type 1 diabetes mellitus with diabetic neuropathy, unspecified"
+,E10.41,10,Type 1 diabetes mellitus with diabetic mononeuropathy
+,E10.42,10,Type 1 diabetes mellitus with diabetic polyneuropathy
+,E10.43,10,Type 1 diabetes mellitus with diabetic autonomic (poly)neuropathy
+,E10.44,10,Type 1 diabetes mellitus with diabetic amyotrophy
+,E10.49,10,Type 1 diabetes mellitus with other diabetic neurological complication
+,E10.5,10,Type 1 diabetes mellitus with circulatory complications
+,E10.51,10,Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+,E10.52,10,Type 1 diabetes mellitus with diabetic peripheral angiopathy with gangrene
+,E10.59,10,Type 1 diabetes mellitus with other circulatory complications
+,E10.6,10,Type 1 diabetes mellitus with other specified complications
+,E10.61,10,Type 1 diabetes mellitus with diabetic arthropathy
+,E10.610,10,Type 1 diabetes mellitus with diabetic neuropathic arthropathy
+,E10.618,10,Type 1 diabetes mellitus with other diabetic arthropathy
+,E10.62,10,Type 1 diabetes mellitus with skin complications
+,E10.620,10,Type 1 diabetes mellitus with diabetic dermatitis
+,E10.621,10,Type 1 diabetes mellitus with foot ulcer
+,E10.622,10,Type 1 diabetes mellitus with other skin ulcer
+,E10.628,10,Type 1 diabetes mellitus with other skin complications
+,E10.63,10,Type 1 diabetes mellitus with oral complications
+,E10.630,10,Type 1 diabetes mellitus with periodontal disease
+,E10.638,10,Type 1 diabetes mellitus with other oral complications
+,E10.64,10,Type 1 diabetes mellitus with hypoglycemia
+,E10.640,10,Type 1 diabetes mellitus with hypoglycemia without coma
+,E10.641,10,Type 1 diabetes mellitus with hypoglycemia with coma
+,E10.649,10,Type 1 diabetes mellitus with hypoglycemia without coma
+,E10.65,10,Type 1 diabetes mellitus with hyperglycemia
+,E10.69,10,Type 1 diabetes mellitus with other specified complication
+,E10.8,10,Type 1 diabetes mellitus with unspecified complications
+,E10.9,10,Type 1 diabetes mellitus without complications
+,E11,10,Type 2 diabetes mellitus
+,E11.0,10,Type 2 diabetes mellitus with hyperosmolarity
+,E11.00,10,Type 2 diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)
+,E11.01,10,Type 2 diabetes mellitus with hyperosmolarity with coma
+,E11.1,10,Type 2 diabetes mellitus with ketoacidosis
+,E11.10,10,Type 2 diabetes mellitus with ketoacidosis without coma
+,E11.11,10,Type 2 diabetes mellitus with ketoacidosis with coma
+,E11.2,10,Type 2 diabetes mellitus with kidney complications
+,E11.21,10,Type 2 diabetes mellitus with diabetic nephropathy
+,E11.22,10,Type 2 diabetes mellitus with diabetic chronic kidney disease
+,E11.29,10,Type 2 diabetes mellitus with other diabetic kidney complication
+,E11.3,10,Type 2 diabetes mellitus with ophthalmic complications
+,E11.31,10,Type 2 diabetes mellitus with unspecified diabetic retinopathy
+,E11.311,10,Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema
+,E11.319,10,Type 2 diabetes mellitus with unspecified diabetic retinopathy without macular edema
+,E11.32,10,Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy
+,E11.321,10,Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema
+,E11.3211,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye"
+,E11.3212,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye"
+,E11.3213,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral"
+,E11.3219,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye"
+,E11.329,10,Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema
+,E11.3291,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye"
+,E11.3292,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye"
+,E11.3293,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral"
+,E11.3299,10,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye"
+,E11.33,10,Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy
+,E11.331,10,Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema
+,E11.3311,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye"
+,E11.3312,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye"
+,E11.3313,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral"
+,E11.3319,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye"
+,E11.339,10,Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema
+,E11.3391,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye"
+,E11.3392,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye"
+,E11.3393,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral"
+,E11.3399,10,"Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye"
+,E11.34,10,Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy
+,E11.341,10,Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema
+,E11.3411,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye"
+,E11.3412,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye"
+,E11.3413,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral"
+,E11.3419,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye"
+,E11.349,10,Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema
+,E11.3491,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye"
+,E11.3492,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye"
+,E11.3493,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral"
+,E11.3499,10,"Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye"
+,E11.35,10,Type 2 diabetes mellitus with proliferative diabetic retinopathy
+,E11.351,10,Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema
+,E11.3511,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye"
+,E11.3512,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye"
+,E11.3513,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral"
+,E11.3519,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye"
+,E11.352,10,Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula
+,E11.3521,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye"
+,E11.3522,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye"
+,E11.3523,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral"
+,E11.3529,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye"
+,E11.353,10,Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula
+,E11.3531,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye"
+,E11.3532,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye"
+,E11.3533,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral"
+,E11.3539,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye"
+,E11.354,10,Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment
+,E11.3541,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye"
+,E11.3542,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye"
+,E11.3543,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral"
+,E11.3549,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye"
+,E11.355,10,Type 2 diabetes mellitus with stable proliferative diabetic retinopathy
+,E11.3551,10,"Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, right eye"
+,E11.3552,10,"Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, left eye"
+,E11.3553,10,"Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, bilateral"
+,E11.3559,10,"Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye"
+,E11.359,10,Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema
+,E11.3591,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye"
+,E11.3592,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye"
+,E11.3593,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+,E11.3599,10,"Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye"
+,E11.36,10,Type 2 diabetes mellitus with diabetic cataract
+,E11.37,10,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment"
+,E11.37X1,10,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, right eye"
+,E11.37X2,10,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, left eye"
+,E11.37X3,10,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral"
+,E11.37X9,10,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye"
+,E11.39,10,Type 2 diabetes mellitus with other diabetic ophthalmic complication
+,E11.4,10,Type 2 diabetes mellitus with neurological complications
+,E11.40,10,"Type 2 diabetes mellitus with diabetic neuropathy, unspecified"
+,E11.41,10,Type 2 diabetes mellitus with diabetic mononeuropathy
+,E11.42,10,Type 2 diabetes mellitus with diabetic polyneuropathy
+,E11.43,10,Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy
+,E11.44,10,Type 2 diabetes mellitus with diabetic amyotrophy
+,E11.49,10,Type 2 diabetes mellitus with other diabetic neurological complication
+,E11.5,10,Type 2 diabetes mellitus with circulatory complications
+,E11.51,10,Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+,E11.52,10,Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene
+,E11.59,10,Type 2 diabetes mellitus with other circulatory complications
+,E11.6,10,Type 2 diabetes mellitus with other specified complications
+,E11.61,10,Type 2 diabetes mellitus with diabetic arthropathy
+,E11.610,10,Type 2 diabetes mellitus with diabetic neuropathic arthropathy
+,E11.618,10,Type 2 diabetes mellitus with other diabetic arthropathy
+,E11.62,10,Type 2 diabetes mellitus with skin complications
+,E11.620,10,Type 2 diabetes mellitus with diabetic dermatitis
+,E11.621,10,Type 2 diabetes mellitus with foot ulcer
+,E11.622,10,Type 2 diabetes mellitus with other skin ulcer
+,E11.628,10,Type 2 diabetes mellitus with other skin complications
+,E11.63,10,Type 2 diabetes mellitus with oral complications
+,E11.630,10,Type 2 diabetes mellitus with periodontal disease
+,E11.638,10,Type 2 diabetes mellitus with other oral complications
+,E11.64,10,Type 2 diabetes mellitus with hypoglycemia
+,E11.640,10,Type 2 diabetes mellitus with hypoglycemia without coma
+,E11.641,10,Type 2 diabetes mellitus with hypoglycemia with coma
+,E11.649,10,Type 2 diabetes mellitus with hypoglycemia without coma
+,E11.65,10,Type 2 diabetes mellitus with hyperglycemia
+,E11.69,10,Type 2 diabetes mellitus with other specified complication
+,E11.8,10,Type 2 diabetes mellitus with unspecified complications
+,E11.9,10,Type 2 diabetes mellitus without complications
+,250,09,Diabetes mellitus
+,250,09,Diabetes mellitus without mention of complication
+,250,09,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"
+,250.01,09,"Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled"
+,250.02,09,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled"
+,250.03,09,"Diabetes mellitus without mention of complication, type I [juvenile type], uncontrolled"
+,250.1,09,Diabetes with ketoacidosis
+,250.1,09,"Diabetes with ketoacidosis, type II or unspecified type, not stated as uncontrolled"
+,250.11,09,"Diabetes with ketoacidosis, type I [juvenile type], not stated as uncontrolled"
+,250.12,09,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled"
+,250.13,09,"Diabetes with ketoacidosis, type I [juvenile type], uncontrolled"
+,250.2,09,Diabetes mellitus with hyperosmolarity
+,250.2,09,"Diabetes with hyperosmolarity, type II or unspecified type, not stated as uncontrolled"
+,250.21,09,"Diabetes with hyperosmolarity, type I [juvenile type], not stated as uncontrolled"
+,250.22,09,"Diabetes with hyperosmolarity, type II or unspecified type, uncontrolled"
+,250.23,09,"Diabetes with hyperosmolarity, type I [juvenile type], uncontrolled"
+,250.3,09,Diabetes with other coma
+,250.3,09,"Diabetes with other coma, type II or unspecified type, not stated as uncontrolled"
+,250.31,09,"Diabetes with other coma, type I [juvenile type], not stated as uncontrolled"
+,250.32,09,"Diabetes with other coma, type II or unspecified type, uncontrolled"
+,250.33,09,"Diabetes with other coma, type I [juvenile type], uncontrolled"
+,250.4,09,Diabetes with renal manifestations
+,250.4,09,"Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled"
+,250.41,09,"Diabetes with renal manifestations, type I [juvenile type], not stated as uncontrolled"
+,250.42,09,"Diabetes with renal manifestations, type II or unspecified type, uncontrolled"
+,250.43,09,"Diabetes with renal manifestations, type I [juvenile type], uncontrolled"
+,250.5,09,Diabetes with ophthalmic manifestations
+,250.5,09,"Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled"
+,250.51,09,"Diabetes with ophthalmic manifestations, type I [juvenile type], not stated as uncontrolled"
+,250.52,09,"Diabetes with ophthalmic manifestations, type II or unspecified type, uncontrolled"
+,250.53,09,"Diabetes with ophthalmic manifestations, type I [juvenile type], uncontrolled"
+,250.6,09,Diabetes with neurological manifestations
+,250.6,09,"Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled"
+,250.61,09,"Diabetes with neurological manifestations, type I [juvenile type], not stated as uncontrolled"
+,250.62,09,"Diabetes with neurological manifestations, type II or unspecified type, uncontrolled"
+,250.63,09,"Diabetes with neurological manifestations, type I [juvenile type], uncontrolled"
+,250.7,09,Diabetes with peripheral circulatory disorders
+,250.7,09,"Diabetes with peripheral circulatory disorders, type II or unspecified type, not stated as uncontrolled"
+,250.71,09,"Diabetes with peripheral circulatory disorders, type I [juvenile type], not stated as uncontrolled"
+,250.72,09,"Diabetes with peripheral circulatory disorders, type II or unspecified type, uncontrolled"
+,250.73,09,"Diabetes with peripheral circulatory disorders, type I [juvenile type], uncontrolled"
+,250.8,09,Diabetes with other specified manifestations
+,250.8,09,"Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled"
+,250.81,09,"Diabetes with other specified manifestations, type I [juvenile type], not stated as uncontrolled"
+,250.82,09,"Diabetes with other specified manifestations, type II or unspecified type, uncontrolled"
+,250.83,09,"Diabetes with other specified manifestations, type I [juvenile type], uncontrolled"
+,250.9,09,Diabetes with unspecified complication
+,250.9,09,"Diabetes with unspecified complication, type II or unspecified type, not stated as uncontrolled"
+,250.91,09,"Diabetes with unspecified complication, type I [juvenile type], not stated as uncontrolled"
+,250.92,09,"Diabetes with unspecified complication, type II or unspecified type, uncontrolled"
+,250.93,09,"Diabetes with unspecified complication, type I [juvenile type], uncontrolled"
+,1.05401E+14,SM,Diabetes mellitus due to pancreatic injury
+,1102351000000105,SM,Ketosis-prone diabetes mellitus
+,111307005,SM,Leprechaunism syndrome
+,111552007,SM,Diabetes mellitus without complication
+,1.12991E+14,SM,Lipoatrophic diabetes mellitus without complication
+,123763000,SM,Houssay's syndrome
+,127012008,SM,Lipoatrophic diabetes
+,1.481E+12,SM,Diabetes mellitus type 2 without retinopathy
+,190368000,SM,Type 1 diabetes mellitus with ulcer
+,190372001,SM,Type 1 diabetes mellitus maturity onset
+,190389009,SM,Type 2 diabetes mellitus with ulcer
+,190407009,SM,Malnutrition-related diabetes mellitus with renal complications
+,190410002,SM,Malnutrition-related diabetes mellitus with peripheral circulatory complications
+,190412005,SM,Malnutrition-related diabetes mellitus without complications
+,199229001,SM,Pre-existing type 1 diabetes mellitus
+,199230006,SM,Pre-existing type 2 diabetes mellitus
+,199231005,SM,Pre-existing malnutrition-related diabetes mellitus
+,23045005,SM,Insulin dependent diabetes mellitus type 1A
+,237599002,SM,Insulin treated type 2 diabetes mellitus
+,237600004,SM,Malnutrition-related diabetes mellitus - fibrocalculous
+,237601000,SM,Secondary endocrine diabetes mellitus
+,237603002,SM,Transient neonatal diabetes mellitus
+,237604008,SM,"Maturity onset diabetes of the young, type 2"
+,237612000,SM,"Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction"
+,237613005,SM,Hyperproinsulinemia
+,237617006,SM,"Megaloblastic anemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness"
+,237619009,SM,Diabetes-deafness syndrome maternally transmitted
+,237651005,SM,Insulin resistance - type A
+,237652003,SM,Insulin resistance - type B
+,24203005,SM,"Extreme insulin resistance with acanthosis nigricans, hirsutism AND abnormal insulin receptors"
+,2751001,SM,Fibrocalculous pancreatic diabetes
+,28032008,SM,Insulin dependent diabetes mellitus type 1B
+,3.1321E+13,SM,Diabetes mellitus type 1 without retinopathy
+,313435000,SM,Type 1 diabetes mellitus without complication
+,313436004,SM,Type 2 diabetes mellitus without complication
+,33559001,SM,Rabson-Mendenhall syndrome
+,3.35621E+14,SM,Maternally inherited diabetes mellitus
+,359642000,SM,Type 2 diabetes mellitus in nonobese
+,3.67391E+14,SM,Diabetes mellitus caused by drug without complication
+,3.68101E+14,SM,Diabetes mellitus type 2 with periodontal disease
+,3.68521E+14,SM,Disorder of nerve co-occurrent and due to type 1 diabetes mellitus
+,3.85041E+14,SM,Diabetes mellitus with multiple complications
+,3.85051E+14,SM,Pre-existing diabetes mellitus
+,408539000,SM,Insulin autoimmune syndrome
+,426705001,SM,Diabetes mellitus associated with cystic fibrosis
+,426875007,SM,Latent autoimmune diabetes mellitus in adult
+,427089005,SM,Diabetes mellitus due to cystic fibrosis
+,42954008,SM,Diabetes mellitus associated with receptor abnormality
+,44054006,SM,Type 2 diabetes mellitus
+,445260006,SM,Posttransplant diabetes mellitus
+,46635009,SM,Type 1 diabetes mellitus
+,49817004,SM,Neonatal diabetes mellitus
+,51002006,SM,Diabetes mellitus associated with pancreatic disease
+,530558861000132104,SM,Atypical diabetes mellitus
+,57886004,SM,Protein-deficient diabetes mellitus
+,59079001,SM,Diabetes mellitus associated with hormonal etiology
+,5969009,SM,Diabetes mellitus associated with genetic syndrome
+,609561005,SM,Maturity-onset diabetes of the young
+,609562003,SM,"Maturity onset diabetes of the young, type 1"
+,609565001,SM,Permanent neonatal diabetes mellitus
+,609568004,SM,Diabetes mellitus due to genetic defect in beta cell function
+,609569007,SM,Diabetes mellitus due to genetic defect in insulin action
+,609570008,SM,"Maturity-onset diabetes of the young, type 3"
+,609571007,SM,"Maturity-onset diabetes of the young, type 4"
+,609572000,SM,"Maturity-onset diabetes of the young, type 5"
+,609573005,SM,"Maturity-onset diabetes of the young, type 6"
+,609574004,SM,"Maturity-onset diabetes of the young, type 7"
+,609575003,SM,"Maturity-onset diabetes of the young, type 8"
+,609576002,SM,"Maturity-onset diabetes of the young, type 9"
+,609577006,SM,"Maturity-onset diabetes of the young, type 10"
+,609578001,SM,"Maturity-onset diabetes of the young, type 11"
+,609579009,SM,"Diabetes mellitus, transient neonatal 1"
+,609580007,SM,"Diabetes mellitus, transient neonatal 2"
+,609581006,SM,"Diabetes mellitus, transient neonatal 3"
+,703136005,SM,Diabetes mellitus in remission
+,703137001,SM,Type I diabetes mellitus in remission
+,703138006,SM,Type II diabetes mellitus in remission
+,70694009,SM,Diabetes mellitus AND insipidus with optic atrophy AND deafness
+,720519003,SM,"Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome"
+,721088003,SM,DEND syndrome
+,722206009,SM,"Pancreatic hypoplasia, diabetes mellitus, congenital heart disease syndrome"
+,722454003,SM,"Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome"
+,724067006,SM,Permanent neonatal diabetes mellitus with cerebellar agenesis syndrome
+,73211009,SM,Diabetes mellitus
+,733072002,SM,Stimmler syndrome
+,734022008,SM,Wolfram-like syndrome
+,737212004,SM,Diabetes mellitus caused by chemical
+,75524006,SM,Malnutrition related diabetes mellitus
+,75682002,SM,Diabetes mellitus due to insulin receptor antibodies
+,782755007,SM,"Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome"
+,782825008,SM,"Primary microcephaly, epilepsy, permanent neonatal diabetes syndrome"
+,783722008,SM,Myopathy and diabetes mellitus
+,81531005,SM,Type 2 diabetes mellitus in obese
+,816067005,SM,Woodhouse Sakati syndrome
+,8801005,SM,Secondary diabetes mellitus
+,91352004,SM,Diabetes mellitus due to structurally abnormal insulin
