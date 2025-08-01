@@ -296,3 +296,53 @@ get_kidney_biopsy_not_pt <-
       filter(is.na(min_transplant_date) |
                min_biopsy_date < min_transplant_date) 
   }
+
+
+#' Get encounters associated with specialties
+#'
+#' @param cohort the patients for whom specialty encounters should be identified
+#' @param faci_type_vs concept set with facility specialties
+#' @param prov_spec_primary_vs concept set with provider specialties
+#' @param encounter_table CDM encounter table
+#' @param provider_table CDM provider table
+#' @param min_date the minimum date cutoff for encounters
+#' @param max_date the maximum date cutoff for encounters
+#'
+#' @returns a dataframe with encounters associated with the specialty of interest
+#' 
+get_spec_encounters <- function(cohort = cdm_tbl("demographic"),
+                                faci_type_vs,
+                                prov_spec_primary_vs,
+                                encounter_table = cdm_tbl("encounter"),
+                                provider_table = cdm_tbl("provider"),
+                                min_date,
+                                max_date) {
+  
+  # distinct providerids with provider_specialty_primary of interest
+  providerids <- provider_table %>%
+    filter(toupper(provider_specialty_primary) %in% prov_spec_primary_vs) %>%
+    distinct(providerid) %>%
+    compute_new()
+  
+  # subset encounters to cohort and date range
+  subset_encounters <- encounter_table %>%
+    inner_join(select(cohort, patid), by = "patid") %>%
+    filter(admit_date >= min_date,
+           admit_date <= max_date)
+  
+  # encounters with providerids with provider_specialty_primary of interest
+  prov_spec_encounters <- subset_encounters %>%
+    inner_join(providerids, by = "providerid") %>%
+    compute_new()
+  
+  # encounters where facility_type is specialty of interest
+  fac_spec_encounters <- subset_encounters %>%
+    filter(facility_type %in% faci_type_vs) %>%
+    compute_new()
+  
+  # combine provider- and facility- based approach to identification
+  spec_encounters <- prov_spec_encounters %>%
+    dplyr::union(fac_spec_encounters) %>%
+    distinct() %>%
+    compute_new()
+}
