@@ -246,6 +246,18 @@ Codesets and valuesets:
 <td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
 </tr>
 <tr class-"even">
+<td><p>dx_diabetes</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_diabetes.csv">dx_diabetes</a></p></td>
+<td><p>Diagnoses for chronic diabetes</p></td>
+<td><p>ICD10CM, ICD9CM, SNOMED</p></td>
+<td><p>NA</p></td>
+<td><p>2022-11</p></td>
+<td><p>Levon Utidjian</p></td>
+<td><p>vocab-based</p></td>
+<td></td>
+<td><p>ICD codes are included with and without decimal points, indicated by <code>cc_decimal_removal</code></p></td>
+</tr>
+<tr class-"even"> 
 <td><p>dx_hypotension</p></td>
 <td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_hypotension.csv">dx_hypotension</a></p></td>
 <td><p>Diagnoses for hypotension</p></td>
