@@ -474,6 +474,18 @@ Codesets and valuesets:
 <td></td>
 <td><p>Urologic and other conditions that were not accompanied or likely to be accompanied by kidney disease or dysfunction were removed from this list of CKD codes. Additionally, codes for cystic diseases, which have traditionally been part of CAKUT congenital anomalies of the kidney and urologic tract, were grouped into a dedicated disease category, thereby allowing us to show five, rather than four, causes of kidney disease in children. More information could be found <a href="https://usrds-adr.niddk.nih.gov/2024/chronic-kidney-disease/5-kidney-disease-among-children-and-adolescents">here</a></p></td>
 </tr>
+<tr class-"even">
+<td><p>dx_pmca</p></td>
+<td><p><a href="https://github.com/PRESERVE-Coordinating-Center/PRESERVE_Variables/tree/main/codesets/condition/dx_pmca.csv">dx_pmca</a></p></td>
+<td><p>Diagnosis codes from the Pediatric Medical Complexity Algorithm (PMCA) developed by <a href="https://doi.org/10.1016/j.acap.2018.02.010">Simon et al 2018</a>, adapted to the PCORnet CDM format.</p></td>
+<td><p>ICD9CM, ICD10CM</p></td>
+<td></td>
+<td><p>2023</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td></td>
+<td><p></p></td>
+</tr>
 </tbody>
 </table>
 
