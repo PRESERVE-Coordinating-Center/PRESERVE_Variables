@@ -94,15 +94,15 @@ compute_bpz_fourth_report <- function(bp_tbl){
     mutate(age_yrs = (as.numeric(measure_date - birth_date)) / 365.25) %>%
     mutate(age_yrs = case_when(age_yrs > 18.0~18.0, TRUE~age_yrs)) %>%
     mutate(age10 = age_yrs - 10.0) %>%
-    mutate(pred_bp = Aexp + B1 * age10 + B2 * age10**2 + B3 * age10**3 + B4 * age10**4 +
+    mutate(pred_bp_4th = Aexp + B1 * age10 + B2 * age10**2 + B3 * age10**3 + B4 * age10**4 +
              G1 *height_z + G2 *height_z**2 + G3 *height_z**3 + G4 *height_z**4) %>%
     mutate(z_score_4th = (bp - pred_bp) / SIG) 
   
   rslt %>%
-    dplyr::select(patid, sex, #ce_date, 
+    dplyr::select(patid, sex,
                   birth_date, age_yrs, age10, 
                   measure_date, bp_type, bp, pred_bp_4th, height_z, 
-                  total_sd, z_score_4th)
+                  z_score_4th)
 }
 
 #' Compute the height z-scores for all patients in the cohort
