@@ -105,6 +105,54 @@ compute_bpz_fourth_report <- function(bp_tbl){
                   z_score_4th)
 }
 
+#' Compute Blood Pressure Z-Score -- American Academy of Pediatrics (AAP) Clinical Practice Guidelines (2017)
+#' 
+#' https://doi.org/10.1542/peds.2017-1904
+#'
+#' @param bp_tbl a table with at least the following columns:
+#'               - `patid`: the person identifier for the cohort member
+#'               - `sex`: either *M* or *F*
+#'               - `bp_type`: string identifying the type of blood pressure measurement
+#'                            either *systolic* or *diastolic* CASE SENSITIVE
+#'               - `bp`: the numeric blood pressure value
+#'               - `measure_date`: the date on which the blood pressure measurement was taken
+#'               - `birth_date`: the birth date of the patient
+#'               - `height_z`: the height z-score associated with the blood pressure measurement
+#'                             can be computed and matched to a BP value with *compute_height_z* + 
+#'                             *reformat_BP_htz*
+#'                             
+#' @returns a table with the computed BP Z-Score value and some of the associated metadata
+#' 
+compute_bpz_2017_aap <- function(bp_tbl){
+  
+  params <-
+    tribble(
+      ~sex, ~SAexp, ~SB1, ~SB2, ~SB3, ~SB4, ~SG1, ~SG2, ~SG3, ~SG4, ~SSIG, ~DAexp, ~DB1, ~DB2, ~DB3, ~DB4, ~DG1, ~DG2, ~DG3, ~DG4, ~DSIG,
+      "M", 103.88965, 1.71846, 0.11811, -0.00064, -0.00144, 1.25749, 0.00000, -0.02279, 0.01146, 9.64454, 62.26646, 0.74699, -0.01614, -0.00146, 0.00042, 0.36553, 0.00000, 0.00000, 0.00694, 7.31266,
+      "F", 104.04188, 1.65051, -0.00118, -0.00691, -0.00031, 0.98468, 0.06251, 0.00000, 0.00000, 9.51475, 62.46709, 0.79915, -0.00742, -0.00249, 0.00014, 0.38153, 0.00000, 0.00000, 0.00000, 7.26135
+    ) %>%
+    pivot_longer(cols = -sex) %>%
+    mutate(bp_type = case_when(grepl("^S", name) ~ "systolic", TRUE ~ "diastolic")) %>%
+    mutate(name = substr(name, 2, 20)) %>%
+    pivot_wider(id_cols = c(sex, bp_type))
+  
+  rslt <-
+    bp_tbl %>%
+    inner_join(params) %>%
+    mutate(age_yrs = (as.numeric(measure_date - birth_date)) / 365.25) %>%
+    mutate(age_yrs = case_when(age_yrs > 18.0~18.0, TRUE~age_yrs)) %>%
+    mutate(age10 = age_yrs - 10.0) %>%
+    mutate(pred_bp = Aexp + B1 * age10 + B2 * age10**2 + B3 * age10**3 + B4 * age10**4 +
+             G1 *height_z + G2 *height_z**2 + G3 *height_z**3 + G4 *height_z**4) %>%
+    mutate(z_score_aap_2017 = (bp - pred_bp) / SIG) 
+  
+  rslt %>%
+    dplyr::select(patid, sex,
+                  birth_date, age_yrs, age10, 
+                  measure_date, bp_type, bp, pred_bp_aap_2017, height_z, 
+                  z_score_aap_2017)
+}
+
 #' Compute the height z-scores for all patients in the cohort
 #' 
 #' This function requires the `childsds` package to access CDC reference materials
