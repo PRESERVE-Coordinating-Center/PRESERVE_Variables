@@ -1,7 +1,6 @@
-
-#' Compute Blood Pressure Z-Score -- Mitsnefes/Maltenfort Method
+#' Compute Blood Pressure Z-Score -- Mitsnefes/Maltenfort Method (2023)
 #'
-#' https://pubmed.ncbi.nlm.nih.gov/37988770/
+#' https://doi.org/10.1016/j.ebiom.2023.104885
 #'
 #' @param bp_tbl a table with at least the following columns:
 #'               - `patid`: the person identifier for the cohort member
@@ -58,9 +57,9 @@ compute_bpz_mm <- function(bp_tbl) {
 }
 
 
-#' Compute Blood Pressure Z-Score -- 4th Report Method
+#' Compute Blood Pressure Z-Score -- 4th Report Method (2004)
 #' 
-#' https://publications.aap.org/pediatrics/article/114/Supplement_2/555/28840/The-Fourth-Report-on-the-Diagnosis-Evaluation-and?autologincheck=redirected
+#' https://doi.org/10.1542/peds.114.S2.555
 #'
 #' @param bp_tbl a table with at least the following columns:
 #'               - `patid`: the person identifier for the cohort member
