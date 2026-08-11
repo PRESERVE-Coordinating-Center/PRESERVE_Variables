@@ -31,7 +31,7 @@ compute_bpz_mm <- function(bp_tbl) {
     mutate(age_yrs = (as.numeric(measure_date - birth_date)) / 365.25) %>%
     mutate(age10 = age_yrs - 10.0) %>%
     mutate(
-      pred_bp =
+      pred_bp_mm =
         Intercept +
         `I(age10)` * age10 + `I(age10^2)` * age10^2 + `I(age10^3)` * age10^3 + `I(age10^4)` * age10^4 +
         `I(height_z)` * height_z + `I(height_z^2)` * height_z^2 + `I(height_z^3)` * height_z^3 + `I(height_z^4)` * height_z^4
@@ -46,7 +46,7 @@ compute_bpz_mm <- function(bp_tbl) {
         2 * cor__age10.height_z * sd__height_z * sd__age10 * height_z * age10
     ) %>%
     mutate(total_sd = sqrt(random_var + sd__Observation^2)) %>%
-    mutate(z_score_mm = (bp - pred_bp) / total_sd) %>%
+    mutate(z_score_mm = (bp - pred_bp_mm) / total_sd) %>%
     mutate(fixed_sd = sd__Observation, random_sd = sqrt(random_var))
   
   rslt %>%
@@ -96,7 +96,7 @@ compute_bpz_fourth_report <- function(bp_tbl){
     mutate(age10 = age_yrs - 10.0) %>%
     mutate(pred_bp_4th = Aexp + B1 * age10 + B2 * age10**2 + B3 * age10**3 + B4 * age10**4 +
              G1 *height_z + G2 *height_z**2 + G3 *height_z**3 + G4 *height_z**4) %>%
-    mutate(z_score_4th = (bp - pred_bp) / SIG) 
+    mutate(z_score_4th = (bp - pred_bp_4th) / SIG) 
   
   rslt %>%
     dplyr::select(patid, sex,
@@ -142,9 +142,9 @@ compute_bpz_2017_aap <- function(bp_tbl){
     mutate(age_yrs = (as.numeric(measure_date - birth_date)) / 365.25) %>%
     mutate(age_yrs = case_when(age_yrs > 18.0~18.0, TRUE~age_yrs)) %>%
     mutate(age10 = age_yrs - 10.0) %>%
-    mutate(pred_bp = Aexp + B1 * age10 + B2 * age10**2 + B3 * age10**3 + B4 * age10**4 +
+    mutate(pred_bp_aap_2017 = Aexp + B1 * age10 + B2 * age10**2 + B3 * age10**3 + B4 * age10**4 +
              G1 *height_z + G2 *height_z**2 + G3 *height_z**3 + G4 *height_z**4) %>%
-    mutate(z_score_aap_2017 = (bp - pred_bp) / SIG) 
+    mutate(z_score_aap_2017 = (bp - pred_bp_aap_2017) / SIG) 
   
   rslt %>%
     dplyr::select(patid, sex,
